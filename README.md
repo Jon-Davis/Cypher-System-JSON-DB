@@ -17,6 +17,9 @@ struct CSRD_DB {
     descriptors: Vec<Descriptor>,
     foci: Vec<Focus>,
     abilities: Vec<Ability>,
+    cyphers: Vec<Cypher>,
+    cypher_tables: Vec<CypherTable>,
+    artifacts: Vec<Artifact>,
 }
 ```
 
@@ -101,5 +104,46 @@ struct Focus {
     description: String,        // The provided description
     abilities: Vec<AbilityRef>, // Abilities at each tier
     intrusions: String,         // GM Intrusion suggestion
+}
+```
+
+Cypher is a usable Cypher in the Cypher System. Note that everything was pulled from the CSRD and so kinds may be absent or different than in the core rulebook.
+```
+struct Cypher {
+    name: String,               // The name of the cypher
+    level_dice: Option<String>, // The dice used to determine the level
+    level_mod: usize,           // The additional modification to the level
+    effect: String,             // The effect of the cypher
+    options: Vec<RollEntry>,    // A random roll table if applicable
+    kinds: Vec<String>,         // MANIFEST, SUBTLE, FANTASTIC
+}
+```
+
+RollEntry used for random tables
+```
+struct RollEntry {
+    start: usize,       // starting range inclusive
+    end: usize,         // ending range inclusive
+    entry: String,      // name/description
+}
+```
+
+CypherTable represents the random roll tables for cyphers found in the CSRD.
+```
+struct CypherTable {
+    kind: String,               // MANIFEST, SUBTLE, FANTASTIC
+    options: Vec<RollEntry>,    // Range and name of cypher
+}
+```
+
+Artifacts represent Artifacts found in the CSRD.
+```
+struct Artifact {
+    name: String,               // Name of the Artifact
+    level_dice: Option<String>, // Dice used to determine level
+    level_mod: usize,           // Additional modifications to the level
+    form: String,               // The form of the artifact
+    depletion: String,          // The depletion range
+    effect: String,             // The description
 }
 ```
