@@ -69,7 +69,7 @@ struct Type {
 }
 ```
 
-Used to signal how many abilities each type gains at each tier. For example
+Amount is used to signal how many abilities each type gains at each tier. For example
 The Warrior get's 4 abilities at tier 1 and 2 abilities at tier 2.
 ```
 struct Amount {
