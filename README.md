@@ -8,7 +8,7 @@ distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.
 
 CSRD.json is Compatible with the Cypher System.
 
-The CSRD JSON Contains Types, Flavors, Descriptions, Foci, Abilities, Cyphers, Cypher Tables, and Artifacts.
+The CSRD JSON Contains Types, Flavors, Descriptions, Foci, Abilities, Cyphers, Cypher Tables, Artifacts, Creatures, and NPCs.
 
 ```
 struct CSRD_DB {
