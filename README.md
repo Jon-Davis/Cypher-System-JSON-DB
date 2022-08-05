@@ -6,9 +6,9 @@ CYPHER SYSTEM and its logo are trademarks of Monte Cook Games, LLC in the U.S.A.
 and other countries. All Monte Cook Games characters and character names, and the
 distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.
 
-CSDR.json is Compatible with the Cypher System.
+CSRD.json is Compatible with the Cypher System.
 
-The CSDR JSON Contains Types, Flavors, Descriptions, Foci, Abilities, Cyphers, Cypher Tables, and Artifacts.
+The CSRD JSON Contains Types, Flavors, Descriptions, Foci, Abilities, Cyphers, Cypher Tables, and Artifacts.
 
 ```
 struct CSRD_DB {
@@ -20,6 +20,7 @@ struct CSRD_DB {
     cyphers: Vec<Cypher>,
     cypher_tables: Vec<CypherTable>,
     artifacts: Vec<Artifact>,
+    creatures: Vec<Creature>,
 }
 ```
 
@@ -145,5 +146,27 @@ struct Artifact {
     form: String,               // The form of the artifact
     depletion: String,          // The depletion range
     effect: String,             // The description
+}
+```
+
+Creatures represent the various creatures and npc's found in the CSRD
+```
+struct Creature {
+    name: String,                   // The name of the creature
+    kind: String,                   // Creature, NPC, or Super villain
+    level: usize,                   // Level 1-10
+    description: String,            // provided description
+    motive: String,                 // provided motive
+    environment: Option<String>,    // environment if any
+    health: usize,                  // health
+    damage: String,                 // damage dealt,
+    armor: usize,                   // armor, 0 if none
+    movement: String,               // movement speed
+    modifications: Vec<String>,     // list of modifications
+    combat: Option<String>,         // combat options
+    interactions: String,           // interactions
+    uses: Option<String>,           // use if any
+    loot: Option<String>,           // loot if any
+    intrusions: Option<String>      // GM intrusions if any
 }
 ```
