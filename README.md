@@ -8,7 +8,7 @@ distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.
 
 CSDR.json is Compatible with the Cypher System.
 
-The CSDR JSON Contains Types, Flavors, Descriptions, Foci, and Abilities
+The CSDR JSON Contains Types, Flavors, Descriptions, Foci, Abilities, Cyphers, Cypher Tables, and Artifacts.
 
 ```
 struct CSRD_DB {
