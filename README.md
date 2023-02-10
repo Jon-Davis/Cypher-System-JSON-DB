@@ -8,7 +8,7 @@ distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.
 
 CSRD.json is Compatible with the Cypher System.
 
-CSRD is currently based on the Cypher System Reference Document 2023-02-10
+CSRD.json is currently based on the Cypher System Reference Document 2023-02-10
 
 The CSRD JSON Contains Types, Flavors, Descriptions, Foci, Abilities, Cyphers, Cypher Tables, Artifacts, Creatures, and NPCs.
 
