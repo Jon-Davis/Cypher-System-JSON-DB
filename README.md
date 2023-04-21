@@ -158,15 +158,15 @@ struct Creature {
     kind: String,                   // Creature, NPC, or Super villain
     level: usize,                   // Level 1-10
     description: String,            // provided description
-    motive: String,                 // provided motive
+    motive: Option<String>,         // provided motive
     environment: Option<String>,    // environment if any
-    health: usize,                  // health
-    damage: String,                 // damage dealt,
+    health: Option<usize>,          // health
+    damage: Option<String>,         // damage dealt,
     armor: usize,                   // armor, 0 if none
-    movement: String,               // movement speed
+    movement: Option<String?,       // movement speed
     modifications: Vec<String>,     // list of modifications
     combat: Option<String>,         // combat options
-    interactions: String,           // interactions
+    interactions: Option<String>,   // interactions
     uses: Option<String>,           // use if any
     loot: Option<String>,           // loot if any
     intrusions: Option<String>      // GM intrusions if any
