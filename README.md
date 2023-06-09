@@ -71,6 +71,7 @@ struct Type {
     name: String,                               // The name of the Type
     intrusions: Vec<BasicAbility>,              // Intrusion suggestions
     stat_pool: HashMap<String, usize>,          // Starting stat_pool
+    background: RollTable,                      // Background suggestions
     special_abilities_per_tier: Vec<Amount>,    // Special Abilities unlocked at each tier
     abilities: Vec<BasicAbility>,               // Basic abilities like Starting Equipment and Effort
     special_abilities: Vec<AbilityRef>,         // Abilities found at each tier

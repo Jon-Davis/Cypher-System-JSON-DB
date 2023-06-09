@@ -751,10 +751,10 @@ Initial Link to the Starting Adventure: From the following list of options, choo
 4. An adventure was in the offing, and you didn't want to be left behind.
 
 GNOME
-You are curious and love discovering ways to turn found things into art, tools, or weapons. You might be a sculptor, smith, artist, chef, storyteller, or inventor. Alchemy, magic, and engineering fascinate you. Other beings may see you as a strange mix of a nature-loving elf and a craft-obsessed dwarf, but you and your kind are unique people with a passion for life, exploration, and creation. 
+You are curious and love discovering ways to turn found things into art, tools, or weapons. You might be a sculptor, smith, artist, chef, storyteller, or inventor. Alchemy, magic, and engineering fascinate you. Other beings may see you as a strange mix of a nature-loving elf and a craft-obsessed dwarf, but you and your kind are unique people with a passion for life, exploration, and creation.
 You gain the following characteristics:
 Genius: +2 to your Intellect Pool. 
-Skill: You are trained in two skills that suit your creative nature, such as alchemy, smithing, poetry, cooking, woodcarving, or pottery. 
+Skill: You are trained in two skills that suit your creative nature, such as alchemy, smithing, poetry, cooking, woodcarving, or pottery.
 Skill: You are practiced in using hammers. 
 Natural Affinity: You gain one of the following abilities: Communication, Eyes Adjusted, or Minor Illusion. 
 Inability: Your small size makes some physical tasks difficult. Might-based tasks are hindered. 
@@ -858,11 +858,7 @@ Initial Link to the Starting Adventure: From the following list of options, choo
 4. You have a secret agenda, and the PCs were gullible enough to let you come along.
 
 ARTIFICIALLY INTELLIGENT
-You are a machine-not just a sentient machine, but a sapient one. Your awareness might make you an exception, or there may be many like you, depending on the setting.
-Artificially intelligent characters have machine minds of one type or another. This can involve an advanced computer brain, but it could also be a liquid computer, a quantum computer, or a network of smart dust particles creating an ambient intelligence. You might even have been an organic creature whose mind was uploaded into a machine.
-Your body, of course, is also a machine. Most people refer to you as a robot or an android, although you know neither term describes you very
-well, as you are as free-willed and free-thinking
-as they are.
+You are a machine-not just a sentient machine, but a sapient one. Your awareness might make you an exception, or there may be many like you, depending on the setting. Artificially intelligent characters have machine minds of one type or another. This can involve an advanced computer brain, but it could also be a liquid computer, a quantum computer, or a network of smart dust particles creating an ambient intelligence. You might even have been an organic creature whose mind was uploaded into a machine. Your body, of course, is also a machine. Most people refer to you as a robot or an android, although you know neither term describes you very well, as you are as free-willed and free-thinking as they are.
 You gain the following characteristics:
 Superintelligent: +4 to your Intellect Pool.
 Artificial Body: +3 to your Might Pool and your Speed Pool.
@@ -873,8 +869,7 @@ Machine Vulnerabilities and Invulnerabilities: Damaging effects and other threat
 Uncanny Valley: You have a hard time relating to organic beings, and they don't react well to you. All positive interaction tasks with such beings are hindered by two steps.
 
 QUINTAR
-You are a quintar from the planet Quint. You are basically humanoid but taller, thinner, and blue skinned. Your hands end in three very long fingers. Quintar have five genders, but all quintar prefer to be addressed as female when communicating with more binary species. Human emotions and sexuality fascinate them, but not because they don't have such concepts-quintar emotions and sexuality are just very different from those of humans. In general, quintar are more cerebral than other species, valuing knowledge over all else.
-Quint is relatively Earthlike, with slightly less gravity but a slightly denser atmosphere.
+You are a quintar from the planet Quint. You are basically humanoid but taller, thinner, and blue skinned. Your hands end in three very long fingers. Quintar have five genders, but all quintar prefer to be addressed as female when communicating with more binary species. Human emotions and sexuality fascinate them, but not because they don't have such concepts-quintar emotions and sexuality are just very different from those of humans. In general, quintar are more cerebral than other species, valuing knowledge over all else. Quint is relatively Earthlike, with slightly less gravity but a slightly denser atmosphere.
 You gain the following characteristics:
 Cerebral: +4 to your Intellect Pool.
 Skill: You are trained in one type of knowledge task of your choice.
@@ -888,8 +883,7 @@ Exceptional: +2 to your Speed Pool, and 2 additional points to divide among your
 Skill: You’re trained in initiative and stealth tasks.
 Self-Hype: When you apply a level of Effort to a task, you get a free level of Effort. You can do this one time, although the ability is renewed each time you make a one-hour or ten-hour recovery roll.
 Inability: Your sudden appearances are startling to regular people. Positive social reactions are hindered (villains and other superheroes aren’t affected by this).
-Initial Link to the Starting Adventure:
-From the following list of options, choose how you became involved in the first adventure.
+Initial Link to the Starting Adventure: From the following list of options, choose how you became involved in the first adventure.
 1. You got in a bit over your head, but another PC’s coincidental arrival gave you just the distraction you needed.
 2. You were tailing someone the other PCs were following and decided to drop in.
 3. You saw that the other PCs were in a fight and chose to help them out.
@@ -897,27 +891,26 @@ From the following list of options, choose how you became involved in the first 
 
 INCREDIBLE
 You’re misunderstood, and you might not even think of yourself as a hero, but somehow you keep ending up in situations where your abilities are just what’s needed to prevent disaster. Maybe good luck cancels out just enough of being cursed to count as a win. You’ve saved innocent lives, defeated some really bad people, and perhaps even cheated death a couple of times. Half the time you don’t even know how you did it, but you succeeded at the impossible . . . often with a lot of collateral damage. When you hear police sirens, it’s time to leave, but you know that trouble will find you eventually—and you’ll be ready to smash it.
+You gain the following characteristics:
 Strong: +2 to your Might Pool, and 2 additional points to divide among your stat Pools.
 Skill: You’re trained in breaking things. 
 Skill: You’re trained in all jumping tasks. 
 Inability: Your destructive reputation or some other reluctance to communicate makes people distrust you. Any task involving social interaction is hindered.
 Incredible Action: You can choose to automatically succeed on one task without rolling, as long as the task’s difficulty is no higher than 6. When you do so, however, you also trigger a GM intrusion as if you had rolled a 1. The intrusion doesn’t invalidate the success, but it probably qualifies it in some fashion. You can do this one time, although the ability renews each time you make a ten-hour recovery roll.
-Initial Link to the Starting Adventure:
-From the following list of options, choose how you became involved in the first adventure.
+Initial Link to the Starting Adventure: From the following list of options, choose how you became involved in the first adventure.
 1. One of the other PCs sensed your decent heart and decided to befriend you.
 2. You literally crashed through a wall and ended up in the middle of the other PCs.
 3. One of the other PCs reminds you of someone from your past.
 4. You were feeling lonely and took a risk talking to someone, and so far it’s paying off
 
 MIGHTY
-You have a very impressive physique. Your strength, power, and very importance
-are superior. Whether you’re truly the mightiest may be up for debate (and you may have a friendly rivalry about this with other superheroes), but there is no question that you are exceptional. These things make you confident, but you know that you have these physical gifts in order to perform heroic deeds, and unseemly conduct is beneath you.
+You have a very impressive physique. Your strength, power, and very importance are superior. Whether you’re truly the mightiest may be up for debate (and you may have a friendly rivalry about this with other superheroes), but there is no question that you are exceptional. These things make you confident, but you know that you have these physical gifts in order to perform heroic deeds, and unseemly conduct is beneath you.
+You gain the following characteristics:
 Very Powerful: +4 to your Might Pool.
 Skill: You’re trained in all actions involving lifting and throwing things.
 Skill: You’re trained in Might defense tasks.
 Healthy: Add 1 to the points you regain when you make a recovery roll.
-Initial Link to the Starting Adventure:
-From the following list of options, choose how you became involved in the first adventure.
+Initial Link to the Starting Adventure: From the following list of options, choose how you became involved in the first adventure.
 1. You joined the other PCs because they would fail without your strength.
 2. You believe this endeavor will earn you a lot of valor.
 3. Another PC asked—rightly—for your help.
@@ -930,8 +923,7 @@ Versatile: You get 4 additional points to divide among your stat Pools.
 Skill: You’re trained in positive social interactions.
 Skill: You’re trained in one skill relating to your current or past career, such as computers, journalism, law, machinery, or medicine.
 Popular: The GM can introduce a GM intrusion on you, based on your fame and the public’s perception of you, without awarding you any XP (as if you had rolled a 1 on a d20 roll). However, if this happens, 50 percent of the time, your reputation works to your advantage. Rather than hurting you (much), it helps you, or it hurts your enemies. You get spotted by a guard, but they’re dumbstruck for a moment because you’re even more impressive in person than you are on TV. You attract a crowd of fans, but they slow down the fleeing villain you’re trying to catch. A photographer pesters you for a photo and a quote, but their camera catches something interesting in the background. You and the GM should work together to determine the details. If the GM wishes, they can use GM intrusions based on your fame normally (awarding XP).
-Initial Link to the Starting Adventure:
-From the following list of options, choose how you became involved in the first adventure.
+Initial Link to the Starting Adventure: From the following list of options, choose how you became involved in the first adventure.
 1. You’re related to one of the other superhero PCs, and decided to help out because of family.
 2. The other PCs relied on your positive reputation to untangle them from a public relations problem, and they invited you along out of gratitude.
 3. The media specifically called you out to fix this problem.
@@ -947,8 +939,7 @@ A Sense for the Weird: Sometimes—at the GM’s discretion—an event or person
 Skill: You’re trained in either perception tasks or stealth tasks.
 Skill: You’re trained in one kind of knowledge related to your quirk, such as olfactory science, mutations, or hematology.
 Inability: People find you unnerving. All tasks relating to pleasant social interaction are hindered. (Other people who are unusual like you aren’t affected by this.)
-Initial Link to the Starting Adventure:
-From the following list of options, choose how you became involved in the first adventure.
+Initial Link to the Starting Adventure: From the following list of options, choose how you became involved in the first adventure.
 1. You felt the objective was someone like you, so you got involved.
 2. Whether the other PCs realize it or not, their mission has to do with your field of knowledge, so you got involved.
 3. As an expert in an unusual kind of knowledge, you were specifically recruited by the other PCs.

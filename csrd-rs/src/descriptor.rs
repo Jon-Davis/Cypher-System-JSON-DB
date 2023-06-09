@@ -1,57 +1,47 @@
 use std::fs;
 
+use derive_builder::Builder;
 use regex::Regex;
 use serde::{Serialize, Deserialize};
 use unidecode::unidecode;
 use crate::ability::BasicAbility;
 
-#[derive(Clone, Debug, Serialize, Deserialize)]
+#[derive(Builder, Clone, Debug, Serialize, Deserialize)]
 pub struct Descriptor {
     pub name: String,
     pub description: String,
+    #[builder(setter(each(name = "add_ability")))]
     pub characteristics: Vec<BasicAbility>,
+    #[builder(setter(each(name = "add_link")))]
     pub links: Vec<String>,
 }
 
 pub fn load_descriptors() -> Vec<Descriptor> {
     let decriptors = unidecode(&fs::read_to_string("Descriptors.md").unwrap());
-    let char_regex = Regex::new(r"([\w\d\s\-\(\),]*): (.*)").unwrap();
-    let link_regex = Regex::new(r"\d\. (.*)").unwrap();
+    let descriptor_regex = Regex::new(r"(?m)\s*(?P<name>.*)(?P<description>[\s\w\W]*?)You gain the following characteristics:\s*(?P<abilities>[\s\w\W]*?)(Initial Link to the Starting Adventure:.*\s*(?P<links>[\s\w\W]*?))?(^\s*$)").unwrap();
+    let basic_regex = Regex::new(r"(?m)^(?P<name>.*?):\s*(?P<description>.*)$").unwrap();
+    let link_regex = Regex::new(r"(?m)^\s*\d+\.\s*(?P<link>.*)").unwrap();
     let mut out = vec!();
-    let mut lines = 0;
-    let mut characteristics : Vec<BasicAbility> = vec![];
-    let mut links : Vec<String> = vec![];
-    let mut name : Option<String> = None;
-    let mut description : Option<String> = None;
-    for line in decriptors.split("\n") {
-        if lines == 0 {
-            name = Some(line.trim().into());
-        } else if lines == 1 {
-            description = Some(line.trim().into())
-        } else if char_regex.is_match(line) {
-            let captures = char_regex.captures(line).unwrap();
-            let name = captures.get(1).unwrap().as_str().trim().to_string();
-            let description = captures.get(2).unwrap().as_str().trim().to_string();
-            characteristics.push(BasicAbility{name, description});
-        } else if link_regex.is_match(line) {
-            let captures = link_regex.captures(line).unwrap();
-            let link = captures.get(1).unwrap().as_str().trim().to_string();
-            links.push(link);
+    for capture in descriptor_regex.captures_iter(&decriptors) {
+        let mut new = DescriptorBuilder::default();
+        new.name(capture.name("name").map(|s| s.as_str().to_uppercase().trim().into()).unwrap());
+        new.description(capture.name("description").map(|s| s.as_str().trim().into()).unwrap());
+
+        // add basic abilities
+        for ability in capture.name("abilities").into_iter().flat_map(|i| basic_regex.captures_iter(i.as_str())) {
+            new.add_ability(BasicAbility { 
+                name: ability.name("name").unwrap().as_str().trim().into(), 
+                description: ability.name("description").unwrap().as_str().trim().into()
+            });
         }
-        if line.trim().len() == 0 {
-            let focus = Descriptor { 
-                name: name.clone().unwrap().to_ascii_uppercase(), 
-                description: description.clone().unwrap(), 
-                characteristics: characteristics.clone(), 
-                links: links.clone(),
-            };
-            out.push(focus);
-            characteristics.clear();
-            links.clear();
-            lines = 0;
-        } else {
-            lines += 1;
+
+        // add links
+        new.links(Vec::new());
+        for link in capture.name("links").into_iter().flat_map(|i| link_regex.captures_iter(i.as_str())) {
+            new.add_link(link.name("link").unwrap().as_str().trim().into());
         }
+
+        out.push(new.build().unwrap());
     }
     out.sort_by(|a, b| a.name.partial_cmp(&b.name).unwrap());
     out
