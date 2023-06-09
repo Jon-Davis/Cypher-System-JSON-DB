@@ -6,23 +6,13 @@ use serde::{Serialize, Deserialize};
 use unidecode::unidecode;
 use crate::{ability::{BasicAbility, AbilityRef, Ability}, common_types::*};
 
-#[derive(PartialEq)]
-enum TypeStateMachine {
-    Name,
-    Intrusions,
-    StatPool,
-    Abilities,
-    SpecialAbilities(usize),
-}
-
 #[derive(Builder, Serialize, Deserialize)]
 pub struct Type {
     pub name: String,
     #[builder(setter(each(name = "add_intrusions")))]
     pub intrusions: Vec<BasicAbility>,
-    #[builder(setter(each(name = "add_stat")))]
-    #[serde(serialize_with = "ordered_stat_pool")]
-    pub stat_pool: HashMap<String, usize>,
+    pub stat_pool: StatPool,
+    pub background: RollTable,
     #[builder(setter(each(name = "add_amount")))]
     pub special_abilities_per_tier: Vec<Amount>,
     #[builder(setter(each(name = "add_ability")))]
@@ -31,7 +21,7 @@ pub struct Type {
     pub special_abilities: Vec<AbilityRef>,
 }
 
-#[derive(Builder, Serialize, Deserialize)]
+#[derive(Builder, Serialize, Deserialize, Clone)]
 pub struct StatPool {
     #[serde(rename = "Might")]
     pub might: usize,
@@ -41,85 +31,55 @@ pub struct StatPool {
     pub intellect: usize,
 }
 
-fn ordered_stat_pool<S>(value: &HashMap<String, usize>, serializer: S) -> Result<S::Ok, S::Error>
-where
-    S: serde::Serializer,
-{
-    let stat_pool = StatPoolBuilder::default()
-        .might(*value.get("Might").unwrap())
-        .speed(*value.get("Speed").unwrap())
-        .intellect(*value.get("Intellect").unwrap())
-        .build().unwrap();
-    stat_pool.serialize(serializer)
-}
-
 pub fn load_types(abilities: &mut HashMap<String, Ability>) -> Vec<Type> {
     let types = unidecode(&fs::read_to_string("Types.md").unwrap());
     let mut out = vec![];
-    let name_regex = Regex::new(r"^(WARRIOR|ADEPT|EXPLORER|SPEAKER)$").unwrap();
-    let ident_intrusions = Regex::new(r"^(WARRIOR|ADEPT|EXPLORER|SPEAKER) PLAYER INTRUSIONS$").unwrap();
-    let colon_regex = Regex::new(r"^(.*): (.*)$").unwrap();
-    let ident_stats = Regex::new(r"^(WARRIOR|ADEPT|EXPLORER|SPEAKER) STAT POOLS$").unwrap();
-    let stats_regex = Regex::new(r"^(.*) (\d*)$").unwrap();
-    let ident_abilities = Regex::new(r"^1-TIER (WARRIOR|ADEPT|EXPLORER|SPEAKER) ABILITIES").unwrap();
-    let ident_tier = Regex::new(r"^(.*)-TIER (WARRIOR|ADEPT|EXPLORER|SPEAKER)$").unwrap();
-    let specials_per_tier = Regex::new(r"^Choose (\d) .*$").unwrap();
-    let mut phase = TypeStateMachine::Name;
-    let mut current = TypeBuilder::default();
-    for line in types.split('\n').map(|s| s.trim()) {
-        if name_regex.is_match(line) {
-            if phase != TypeStateMachine::Name {
-                out.push(current.build().unwrap());
-                current = TypeBuilder::default();
-                phase = TypeStateMachine::Name;
-            }
-            current.stat_pool(HashMap::new());
-            current.abilities(vec![]);
-            current.intrusions(vec![]);
-            current.special_abilities(vec![]);
-            current.special_abilities_per_tier(vec![]);
-            current.name(line.to_ascii_uppercase().into());
-        } else if ident_intrusions.is_match(line) {
-            phase = TypeStateMachine::Intrusions;
-        } else if phase == TypeStateMachine::Intrusions && colon_regex.is_match(line) {
-            let cap = colon_regex.captures(line).unwrap();
-            current.add_intrusions(BasicAbility {
-                name: cap.get(1).unwrap().as_str().into(), 
-                description: cap.get(2).unwrap().as_str().into()
+    let type_regex = Regex::new(r"(?m)(---)?\s*(?P<type>.*)\s*PLAYER INTRUSIONS(?P<intrusions>[\s\w\W]*?)STAT POOLS\s*((?i)might\s*(?P<might>\d+))\s*((?i)speed\s*(?P<speed>\d+))\s*((?i)intellect\s*(?P<intellect>\d+))\s*BACKGROUND(?P<background>[\s\w\W]*?)\s*ABILITIES(?P<abilities>[\w\s\S]*?)(?P<tiers>1-TIER[\s\w\W]*?)---").unwrap();
+    let basic_regex = Regex::new(r"(?m)^(?P<name>.*?):\s*(?P<description>.*)$").unwrap();
+    let special_regex = Regex::new(r"(?m)(?P<tier>\d)-TIER\s*Choose (?P<amount>\d).*(?P<abilities>[\s\w\W]*?)(^\s*$)").unwrap();
+    for capture in type_regex.captures_iter(&types) {
+        let name : String = capture.name("type").map(|s| s.as_str().to_uppercase().trim().into()).unwrap();
+        let mut new = TypeBuilder::default();
+        new.name(name.clone());
+
+        // add player intrusions
+        for intrusion in capture.name("intrusions").into_iter().flat_map(|i| basic_regex.captures_iter(i.as_str())) {
+            new.add_intrusions(BasicAbility { 
+                name: intrusion.name("name").unwrap().as_str().trim().into(), 
+                description: intrusion.name("description").unwrap().as_str().trim().into()
             });
-        } else if ident_stats.is_match(line) {
-            phase = TypeStateMachine::StatPool;
-        } else if phase == TypeStateMachine::StatPool && stats_regex.is_match(line) {
-            let cap = stats_regex.captures(line).unwrap();
-            current.add_stat((
-                cap.get(1).unwrap().as_str().trim().into(),
-                cap.get(2).unwrap().as_str().parse::<usize>().unwrap().into(),
-            ));
-        } else if ident_abilities.is_match(line) {
-            phase = TypeStateMachine::Abilities;
-        } else if phase == TypeStateMachine::Abilities && colon_regex.is_match(line) {
-            let cap = colon_regex.captures(line).unwrap();
-            current.add_ability(BasicAbility {
-                name: cap.get(1).unwrap().as_str().into(), 
-                description: cap.get(2).unwrap().as_str().into() 
+        }
+
+        // add starting stats
+        let might = capture.name("might").unwrap().as_str().parse::<usize>().unwrap().into();
+        let speed = capture.name("speed").unwrap().as_str().parse::<usize>().unwrap().into();
+        let intellect = capture.name("intellect").unwrap().as_str().parse::<usize>().unwrap().into();
+        new.stat_pool(StatPool{might, speed, intellect});
+
+        // add background
+        let entries = load_option_table(capture.name("background").unwrap().as_str());
+        new.background(RollTable { name: Some("BACKGROUND".into()), table: entries });
+
+        // add basic abilities
+        for ability in capture.name("abilities").into_iter().flat_map(|i| basic_regex.captures_iter(i.as_str())) {
+            new.add_ability(BasicAbility { 
+                name: ability.name("name").unwrap().as_str().trim().into(), 
+                description: ability.name("description").unwrap().as_str().trim().into()
             });
-        } else if ident_tier.is_match(line) {
-            let cap = ident_tier.captures(line).unwrap();
-            phase = TypeStateMachine::SpecialAbilities(cap.get(1).unwrap().as_str().parse().unwrap())
-        } else if let TypeStateMachine::SpecialAbilities(tier) = phase {
-            if specials_per_tier.is_match(line) {
-                let cap = specials_per_tier.captures(line).unwrap();
-                current.add_amount(Amount { tier, special_abilities: cap.get(1).unwrap().as_str().parse().unwrap() });
-            } else if  line.len() > 0 {
-                abilities.get_mut(&line.to_ascii_uppercase()).unwrap().references.insert(current.name.clone().unwrap());
-                current.add_special(AbilityRef {
-                    name: line.into(),
-                    preselected: false,
-                    tier,
-                });
+        }
+
+        // add special abilities
+        for ability in capture.name("tiers").into_iter().flat_map(|i| special_regex.captures_iter(i.as_str())) {
+            let tier = ability.name("tier").unwrap().as_str().parse().unwrap();
+            new.add_amount(Amount { tier, special_abilities: ability.name("amount").unwrap().as_str().parse().unwrap()});
+
+            for ability in ability.name("abilities").unwrap().as_str().trim().split("\n") {
+                abilities.get_mut(&ability.trim().to_ascii_uppercase()).unwrap().references.insert(name.clone());
+                new.add_special(AbilityRef { name: ability.trim().into(), tier, preselected: false });
             }
         }
+
+        out.push(new.build().unwrap());
     }
-    out.push(current.build().unwrap());
     out
 }
