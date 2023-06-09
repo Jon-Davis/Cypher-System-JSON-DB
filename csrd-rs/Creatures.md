@@ -779,14 +779,13 @@ Movement: Short
 Modifications: Detecting falsehoods, deception, and persuasion as level 7
 Combat: A killer clown attempts to deceive its victim into believing that the clown is a friend. In fact, the clown is setting up an ambush where the victim can be strangled to death in private. When a killer clown successfully attacks, it inflicts 5 points of damage and locks its hands around the victim's neck. In each round that the victim does not escape, it suffers 5 points of damage from being strangled.
 Some killer clowns know tricks that border on the supernatural. Such a clown may do one of the following as its action during combat.
-d6 Clown Trick
+OPTION TABLE Clown Trick
 1 Reveal a secret that one character is keeping from one or more of their allies.
 2 Poke target in the eyes as a level 6 attack, blinding target for one minute.
 3 Activate a trapdoor beneath victim that drops them 20 feet (6 m) into a cellar or basement.
 4 Disappear into secret door or hatch and reappear  somewhere hidden within short range.
 5 Jab target in the throat as a level 6 attack; resulting coughing fit causes target to lose next action.
 6 Down an elixir or energy drink that heals the killer clown of all damage sustained.
-
 Interaction: A killer clown is all jokes, magic tricks, and juggling, until it decides it's time to strike.
 Use: The creepy circus that just pulled into town is guarded by a killer clown, as late-night investigators soon learn.
 Loot: A killer clown might have one or two cyphers in the form of a joy buzzer, cards, and cheap trinkets.
@@ -1191,16 +1190,14 @@ Movement: Short
 Modifications: Stealth and perception as level 6; Speed defense as level 6 due to shadowy nature
 Combat: Shadow elves attack with short blades, knives, and crossbow quarrels of steel-hard shadow. They can see in dim light and absolute darkness as if it were daylight.
 Some shadow elves can cast spells, including the following. Each spell requires an action to cast.
-
-d6 Shadow Elf Spell
+If subject to full daylight, a shadow elf loses its modifications to stealth, perception, and Speed defense, and is likely to retreat.
+OPTION TABLE Shadow Elf Spell
 1 Enchant weapon to inflict 3 additional points of damage (8 total)
 2 Enchant weapon to inflict 1 additional point of Speed damage (poison, ignores Armor), plus 2 points of Speed damage each additional round until victim succeeds on a Might defense roll 
 3 Fly a long range each round for ten minutes
 4 Gain +2 to Armor (total of 3 Armor) for ten minutes
 5 Long-range spell renders subject blind for ten minutes on failed Might defense roll
-6 Long-range spell targets up to three creatures next to each other; holds them motionless in a shadow web for one minute on failed Speed defense rolls 
-
-If subject to full daylight, a shadow elf loses its modifications to stealth, perception, and Speed defense, and is likely to retreat.
+6 Long-range spell targets up to three creatures next to each other; holds them motionless in a shadow web for one minute on failed Speed defense rolls
 Interaction: Shadow elves may negotiate and even ally with other creatures for a time. But they do so only until the best opportunity for a betrayal presents itself.
 Use: Shadow elves have overrun an outlying keep, and even in broad daylight, the castle is shrouded in darkness and webs of shadow. The treasures said to lie in the keep's coffers may already be in the hands of the dark fey.
 Loot: A shadow elf carries currency equivalent to an expensive item, in addition to weapons, light armor, and a cypher or two. Shadow elf leaders may carry an artifact.
@@ -1363,8 +1360,7 @@ Damage Inflicted: 3 points
 Movement: Short
 Modifications: Speed defense as level 4 due to frenzied alacrity
 Combat: Vat rejects charge into battle with berserk speed, hindering defenses against their initial attack. All vat rejects are able to inflict damage directly by cutting, bashing, or biting a victim, depending on their particular morphology. Some also have additional abilities; roll on the table below for each reject. 
-
-d6 Ability
+OPTION TABLE Ability
 1 Reject deals +3 damage in melee (6 points total)
 2 Reject has short-range acid spit attack that inflicts 2 points of damage, plus 2 points of damage each additional round until victim succeeds on a Might defense roll
 3 Reject can fly a long distance as an action
@@ -1385,8 +1381,7 @@ Armor: 3
 Movement: Short; some models can fly a short distance each round
 Modifications: Attacks as level 7
 Combat: A wardroid's main weapon is a bank of laser blasters that it can use to attack up to three foes standing next to each other as one action. When damaged, a wardroid regains 1 point of health each round. Furthermore, each wardroid has one additional capability:
-
-d6 Ability
+OPTION TABLE Ability
 1 Emit poison gas that inflicts 5 points of damage on organic beings in immediate range
 2 Project grenades up to long distance that detonate in an immediate radius, inflicting 5 points of damage
 3 Fire a beam that stuns an organic being for one round, during which it cannot take actions 

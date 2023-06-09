@@ -8,7 +8,9 @@ distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.
 
 CSRD.json is Compatible with the Cypher System.
 
-CSRD.json is currently based on the Cypher System Reference Document 2023-02-10
+CSRD.json is currently based on the Cypher System Reference Document 2023-04-18
+
+CSRD.json is not stable, meaning the structure may change as new content is added.
 
 The CSRD JSON Contains Types, Flavors, Descriptions, Foci, Abilities, Cyphers, Cypher Tables, Artifacts, Creatures, and NPCs.
 
@@ -20,7 +22,7 @@ struct CSRD_DB {
     foci: Vec<Focus>,
     abilities: Vec<Ability>,
     cyphers: Vec<Cypher>,
-    cypher_tables: Vec<CypherTable>,
+    cypher_tables: Vec<RollTable>,
     artifacts: Vec<Artifact>,
     creatures: Vec<Creature>,
 }
@@ -118,10 +120,17 @@ struct Cypher {
     level_dice: Option<String>, // The dice used to determine the level
     level_mod: usize,           // The additional modification to the level
     effect: String,             // The effect of the cypher
-    options: Vec<RollEntry>,    // A random roll table if applicable
+    options: Vec<RollTable>,    // A random roll table if applicable
     kinds: Vec<String>,         // MANIFEST, SUBTLE, FANTASTIC
 }
 ```
+
+RollTable used for random tables
+```
+struct RollTable {
+    name: Option<String>,       // The name of the current roll table if applicable
+    table: Vec<RollEntry>       // Each roll entry in the table.
+}
 
 RollEntry used for random tables
 ```
@@ -129,14 +138,6 @@ struct RollEntry {
     start: usize,       // starting range inclusive
     end: usize,         // ending range inclusive
     entry: String,      // name/description
-}
-```
-
-CypherTable represents the random roll tables for cyphers found in the CSRD.
-```
-struct CypherTable {
-    kind: String,               // MANIFEST, SUBTLE, FANTASTIC
-    options: Vec<RollEntry>,    // Range and name of cypher
 }
 ```
 
@@ -149,7 +150,7 @@ struct Artifact {
     form: String,               // The form of the artifact
     depletion: String,          // The depletion range
     effect: String,             // The description
-    options: Vec<RollEntry>,    // A random roll table if applicable
+    options: Vec<RollTable>,    // A random roll table if applicable
 }
 ```
 
@@ -165,7 +166,7 @@ struct Creature {
     health: Option<usize>,          // health
     damage: Option<String>,         // damage dealt,
     armor: usize,                   // armor, 0 if none
-    movement: Option<String?,       // movement speed
+    movement: Option<String>,       // movement speed
     modifications: Vec<String>,     // list of modifications
     combat: Option<String>,         // combat options
     interactions: Option<String>,   // interactions
