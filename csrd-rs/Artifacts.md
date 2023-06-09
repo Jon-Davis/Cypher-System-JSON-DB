@@ -323,8 +323,13 @@ Depletion: -
 EXPLODING ARROW 
 Level: 1d6 
 Form: Arrow with runes carved on the shaft and head 
-Effect: The arrow explodes when it strikes something, inflicting its level in damage to all within immediate range. Roll d100 to determine the type of damage. 01-20 Acid 21-40 Electricity 41-60 Cold 61-90 Fire 91-00 Necromantic (harms only flesh) One advantage of an exploding arrow over a detonation cypher is that the arrow doesn't count toward your cypher limit. 
-An exploding arrow can instead be a crossbow bolt, sling stone, or other thrown weapon or projectile.
+Effect: The arrow explodes when it strikes something, inflicting its level in damage to all within immediate range. Roll d100 to determine the type of damage. One advantage of an exploding arrow over a detonation cypher is that the arrow doesn't count toward your cypher limit. An exploding arrow can instead be a crossbow bolt, sling stone, or other thrown weapon or projectile.
+OPTION TABLE
+01-20 Acid
+21-40 Electricity
+41-60 Cold
+61-90 Fire
+91-00 Necromantic (harms only flesh)
 Depletion: Automatic 
 
 EXPLORER'S GLOVES 
@@ -439,7 +444,13 @@ Depletion: 1 in 1d10 
 PROTECTION AMULET 
 Level: 1d6 
 Form: Stylized amulet worn on a chain 
-Effect: The amulet reduces one type of damage by an amount equal to the artifact level. Roll a d20 to determine the kind of damage the amulet protects against. 1-4 Acid 5-8 Cold 9-12 Electricity 13-16 Fire 17-20 Poison.
+Effect: The amulet reduces one type of damage by an amount equal to the artifact level. Roll a d20 to determine the kind of damage the amulet protects against.
+OPTION TABLE
+1-4 Acid
+5-8 Cold
+9-12 Electricity
+13-16 Fire
+17-20 Poison
 Depletion: 1 in 1d6 (check each time the amulet reduces damage)
 
 RING OF FALL FLOURISHING 
@@ -685,7 +696,6 @@ Mirror Mirror
 Level: 1d6 + 4
 Form: Ornate mirror that grows or shrinks in size according to its user's needs.
 Effect: When the user looks into the mirror and interacts with it, it grants their request, as it is able. Most mirror mirrors have a personality all their own. Some sing their answers, some show images, and still others sigh with boredom at being asked the same thing over and over. Mirrors never lie. Except when they do. Roll a d6 to determine the mirror's ability:
-Depletion: 1 in 1d20
 OPTION TABLE
 1 Answers a question about the present (such as "Who is the fairest of them all?") with a simple one- or two-word answer.
 2 Allows the viewer to check in on someone they know (and who knows them) from anywhere. The image lasts just a moment, and those being viewed are not aware that it has happened.
@@ -693,6 +703,7 @@ OPTION TABLE
 4 If the viewer stands before the mirror at midnight while holding a light source, they are able to contact the ghost or spirit of a person or creature they know the name of. Whether or not the being agrees to talk with them is another matter.
 5 Distorts the appearance of everything it reflects, particularly by magnifying the horrible and ugly aspects of things and people while ignoring their good and beautiful aspects. Looking into the mirror inflicts 2 points of Intellect damage. Angling the mirror to reflect an object inflicts 2 points of damage to it.
 6 Coats the user's skin with its reflective surface, offering protection. The first time the user would take damage, the mirror shatters instead, reflecting the damage back to the user's attacker.
+Depletion: 1 in 1d20
 
 Pandora's Box
 Level: 1d6 + 4

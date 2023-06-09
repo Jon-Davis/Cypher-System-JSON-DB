@@ -114,6 +114,7 @@ Cypher is a usable Cypher in the Cypher System. Note that everything was pulled 
 ```
 struct Cypher {
     name: String,               // The name of the cypher
+    form: Option<String>,       // The form of the cypher, if applicable
     level_dice: Option<String>, // The dice used to determine the level
     level_mod: usize,           // The additional modification to the level
     effect: String,             // The effect of the cypher
@@ -148,6 +149,7 @@ struct Artifact {
     form: String,               // The form of the artifact
     depletion: String,          // The depletion range
     effect: String,             // The description
+    options: Vec<RollEntry>,    // A random roll table if applicable
 }
 ```
 

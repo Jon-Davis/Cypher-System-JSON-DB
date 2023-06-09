@@ -44,6 +44,7 @@ struct Artifact {
     form: String,
     depletion: String,
     effect: String,
+    options: Vec<RollEntry>,
 }
 
 #[derive(Builder, Serialize, Deserialize, Debug)]
@@ -262,6 +263,7 @@ fn load_artifacts() -> Vec<Artifact> {
             .level_mod(capture.name("mod").and_then(|s| s.as_str().parse().ok()).unwrap_or(0))
             .form(capture.name("form").map(|s| s.as_str().trim().into()).unwrap())
             .effect(capture.name("effect").map(|s| s.as_str().trim().replace("\r", "").replace("\n", "").into()).unwrap())
+            .options(capture.name("options").map(|s| s.as_str()).map(load_option_table).unwrap_or_default())
             .depletion(capture.name("depletion").map(|s| s.as_str().trim().into()).unwrap())
             .build().unwrap();
 
