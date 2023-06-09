@@ -259,35 +259,19 @@ fn load_creatures(file: &str, kind: &str) -> Vec<Creature> {
 // Named Regex: (?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Form:\s*(?P<form>.*)\s*Effect:\s*(?P<effect>[\s\w\W]*?)Depletion:\s*(?P<depletion>.*)\s*
 fn load_artifacts() -> Vec<Artifact> {
     let cyphers = unidecode(&fs::read_to_string("Artifacts.md").unwrap());
-    let level_regex = Regex::new(r"Level: (\dd\d)?(( \+ )?(\d*)?)?").unwrap();
-    let effect_regex = Regex::new(r"Effect: (.*)").unwrap();
-    let form_regex = Regex::new(r"Form: (.*)").unwrap();
-    let depletion_regex = Regex::new(r"Depletion: (.*)").unwrap();
+    let cyphers_regex = Regex::new(r"(?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Form:\s*(?P<form>.*)\s*Effect:\s*(?P<effect>[\s\w\W]*?)(OPTION TABLE(?P<options>[[\s\w\W]]*?))?Depletion:\s*(?P<depletion>.*)\s*").unwrap();
     let mut out = vec![];
-    let mut phase = CypherSM::Name;
-    let mut current = ArtifactBuilder::default();
-    for line in cyphers.split('\n').map(|s| s.trim()) {
-        if phase == CypherSM::Name {
-            current.name(line.to_ascii_uppercase().into());
-            phase = CypherSM::Descriptions;
-        } else if level_regex.is_match(line) && phase != CypherSM::Options {
-            let captures = level_regex.captures(line).unwrap();
-            current.level_dice(captures.get(1).map(|s| s.as_str().trim().into()));
-            current.level_mod(captures.get(4).and_then(|s| s.as_str().parse().ok()).unwrap_or(0));
-        } else if effect_regex.is_match(line) {
-            let captures = effect_regex.captures(line).unwrap();
-            current.effect(captures.get(1).unwrap().as_str().trim().into());
-        } else if form_regex.is_match(line) {
-            let captures = form_regex.captures(line).unwrap();
-            current.form(captures.get(1).unwrap().as_str().trim().into());
-        } else if depletion_regex.is_match(line) {
-            let captures = depletion_regex.captures(line).unwrap();
-            current.depletion(captures.get(1).unwrap().as_str().trim().into());
-        } else if line.is_empty() {
-            out.push(current.build().expect(&format!("Error: while building {:?}", current.name)));
-            current = ArtifactBuilder::default();
-            phase = CypherSM::Name;
-        }
+    for capture in cyphers_regex.captures_iter(&cyphers) {
+        let artifact = ArtifactBuilder::default()
+            .name(capture.name("name").map(|s| s.as_str().to_uppercase().trim().into()).unwrap())
+            .level_dice(capture.name("dice").map(|s| s.as_str().trim().into()))
+            .level_mod(capture.name("mod").and_then(|s| s.as_str().parse().ok()).unwrap_or(0))
+            .form(capture.name("form").map(|s| s.as_str().trim().into()).unwrap())
+            .effect(capture.name("effect").map(|s| s.as_str().trim().replace("\r", "").replace("\n", "").into()).unwrap())
+            .depletion(capture.name("depletion").map(|s| s.as_str().trim().into()).unwrap())
+            .build().unwrap();
+
+        out.push(artifact);
     }
     out.sort_by(|a, b| a.name.partial_cmp(&b.name).unwrap());
     out
