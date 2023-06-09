@@ -65,8 +65,8 @@ struct Cypher {
     name: String,
     level_dice: Option<String>,
     level_mod: usize,
+    form: Option<String>,
     effect: String,
-    #[builder(setter(each(name = "add_options")))]
     options: Vec<RollEntry>,
     kinds: Vec<String>,
 }
@@ -191,12 +191,6 @@ enum TypeStateMachine {
     SpecialAbilities(usize),
 }
 
-#[derive(PartialEq)]
-enum CypherSM {
-    Name,
-    Descriptions,
-    Options
-}
 
 #[derive(PartialEq)]
 enum CypherTableSM {
@@ -259,7 +253,7 @@ fn load_creatures(file: &str, kind: &str) -> Vec<Creature> {
 // Named Regex: (?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Form:\s*(?P<form>.*)\s*Effect:\s*(?P<effect>[\s\w\W]*?)Depletion:\s*(?P<depletion>.*)\s*
 fn load_artifacts() -> Vec<Artifact> {
     let cyphers = unidecode(&fs::read_to_string("Artifacts.md").unwrap());
-    let cyphers_regex = Regex::new(r"(?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Form:\s*(?P<form>.*)\s*Effect:\s*(?P<effect>[\s\w\W]*?)(OPTION TABLE(?P<options>[[\s\w\W]]*?))?Depletion:\s*(?P<depletion>.*)\s*").unwrap();
+    let cyphers_regex = Regex::new(r"(?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Form:\s*(?P<form>.*)\s*Effect:\s*(?P<effect>[\s\w\W]*?)(OPTION TABLE(?P<options>[[\s\w\W]]*?))?Depletion:\s*(?P<depletion>.*)").unwrap();
     let mut out = vec![];
     for capture in cyphers_regex.captures_iter(&cyphers) {
         let artifact = ArtifactBuilder::default()
@@ -306,46 +300,37 @@ fn load_cypher_tables(db_cyphers: &mut Vec<Cypher>) -> Vec<CypherTable> {
 // Named regex: (?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Effect:\s*(?P<effect>.*)\s*(?P<options>OPTION TABLE\s*(?:(?:\d*)-?(?:\d*)?\s(?:.*)\s*)+)?
 fn load_cyphers() -> Vec<Cypher> {
     let cyphers = unidecode(&fs::read_to_string("Cyphers.md").unwrap());
-    let level_regex = Regex::new(r"Level: (\dd\d)?(( \+ )?(\d*)?)?").unwrap();
-    let effect_regex = Regex::new(r"Effect: (.*)").unwrap();
+    let cypher_regex = Regex::new(r"(?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*(Form:\s*(?P<form>.*)\s*)?Effect:\s*(?P<effect>[\s\w\W]*?)(OPTION TABLE(?P<options>[[\s\w\W]]*?))?(^\s*$)").unwrap();
+    let mut out = vec![];
+    for capture in cypher_regex.captures_iter(&cyphers) {
+        let cypher = CypherBuilder::default()
+            .name(capture.name("name").map(|s| s.as_str().to_ascii_uppercase().trim().into()).unwrap())
+            .level_dice(capture.name("dice").map(|s| s.as_str().trim().into()))
+            .level_mod(capture.name("mod").and_then(|s| s.as_str().parse().ok()).unwrap_or(0))
+            .form(capture.name("form").map(|s| s.as_str().to_ascii_uppercase().trim().into()))
+            .effect(capture.name("effect").map(|s| s.as_str().trim().replace("\r", "").replace("\n", "").into()).unwrap())
+            .options(capture.name("options").map(|s| s.as_str()).map(load_option_table).unwrap_or_default())
+            .kinds(vec![])
+            .build()
+            .unwrap();
+        out.push(cypher)
+    }
+    out.sort_by(|a, b| a.name.partial_cmp(&b.name).unwrap());
+    out
+}
+
+fn load_option_table(input: &str) -> Vec<RollEntry> {
     let option_regex = Regex::new(r"(\d+)(-(\d+))? (.*)").unwrap();
     let mut out = vec![];
-    let mut phase = CypherSM::Name;
-    let mut current = CypherBuilder::default();
-    for line in cyphers.split('\n').map(|s| s.trim()) {
-        if phase == CypherSM::Name && line.len() > 0 {
-            current.name(line.trim().to_ascii_uppercase().into());
-            current.options(vec![]);
-            current.kinds(vec![]);
-            phase = CypherSM::Descriptions;
-        } else if level_regex.is_match(line) && phase != CypherSM::Options {
-            let captures = level_regex.captures(line).unwrap();
-            current.level_dice(captures.get(1).map(|s| s.as_str().trim().into()));
-            current.level_mod(captures.get(4).and_then(|s| s.as_str().trim().parse().ok()).unwrap_or(0));
-        } else if effect_regex.is_match(line) {
-            let captures = effect_regex.captures(line).unwrap();
-            current.effect(captures.get(1).unwrap().as_str().trim().into());
-        } else if line.contains("OPTION TABLE") {
-            phase = CypherSM::Options;
-        } else if phase == CypherSM::Options && option_regex.is_match(line) {
+    for line in input.split('\n').map(|s| s.trim()) {
+        if option_regex.is_match(line) {
             let captures = option_regex.captures(line).unwrap();
             let start = captures.get(1).unwrap().as_str().trim().parse().unwrap();
             let end = captures.get(3).map(|s| s.as_str().trim().parse().unwrap()).unwrap_or(start);
             let effect = captures.get(4).unwrap().as_str().trim().into();
-            current.add_options(RollEntry { start, end, entry: effect });
-        } else if line.is_empty() && phase != CypherSM::Name {
-            if current.level_dice.is_none() {
-                current.level_dice(None);
-            }
-            if current.level_mod.is_none() {
-                current.level_mod(0);
-            }
-            out.push(current.build().unwrap());
-            current = CypherBuilder::default();
-            phase = CypherSM::Name;
+            out.push(RollEntry { start, end, entry: effect });
         }
     }
-    out.sort_by(|a, b| a.name.partial_cmp(&b.name).unwrap());
     out
 }
 
