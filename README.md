@@ -131,6 +131,7 @@ struct RollTable {
     name: Option<String>,       // The name of the current roll table if applicable
     table: Vec<RollEntry>       // Each roll entry in the table.
 }
+```
 
 RollEntry used for random tables
 ```
