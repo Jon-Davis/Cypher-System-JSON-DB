@@ -15,7 +15,7 @@ pub struct Descriptor {
 
 pub fn load_descriptors() -> Vec<Descriptor> {
     let decriptors = unidecode(&fs::read_to_string("Descriptors.md").unwrap());
-    let char_regex = Regex::new(r"([\w\d\s-]*): (.*)").unwrap();
+    let char_regex = Regex::new(r"([\w\d\s\-\(\),]*): (.*)").unwrap();
     let link_regex = Regex::new(r"\d\. (.*)").unwrap();
     let mut out = vec!();
     let mut lines = 0;

@@ -1508,12 +1508,12 @@ Level: 1d6 + 4
 Form: Device, injection, or pill 
 Effect: If used on a beast of no larger than human size whose level is less than the cypher level, this radically alters the beast’s shape so it resembles a human being. The beast-human still thinks and acts like a beast, but it looks like a human and can perform actions using its human dexterity (such as turning a doorknob or walking upright). This transformation lasts for one day per cypher level, but after an equal amount of time the beast reverts to its normal shape (in the manner described for the ascendant brain vivisector cypher). Additional uses of the cypher tend to have diminishing returns. Using this cypher on a beast whose level is too high might end up temporarily transforming it into a human with bestial features.
 
-ORRUPTED CANOPIC JAR
+CORRUPTED CANOPIC JAR
 Level: 1d6 + 1
 Form: Jar made of clay or carved stone 
 Effect: Breaking open the jar (which destroys the preserved organs inside) permanently grants the user an asset (two assets if the cypher level is 6 or higher) on all attacks and defenses against mummies within short range.
 
-ECAPITATIVE LONGEVITY
+DECAPITATIVE LONGEVITY
 Level: 1d6 + 4
 Form: Injection or potion
 Effect: Brings a dead creature’s head (but not the body) back to life for a limited time as an undead creature. The cypher can be used up to an hour before or after death (in anticipation of dying or in response to someone’s death) and requires up to ten minutes to take effect, at which time the creature recovers 1d6 + 6 points to their Pools. Because they are only a head, a PC reanimated this way has a maximum Might and Speed Pool of 3 each. The head has all the mental abilities they had when they were alive (including psychic or telepathic abilities) and can speak, but all their actions are hindered. They have the same appearance as before, except the wounds that killed them are still visible, and in general they have an unnatural look. They do not need to eat, drink, or sleep, but they can still rest if they want to (such as to make a recovery roll). The head remains in this active state for one day per cypher level, after which time it dies again and cannot be reanimated with this cypher. When using a decapitative longevity cypher to bring a head back to life, it can be left attached to the inert body, or someone can carefully sever the head from the body, which doesn’t harm the head.
@@ -1531,7 +1531,7 @@ Effect: Can be thrown up to a short distance, where it releases a burst of trans
 HOMUNCULUS FLASK
 Level: 1d6 + 1
 Form: Ornate, opaque alchemical bottle filled with strange fluid
-Effect: To activate this cypher, you must open the bottle, add a few fresh drops of your blood (inflicting 1 point of Might damage to you), stopper it again, and leave it alone for one day. When the bottle is next unstoppered, a hand-sized creature called a homunculus crawls out; it vaguely resembles you and serves you for one day per cypher level before dissolving into useless goo. Each time you give it an order, you must make an Intellect defense roll against it; if you fail, it becomes free to ignore your commands (but might pretend to be obedient so it can plot against you). Homunculus: level 2; alchemy, all defenses, and stealth as level 3
+Effect: To activate this cypher, you must open the bottle, add a few fresh drops of your blood (inflicting 1 point of Might damage to you), stopper it again, and leave it alone for one day. When the bottle is next unstoppered, a hand-sized creature called a homunculus crawls out; it vaguely resembles you and serves you for one day per cypher level before dissolving into useless goo. Each time you give it an order, you must make an Intellect defense roll against it; if you fail, it becomes free to ignore your commands (but might pretend to be obedient so it can plot against you). Homunculus: level 2; alchemy, all defenses, and stealth as level 3.
 
 HORRIFIC ARM
 Level: 1d6 + 1
@@ -1567,7 +1567,7 @@ Effect: The user’s body rapidly grows a strange orifice in their torso, large 
 HUMANITY TESTER
 Level: 1d6 + 4
 Form: Device, injection, or pill 
-Effect: Reveals whether a targeted creature is human or some sort of inhuman impostor (such as an alien, demon, doppelganger, simulacrum, or vampire) if the cypher’s level is greater than the creature’s disguise level. If the cypher’s level exceeds the impostor’s level by 4 or more, it also marks the impostor for the next several hours so people can recognize it by this mark. The specific nature of a humanity tester depends on the setting and what sort of creatures are common. In a world with multiple kinds of creatures that pretend to be human, the tester might recognize all fakes or detect only one specific kind of fake
+Effect: Reveals whether a targeted creature is human or some sort of inhuman impostor (such as an alien, demon, doppelganger, simulacrum, or vampire) if the cypher’s level is greater than the creature’s disguise level. If the cypher’s level exceeds the impostor’s level by 4 or more, it also marks the impostor for the next several hours so people can recognize it by this mark. The specific nature of a humanity tester depends on the setting and what sort of creatures are common. In a world with multiple kinds of creatures that pretend to be human, the tester might recognize all fakes or detect only one specific kind of fake.
 
 INSANITY SUPPRESSOR
 Level: 1d6

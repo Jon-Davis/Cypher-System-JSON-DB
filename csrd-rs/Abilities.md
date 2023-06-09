@@ -1576,7 +1576,7 @@ Rapid Attack (3 Speed points): Once per round, you can make an additional attack
 
 Rapid Processing (6 Intellect points): You or a target you touch experiences a higher level of mental and physical reaction time for about a minute. During that period, all Speed tasks (including Speed defense rolls) are eased. In addition, the target can take one extra action at any time before the ability's duration expires. Action. 
 
-Rapid Recovery: You can make most recovery rolls faster than normal. You can make yourone-action recovery roll as part of another action or when it isn't your turn, your ten-minute recovery roll takes you only one action, and your one-hour recovery roll takes you only ten minutes (your ten-hour rest is unchanged). If you make a recovery roll when it isn't your turn, until the end of your next turn all of your tasks are hindered. Enabler.
+Rapid Recovery: You can make most recovery rolls faster than normal. You can make your one-action recovery roll as part of another action or when it isn't your turn, your ten-minute recovery roll takes you only one action, and your one-hour recovery roll takes you only ten minutes (your ten-hour rest is unchanged). If you make a recovery roll when it isn't your turn, until the end of your next turn all of your tasks are hindered. Enabler.
 
 Ray of Confusion (2 Intellect points): You project a grey beam of confusion at a creature within short range, inflicting 1 point of damage that ignores Armor. In addition, until the end of the next round, all tasks, attacks, and defenses the target attempts are hindered. Action.
 

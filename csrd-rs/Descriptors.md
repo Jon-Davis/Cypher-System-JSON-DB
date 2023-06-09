@@ -882,8 +882,7 @@ Skill: Quintar fascination with human behavior eases all interaction rolls (plea
 Difficult Rest: Quintar subtract 2 from all recovery rolls (minimum 1).
 
 AMAZING
-You have a knack for surprising people— performing impossible athletic feats, sneaking up on someone who’s alert, or instantly reacting to an ambush. You like to make use of these talents to enhance (or rehabilitate) your reputation as a hero prone to spectacular rescues, defeating foes way above your league, and arriving just in time to save the day. Ironically,
-in your normal daily life, you’re a little awkward and overlooked.
+You have a knack for surprising people-- performing impossible athletic feats, sneaking up on someone who’s alert, or instantly reacting to an ambush. You like to make use of these talents to enhance (or rehabilitate) your reputation as a hero prone to spectacular rescues, defeating foes way above your league, and arriving just in time to save the day. Ironically, in your normal daily life, you’re a little awkward and overlooked.
 You gain the following characteristics:
 Exceptional: +2 to your Speed Pool, and 2 additional points to divide among your stat Pools.
 Skill: You’re trained in initiative and stealth tasks.
