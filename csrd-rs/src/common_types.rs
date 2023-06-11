@@ -28,7 +28,10 @@ pub fn load_option_table(input: &str) -> Vec<RollEntry> {
     for line in input.split('\n').map(|s| s.trim()) {
         if option_regex.is_match(line) {
             let captures = option_regex.captures(line).unwrap();
-            let start = captures.get(1).unwrap().as_str().trim().parse().unwrap();
+            let start = captures.get(1).map(|s| match s.as_str().trim() {
+                "00" => 100,
+                s => s.parse().unwrap(),
+            }).unwrap();
             let end = captures.get(3).map(|s| match s.as_str().trim() {
                 "00" => 100,
                 s => s.parse().unwrap(),

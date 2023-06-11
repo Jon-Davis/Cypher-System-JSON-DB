@@ -25,6 +25,7 @@ struct CSRD_DB {
     cypher_tables: Vec<RollTable>,
     artifacts: Vec<Artifact>,
     creatures: Vec<Creature>,
+    equipment: Vec<Equipment>
 }
 ```
 
@@ -175,5 +176,24 @@ struct Creature {
     uses: Option<String>,           // use if any
     loot: Option<String>,           // loot if any
     intrusions: Option<String>      // GM intrusions if any
+}
+```
+
+Equipment represents the different types of gear found in the CSRD
+```
+pub struct Equipment {
+    name: String,                   // The name of the equipment
+    variants: Vec<EquipmentVariant>,// The different variants mentioned in csrd
+}
+```
+
+Since different equipment gets mentioned in different settings and may include differences in function. Each setting is listed as a Variant of the particular type of equipment.
+```
+pub struct EquipmentVariant {
+    description: String,    // The description, potentially unique to the setting
+    notes: BTreeSet<String>,// Notes found in tables, such as "Medium Weapon" or "Short range"
+    tags: BTreeSet<String>, // Settings and headers, such as "FANTASY" and "APPAREL & ARMOR"
+    value: Vec<String>,     // How much the item is worth, such as "expensive" or "50 gp"
+    levels: Vec<usize>,     // The level of the gear if described.
 }
 ```

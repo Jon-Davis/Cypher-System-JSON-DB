@@ -4,20 +4,26 @@ mod common_types;
 mod creature;
 mod cyphers;
 mod descriptor;
+mod equipment;
 mod types;
 mod flavor;
 mod focus;
+
+use std::collections::BTreeMap;
 
 use artifact::{Artifact, load_artifacts};
 use cyphers::{Cypher, load_cypher_tables, load_cyphers};
 use ability::{Ability, load_abilities};
 use descriptor::{load_descriptors, Descriptor};
+use equipment::Equipment;
 use flavor::{Flavor, load_flavors};
 use focus::{Focus, load_foci};
 use serde::{Serialize, Deserialize};
 use types::{Type, load_types};
 use common_types::*;
 use creature::{Creature, load_creatures};
+
+use crate::equipment::load_equipment;
 
 #[derive(Serialize, Deserialize)]
 struct CsrdDb {
@@ -30,6 +36,7 @@ struct CsrdDb {
     cypher_tables: Vec<RollTable>,
     artifacts: Vec<Artifact>,
     creatures: Vec<Creature>,
+    equipment: Vec<Equipment>,
 }
 
 fn main() {
@@ -47,6 +54,9 @@ fn main() {
     creatures.sort_by(|a, b| a.name.partial_cmp(&b.name).unwrap());
     let mut abilities : Vec<Ability> = abilities.into_values().into_iter().collect();
     abilities.sort_by(|a, b| a.name.partial_cmp(&b.name).unwrap());
+    let mut equipment = BTreeMap::new();
+    load_equipment("equipment.md", &mut equipment);
+    let equipment = equipment.into_values().collect();
     let db = CsrdDb {
         descriptors, 
         types, 
@@ -56,7 +66,8 @@ fn main() {
         cyphers, 
         cypher_tables, 
         artifacts, 
-        creatures
+        creatures,
+        equipment
     };
     let json = serde_json::to_string(&db).unwrap();
     println!("{json}");

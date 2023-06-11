@@ -23,6 +23,7 @@ pub struct Ability {
     pub cost: Option<usize>,
     pub pool: Vec<String>,
     pub additional_cost: Option<String>,
+    pub cost_rendered: String,
     pub tier: Option<String>,
     pub category: Vec<String>,
     pub description: String,
@@ -31,16 +32,16 @@ pub struct Ability {
 
 pub fn load_abilities() -> HashMap<String, Ability> {
     let abilities = unidecode(&fs::read_to_string("Abilities.md").unwrap());
-    let abilities_regex = Regex::new(r"(^\w[\w\s\d/\-'\?,]*)(\((\d*)\+? ([\w\s]*) points?( \+ (.*))?\))?:(.*)").unwrap();
+    let abilities_regex = Regex::new(r"(?P<name>^\w[\w\s\d/\-'\?,]*)(?P<rendered>\((?P<cost>\d*)(?P<plus>\+)? (?P<pool>[\w\s]*) points?( \+ (?P<additional>.*))?\))?:(?P<description>.*)").unwrap();
     let mut map : HashMap<String, Ability> = abilities.split('\n')
         .filter(|line| line.trim().len() != 0)
         .filter_map(|line| abilities_regex.captures(line.trim()))
         .map(|captures| 
-        (captures.get(1).unwrap().as_str().trim().to_ascii_uppercase(),
+        (captures.name("name").unwrap().as_str().trim().to_ascii_uppercase(),
         Ability {
-            name: captures.get(1).unwrap().as_str().trim().into(),
-            cost: captures.get(3).map(|n| n.as_str().parse().unwrap()),
-            pool: captures.get(4).map(|p| {
+            name: captures.name("name").unwrap().as_str().trim().into(),
+            cost: captures.name("cost").map(|n| n.as_str().parse().unwrap()),
+            pool: captures.name("pool").map(|p| {
                 let mut v = vec!();
                 if p.as_str().contains("Might") {
                     v.push("Might".into())
@@ -53,8 +54,10 @@ pub fn load_abilities() -> HashMap<String, Ability> {
                 }
                 v
             }).unwrap_or_default(),
-            additional_cost: captures.get(6).map(|s| s.as_str().trim().into()),
-            description: captures.get(7).unwrap().as_str().trim().into(),
+            additional_cost: captures.name("additional").map(|s| s.as_str().trim().into())
+                .or(captures.name("plus").map(|s| s.as_str().trim().into())),
+            cost_rendered: captures.name("rendered").map(|s| s.as_str().trim().trim_end_matches(")").trim_start_matches("(").into()).unwrap_or_default(),
+            description: captures.name("description").unwrap().as_str().trim().into(),
             tier: None,
             category: vec![],
             references: BTreeSet::new(),
