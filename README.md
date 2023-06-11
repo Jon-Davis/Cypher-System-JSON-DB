@@ -37,6 +37,7 @@ struct Ability {
     cost: Option<usize>,                // The minimum point cost, if any
     pool: Vec<String>,                  // The pools this ability can use
     additional_cost: Option<String>,    // Other costs such as XP
+    cost_rendered: String,              // The cost as displayed in the csrd
     tier: Option<String>,               // General Tier: Low, Mid, High
     category: Vec<String>,              // Categories found in Chapter 9
     description: String,                // Description of the ability
@@ -181,7 +182,7 @@ struct Creature {
 
 Equipment represents the different types of gear found in the CSRD
 ```
-pub struct Equipment {
+struct Equipment {
     name: String,                   // The name of the equipment
     variants: Vec<EquipmentVariant>,// The different variants mentioned in csrd
 }
@@ -189,7 +190,7 @@ pub struct Equipment {
 
 Since different equipment gets mentioned in different settings and may include differences in function. Each setting is listed as a Variant of the particular type of equipment.
 ```
-pub struct EquipmentVariant {
+struct EquipmentVariant {
     description: String,    // The description, potentially unique to the setting
     notes: BTreeSet<String>,// Notes found in tables, such as "Medium Weapon" or "Short range"
     tags: BTreeSet<String>, // Settings and headers, such as "FANTASY" and "APPAREL & ARMOR"
