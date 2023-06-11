@@ -1,3 +1,4 @@
+FANTASY ARTIFACTS
 ANGELIC WARD
 Level: 1d6 + 2
 Form: Tiny figurine of a winged angel
@@ -26,166 +27,6 @@ WAND OF FIREBOLTS
 Level: 1d6 + 2
 Form: Wand of red wood 8 inches (20 cm) long, carved with intricate flamelike images
 Effect: When activated, the wand looses a blast of fire at a chosen target within short range, inflicting damage equal to the artifact's level.
-Depletion: 1 in 1d20
-
-AMBER CASEMENT
-Level: 1d6 + 4
-Form: Series of short, rounded tubes and hoses about 12 inches (30 cm) long
-Effect: The device solidifies the air in a 10-foot (3 m) cube of space, the center of which must be within short range. The air is turned into an amberlike substance, and those trapped in it will likely suffocate or starve.
-Depletion: 1-4 in 1d6
-
-METABOLISM BUD
-Level: 1d6
-Form: Organic pod, almost like a small, hemispherical bit of brain; once grafted to a host, the host's flesh grows over the pod until it is only a lump
-Effect: The pod grafts onto any living host (usually near the brain or spine) and injects chemicals that boost the creature's metabolism. This permanently raises the host's Speed Pool maximum by 5 points.
-Depletion: -
-
-MIND IMAGER
-Level: 1d6 + 2
-Form: Handheld device with a plastic panel screen and wires that must be affixed to the head of a creature
-Effect: This device shows a visual image of what a creature is thinking. The affected creature need not be conscious.
-Depletion: 1 in 1d20
-
-PSYCHIC CRYSTAL
-Level: 1d6 + 4
-Form: Violet crystal the size of a fist
-Effect: The crystal allows the user to transmit their thoughts telepathically at an interstellar distance. Even at that range, communication is instantaneous. Each use allows about a minute's worth of communication, and the communication is entirely one way (so having two crystals would be handy).
-Depletion: 1 in 1d10
-
-REPAIR SPHERE
-Level: 1d6 + 2
-Form: Small spherical automaton about 8 inches (20 cm) in diameter
-Effect: This device comes with a small module that can be affixed to a machine. Floating along, the sphere attempts to follow within immediate range of the module (though it can be directed to remain where it is). It moves a short distance each round. It can come to the module from a range of up to 10 miles (16 km) away. If the module is attached to a machine and that machine takes damage, the sphere moves to repair the damage with sophisticated tools that restore 1d6 - 2 points per round (meaning that if a 1 or 2 is rolled, no damage is repaired that round). This requires no action on the part of the machine being repaired. The sphere can attempt to repair a machine a number of times per day equal to its level. The sphere must be newly activated each day.
-Depletion: 1 in 1d100
-
-DOCTOR DREAD'S TIME PORTAL
-Level: 9
-Form: Arch of metal big enough to walk through
-Effect: Anyone who steps through it goes to a predetermined point in the past or future (a minimum of fifty years in either direction), which can be anywhere on the planet.
-Depletion: 1 in 1d20
-
-SERUM X
-Level: 1d6 + 2
-Form: Vial or syringe of red fluid
-Effect: Strips someone of all superpowers (including abilities granted by magic, psionics,
-mutation, or science) for twenty-four hours. The target retains only skills and abilities that are mundane, as agreed by the GM and player.
-Depletion: Automatic
-
-STELLAREX CRYSTAL
-Level: 1d6 + 4
-Form: Multifaceted purple stone the size of a fist
-Effect: Created in the dawning of the universe, this artifact grants the wielder the ability to not only fully restore all their stat Pools, but also increase each Pool temporarily by 10 points. These extra points fade after twenty-four hours if not used.
-Depletion: 1-3 in 1d10
-
-AUTODOC
-Level: 1d6
-Form: Backpack-sized plastic module from which clamps, forceps, scalpels, and needles can extend
-Effect: When strapped to a target (or when someone wearing the autodoc is damaged), the autodoc activates and restores 1 point to a target's Pools each round for ten rounds or until the target is fully healed, whichever happens first.
-Depletion: 1 in 1d10
-
-ENVIROSCANNER
-Level: 1d6
-Form: Forearm-mounted computer tablet
-Effect: This multifunction device can receive radio transmissions, automatically map locations the wearer has visited, play various forms of media, keep voice and written records, and provide an asset to any task related to interfacing with other computerized systems or machines. Also, the wearer can scan for specific materials, toxic traces, and life forms within short range.
-Depletion: 1 in 1d10 (check per use of scanning function)
-
-MILITARY EXOSKELETON
-Level: 1d6 + 1
-Form: Articulated metal struts with deformable padding and straps for custom fit to a human frame
-Effect: For one hour per use (when the exoskeleton is powered on), the wearer has +1 to their Speed Edge and +1 to their Might Edge.
-Depletion: 1 in 1d10
-
-ROCKET FIST
-Level: 1d6 + 2
-Form: Metal gauntlet with flaring rocket exhaust nozzles 
-Effect: If the user activates the fist as part of an attack, the punch gains a rocket assist. If the attack is successful, the fist inflicts additional damage equal to the artifact level and throws the target back a short distance.
-Depletion: 1 in 1d10
-
-ROCKET-PROPELLED GRENADE
-Level: 1d6 + 3
-Form: Tube with sight and trigger
-Effect: The user can make a long-range attack with a rocket-propelled grenade that inflicts 7 points of damage to the target and every creature and object next to the target.
-Depletion: 1 in 1d6
-
-TERAHERTZ SCANNER
-Level: 1d6 + 1
-Form: Visor fitted with bulky electronics
-Effect: By emitting terahertz and long-range infrared light, this device allows a user to see a short distance through most interior walls of standard structures, through normal clothing, and into normal bags and briefcases. Only stone or concrete more than 6 inches (15 cm) thick prevents a scan. Regardless, images are black and white and fuzzy, and lack fine detail.
-Depletion: 1 in 1d20
-
-BOOK OF INVERSION
-Level: 8
-Form: Very large book of ancient providence, the cover bound in iron and wrapped in chains with a level 6 padlock
-Effect: When opened, the Book of Inversion shows a pair of pages that detail a magic spell in the reader's language, complete with disturbing diagrams. The spell's effect varies, but it is always some kind of horrible attack-a target is driven mad, a target is turned inside out, a target seeks to murder their best friend, several targets are cursed with a rotting disease, and so forth. The reader can automatically cast the spell as an action, one time only. More insidiously, if successful, the spell confers pleasure to the caster and fully restores all of their Pools. The caster must make an immediate Intellect defense roll or be compelled to use the book (and thus a new spell) again the next day. This compulsion is so strong that the caster will kill their dearest loved one to complete the task. If they are unable to use the book again, they are driven permanently mad. Woe to the caster who uses the book on the last time before it is depleted (at which point it crumbles to dust).
-Depletion: 1 in 1d10
-
-SHADOW BOX
-Level: 7
-Form: Wooden and black metal box, about 12 inches by 7 inches by 3 inches (30 by 18 by 8 cm), with a hinged lid and a clasp
-Effect: When the box opens, shadows seethe out. These shadows coalesce into a form that best represents a deep fear in the subconscious of the person who opened the box. The opener must make an Intellect defense roll to master the shadow thing, which then acts as a level 7 creature under their control for five rounds before fading away. If the roll fails, the creature attacks the opener and anyone else around. To make matters worse, the opener spends the first round frozen in terror, doing nothing.
-Depletion: 1-2 in 1d6
-
-SPHERE 23
-Level: 1d6 + 4
-Form: A 7-inch (18 cm) sphere of what appears to be fluid metal, tinted red
-Effect: Possibly one of a number of identical alien artifacts recovered in remote locales across the earth, the so-called sphere 23 will grant a wish to anyone who holds it and uses an action to concentrate on it. The wish can be anything, including something that bends reality: raising the dead, altering time, and so forth. However, the wisher must immediately make a Might defense roll or be consumed by the sphere. If the roll succeeds, they must then make an Intellect defense roll or be driven permanently and irrevocably mad.
-Depletion: 1-3 in 1d6
-
-Dimensional Modulator
-Level: 1d6 + 3 
-Form: Marble-sized crisscross shape of unknown material 
-Effect: A target within immediate range loses their dimension of breadth (which folds into a higher dimension), rendering them as flat as paper. The target adheres to whatever surface it was attached to, set upon, or was standing upon, and resembles particularly realistic art. An affected creature enters stasis. While in stasis, it is unable to take actions, doesn't age, and is immune to damage and effects. It remains in stasis for about a day, until the user returns the missing dimension or the artifact depletes. 
-Depletion: 1 in 1d10
-
-Metabolic Prod
-Level: 1d6 + 1 
-Form: 1 m (4 foot) metallic rod of unknown material 
-Effect: When touched to a living target (possibly as an attack), the rod injects a potent cocktail of engineered biomolecules, paralyzing the target for up to one minute. The rod wielder may also choose one of the following additional effects, if set before attacking. 
-Aggression: The target's aggressive tendencies are increased for one hour, during which time the target attacks almost anything it encounters. 
-Calm: The target's aggressive tendencies are tamped down for one hour, during which time the target responds to attacks but never initiates them. 
-Hibernation: The target falls into hibernation, a coma-like sleep in which their metabolism slows to a crawl. They can go months with no additional food or water and with a fraction of the air they'd normally need. Loud sounds, damage, persistent prodding, and the like wakes someone in hibernation. 
-Depletion: 1 in 1d20
-
-Probability Regulator
-Level: 1d6 + 4 
-Form: Fist-sized mathematically perfect solid of constant width of unknown material 
-Effect: For tasks that are usually random, the user exerts some level of control. When picking a card, rolling a die, choosing a number, or otherwise taking an action that skill usually plays no part in, they attempt an Intellect task whose difficulty is determined by how unlikely choosing correctly might be, so long as it is possible, even if unlikely. A 50/50 coin flip is a difficulty of 1, whereas picking a series of numbers with odds around 1 in 300,000,000 is difficulty 10. If successful, they achieve the desired result. 
-Depletion: 1 × task difficulty in 1d20
-
-Steorraform
-Level: 1d6 + 3 
-Form: Badge-sized seven-pointed star of unknown material 
-Effect: If the wearer would become debilitated or die, the worn steorraform prevents it by instantly restoring health (to a creature or an NPC) or points to a Pool (to a player character). If the wearer would die of old age, disease, or poison, the artifact prevents it by rolling back the clock by a few decades, clearing the disease, or denaturing the poison. The artifact is ineffective in preventing death when those conditions last over several rounds or more, such as falling into lava, the sun, a singularity, and so on. 
-Depletion: 1 × number of previous uses in 1d20
-
-Alpha Beam Projector
-Level: 1d6 + 3 
-Form: Rifle-like device of unknown material 
-Effect: The device has two settings. One fires a beam of energy that acts as propulsion and rockets the artifact away unless the user can hold onto it as a difficulty 1 Might-based task. A user could use this setting to fly a long distance each round, but doing so requires a difficulty 4 Speed-based task each round to move in the direction desired (and not plow into the ground or the side of a building). The other setting fires a reactionless beam that can be used as a very long-range plasma attack that inflicts damage equal to the artifact level. The beam ignores 1 point of Armor from the target. 
-Depletion: 1 in 1d20
-
-Carbonizer
-Level: 1d6 + 3 
-Form: Pistol-like device of unknown material 
-Effect: This device fires a beam that transmutes the matter of targets within short range into powdery ash, inflicting damage equal to the artifact level that ignores Armor from force fields and natural scales, leather, and other organic sources. 
-Depletion: 1 in 1d20
-
-Death Ray
-Level: 1d6 + 3 
-Form: Pistol-like device of unknown material 
-Effect: This device fires a beam that transmutes the matter of targets within short range into powdery ash, inflicting damage equal to the artifact level that ignores Armor from force fields and natural scales, leather, and other organic sources. 
-Depletion: 1 in 1d20
-
-Disintegration Beamer
-Level: 1d6 + 2 
-Form: Rifle-like device with two electrodelike protrusions of unknown material 
-Effect: This device fires a beam to suppress the charge of the electrons that make up a creature or object within long range, inflicting damage equal to twice the artifact's level. If the attack reduces the target's health (or combined Pools for a PC) to below the level of the artifact, the target instantly falls to dust. (A PC who would be disintegrated can spend 1 XP and instead descend one step on the damage track.) 
-Depletion: 1 in 1d20
-
-Empathetic Ray
-Level: 1d6 + 2 
-Form: Rod-like device with very long barrel of unknown material 
-Effect: This device emits an invisible beam of neural-magnetic energy as a short-range attack that instantly reverses how a level 1 target sees the user (turning an enemy into a friend, and vice versa) for up to one day. The user can adjust the settings to increase the ray's effectiveness by making one additional depletion roll per increase in the maximum level of the target. Thus, to alter the attitude of level 5 target (4 levels above the normal limit), the user must make five depletion rolls. If used against a PC, an affected PC can attempt an Intellect task to end the effect once every minute for the first few minutes, then once every hour. 
 Depletion: 1 in 1d20
 
 ADAMANTINE ROPE
@@ -581,6 +422,115 @@ Effect: As a vehicle, the broom can be ridden a long distance each round. On ext
 The bearer can call upon the broom to grant them a powerful hallucinogenic state that lasts for four hours, during which time all tasks are hindered. After the hallucinations end, the bearer's Intellect tasks are eased for the next ten minutes. 
 Depletion: 1 in 1d20
 
+---
+SCIENCE FICTION ARTIFACTS
+AMBER CASEMENT
+Level: 1d6 + 4
+Form: Series of short, rounded tubes and hoses about 12 inches (30 cm) long
+Effect: The device solidifies the air in a 10-foot (3 m) cube of space, the center of which must be within short range. The air is turned into an amberlike substance, and those trapped in it will likely suffocate or starve.
+Depletion: 1-4 in 1d6
+
+METABOLISM BUD
+Level: 1d6
+Form: Organic pod, almost like a small, hemispherical bit of brain; once grafted to a host, the host's flesh grows over the pod until it is only a lump
+Effect: The pod grafts onto any living host (usually near the brain or spine) and injects chemicals that boost the creature's metabolism. This permanently raises the host's Speed Pool maximum by 5 points.
+Depletion: -
+
+MIND IMAGER
+Level: 1d6 + 2
+Form: Handheld device with a plastic panel screen and wires that must be affixed to the head of a creature
+Effect: This device shows a visual image of what a creature is thinking. The affected creature need not be conscious.
+Depletion: 1 in 1d20
+
+PSYCHIC CRYSTAL
+Level: 1d6 + 4
+Form: Violet crystal the size of a fist
+Effect: The crystal allows the user to transmit their thoughts telepathically at an interstellar distance. Even at that range, communication is instantaneous. Each use allows about a minute's worth of communication, and the communication is entirely one way (so having two crystals would be handy).
+Depletion: 1 in 1d10
+
+REPAIR SPHERE
+Level: 1d6 + 2
+Form: Small spherical automaton about 8 inches (20 cm) in diameter
+Effect: This device comes with a small module that can be affixed to a machine. Floating along, the sphere attempts to follow within immediate range of the module (though it can be directed to remain where it is). It moves a short distance each round. It can come to the module from a range of up to 10 miles (16 km) away. If the module is attached to a machine and that machine takes damage, the sphere moves to repair the damage with sophisticated tools that restore 1d6 - 2 points per round (meaning that if a 1 or 2 is rolled, no damage is repaired that round). This requires no action on the part of the machine being repaired. The sphere can attempt to repair a machine a number of times per day equal to its level. The sphere must be newly activated each day.
+Depletion: 1 in 1d100
+
+Dimensional Modulator
+Level: 1d6 + 3 
+Form: Marble-sized crisscross shape of unknown material 
+Effect: A target within immediate range loses their dimension of breadth (which folds into a higher dimension), rendering them as flat as paper. The target adheres to whatever surface it was attached to, set upon, or was standing upon, and resembles particularly realistic art. An affected creature enters stasis. While in stasis, it is unable to take actions, doesn't age, and is immune to damage and effects. It remains in stasis for about a day, until the user returns the missing dimension or the artifact depletes. 
+Depletion: 1 in 1d10
+
+Metabolic Prod
+Level: 1d6 + 1 
+Form: 1 m (4 foot) metallic rod of unknown material 
+Effect: When touched to a living target (possibly as an attack), the rod injects a potent cocktail of engineered biomolecules, paralyzing the target for up to one minute. The rod wielder may also choose one of the following additional effects, if set before attacking. 
+Aggression: The target's aggressive tendencies are increased for one hour, during which time the target attacks almost anything it encounters. 
+Calm: The target's aggressive tendencies are tamped down for one hour, during which time the target responds to attacks but never initiates them. 
+Hibernation: The target falls into hibernation, a coma-like sleep in which their metabolism slows to a crawl. They can go months with no additional food or water and with a fraction of the air they'd normally need. Loud sounds, damage, persistent prodding, and the like wakes someone in hibernation. 
+Depletion: 1 in 1d20
+
+Probability Regulator
+Level: 1d6 + 4 
+Form: Fist-sized mathematically perfect solid of constant width of unknown material 
+Effect: For tasks that are usually random, the user exerts some level of control. When picking a card, rolling a die, choosing a number, or otherwise taking an action that skill usually plays no part in, they attempt an Intellect task whose difficulty is determined by how unlikely choosing correctly might be, so long as it is possible, even if unlikely. A 50/50 coin flip is a difficulty of 1, whereas picking a series of numbers with odds around 1 in 300,000,000 is difficulty 10. If successful, they achieve the desired result. 
+Depletion: 1 × task difficulty in 1d20
+
+Steorraform
+Level: 1d6 + 3 
+Form: Badge-sized seven-pointed star of unknown material 
+Effect: If the wearer would become debilitated or die, the worn steorraform prevents it by instantly restoring health (to a creature or an NPC) or points to a Pool (to a player character). If the wearer would die of old age, disease, or poison, the artifact prevents it by rolling back the clock by a few decades, clearing the disease, or denaturing the poison. The artifact is ineffective in preventing death when those conditions last over several rounds or more, such as falling into lava, the sun, a singularity, and so on. 
+Depletion: 1 × number of previous uses in 1d20
+
+Alpha Beam Projector
+Level: 1d6 + 3 
+Form: Rifle-like device of unknown material 
+Effect: The device has two settings. One fires a beam of energy that acts as propulsion and rockets the artifact away unless the user can hold onto it as a difficulty 1 Might-based task. A user could use this setting to fly a long distance each round, but doing so requires a difficulty 4 Speed-based task each round to move in the direction desired (and not plow into the ground or the side of a building). The other setting fires a reactionless beam that can be used as a very long-range plasma attack that inflicts damage equal to the artifact level. The beam ignores 1 point of Armor from the target. 
+Depletion: 1 in 1d20
+
+Carbonizer
+Level: 1d6 + 3 
+Form: Pistol-like device of unknown material 
+Effect: This device fires a beam that transmutes the matter of targets within short range into powdery ash, inflicting damage equal to the artifact level that ignores Armor from force fields and natural scales, leather, and other organic sources. 
+Depletion: 1 in 1d20
+
+Death Ray
+Level: 1d6 + 3 
+Form: Pistol-like device of unknown material 
+Effect: This device fires a beam that transmutes the matter of targets within short range into powdery ash, inflicting damage equal to the artifact level that ignores Armor from force fields and natural scales, leather, and other organic sources. 
+Depletion: 1 in 1d20
+
+Disintegration Beamer
+Level: 1d6 + 2 
+Form: Rifle-like device with two electrodelike protrusions of unknown material 
+Effect: This device fires a beam to suppress the charge of the electrons that make up a creature or object within long range, inflicting damage equal to twice the artifact's level. If the attack reduces the target's health (or combined Pools for a PC) to below the level of the artifact, the target instantly falls to dust. (A PC who would be disintegrated can spend 1 XP and instead descend one step on the damage track.) 
+Depletion: 1 in 1d20
+
+Empathetic Ray
+Level: 1d6 + 2 
+Form: Rod-like device with very long barrel of unknown material 
+Effect: This device emits an invisible beam of neural-magnetic energy as a short-range attack that instantly reverses how a level 1 target sees the user (turning an enemy into a friend, and vice versa) for up to one day. The user can adjust the settings to increase the ray's effectiveness by making one additional depletion roll per increase in the maximum level of the target. Thus, to alter the attitude of level 5 target (4 levels above the normal limit), the user must make five depletion rolls. If used against a PC, an affected PC can attempt an Intellect task to end the effect once every minute for the first few minutes, then once every hour. 
+Depletion: 1 in 1d20
+---
+SUPERHERO ARTIFACTS
+DOCTOR DREAD'S TIME PORTAL
+Level: 9
+Form: Arch of metal big enough to walk through
+Effect: Anyone who steps through it goes to a predetermined point in the past or future (a minimum of fifty years in either direction), which can be anywhere on the planet.
+Depletion: 1 in 1d20
+
+SERUM X
+Level: 1d6 + 2
+Form: Vial or syringe of red fluid
+Effect: Strips someone of all superpowers (including abilities granted by magic, psionics,
+mutation, or science) for twenty-four hours. The target retains only skills and abilities that are mundane, as agreed by the GM and player.
+Depletion: Automatic
+
+STELLAREX CRYSTAL
+Level: 1d6 + 4
+Form: Multifaceted purple stone the size of a fist
+Effect: Created in the dawning of the universe, this artifact grants the wielder the ability to not only fully restore all their stat Pools, but also increase each Pool temporarily by 10 points. These extra points fade after twenty-four hours if not used.
+Depletion: 1-3 in 1d10
+
 DARKEST BOOK
 Level: 10
 Form: Large, metal-bound book
@@ -598,7 +548,66 @@ Level: 1d6 + 1
 Form: Metal ring with a star insignia
 Effect: The wearer is able to fly as effortlessly as walking, moving up to a short distance each round in any direction. In space, if the wearer does nothing but move for three actions in a row, they accelerate greatly and can move up to 200 miles (320 km) per hour, or about 2,000 feet (600 m) each round. The ring also provides the wearer with breathable air while in space or underwater (although this doesn't provide protection against poison gas or other air-based hazards). The wearer can verbally communicate with other ring-wearers within 1 mile (1.5 km), and verbally request information (relayed to them with a synthesized voice) from the internet or a local equivalent.
 Depletion: 1 in 1d100 (check each day of flying)
+---
+POST-APOCALYPTIC ARTIFACTS
+AUTODOC
+Level: 1d6
+Form: Backpack-sized plastic module from which clamps, forceps, scalpels, and needles can extend
+Effect: When strapped to a target (or when someone wearing the autodoc is damaged), the autodoc activates and restores 1 point to a target's Pools each round for ten rounds or until the target is fully healed, whichever happens first.
+Depletion: 1 in 1d10
 
+ENVIROSCANNER
+Level: 1d6
+Form: Forearm-mounted computer tablet
+Effect: This multifunction device can receive radio transmissions, automatically map locations the wearer has visited, play various forms of media, keep voice and written records, and provide an asset to any task related to interfacing with other computerized systems or machines. Also, the wearer can scan for specific materials, toxic traces, and life forms within short range.
+Depletion: 1 in 1d10 (check per use of scanning function)
+
+MILITARY EXOSKELETON
+Level: 1d6 + 1
+Form: Articulated metal struts with deformable padding and straps for custom fit to a human frame
+Effect: For one hour per use (when the exoskeleton is powered on), the wearer has +1 to their Speed Edge and +1 to their Might Edge.
+Depletion: 1 in 1d10
+
+ROCKET FIST
+Level: 1d6 + 2
+Form: Metal gauntlet with flaring rocket exhaust nozzles 
+Effect: If the user activates the fist as part of an attack, the punch gains a rocket assist. If the attack is successful, the fist inflicts additional damage equal to the artifact level and throws the target back a short distance.
+Depletion: 1 in 1d10
+
+ROCKET-PROPELLED GRENADE
+Level: 1d6 + 3
+Form: Tube with sight and trigger
+Effect: The user can make a long-range attack with a rocket-propelled grenade that inflicts 7 points of damage to the target and every creature and object next to the target.
+Depletion: 1 in 1d6
+
+TERAHERTZ SCANNER
+Level: 1d6 + 1
+Form: Visor fitted with bulky electronics
+Effect: By emitting terahertz and long-range infrared light, this device allows a user to see a short distance through most interior walls of standard structures, through normal clothing, and into normal bags and briefcases. Only stone or concrete more than 6 inches (15 cm) thick prevents a scan. Regardless, images are black and white and fuzzy, and lack fine detail.
+Depletion: 1 in 1d20
+
+---
+HORROR ARTIFACTS
+BOOK OF INVERSION
+Level: 8
+Form: Very large book of ancient providence, the cover bound in iron and wrapped in chains with a level 6 padlock
+Effect: When opened, the Book of Inversion shows a pair of pages that detail a magic spell in the reader's language, complete with disturbing diagrams. The spell's effect varies, but it is always some kind of horrible attack-a target is driven mad, a target is turned inside out, a target seeks to murder their best friend, several targets are cursed with a rotting disease, and so forth. The reader can automatically cast the spell as an action, one time only. More insidiously, if successful, the spell confers pleasure to the caster and fully restores all of their Pools. The caster must make an immediate Intellect defense roll or be compelled to use the book (and thus a new spell) again the next day. This compulsion is so strong that the caster will kill their dearest loved one to complete the task. If they are unable to use the book again, they are driven permanently mad. Woe to the caster who uses the book on the last time before it is depleted (at which point it crumbles to dust).
+Depletion: 1 in 1d10
+
+SHADOW BOX
+Level: 7
+Form: Wooden and black metal box, about 12 inches by 7 inches by 3 inches (30 by 18 by 8 cm), with a hinged lid and a clasp
+Effect: When the box opens, shadows seethe out. These shadows coalesce into a form that best represents a deep fear in the subconscious of the person who opened the box. The opener must make an Intellect defense roll to master the shadow thing, which then acts as a level 7 creature under their control for five rounds before fading away. If the roll fails, the creature attacks the opener and anyone else around. To make matters worse, the opener spends the first round frozen in terror, doing nothing.
+Depletion: 1-2 in 1d6
+
+SPHERE 23
+Level: 1d6 + 4
+Form: A 7-inch (18 cm) sphere of what appears to be fluid metal, tinted red
+Effect: Possibly one of a number of identical alien artifacts recovered in remote locales across the earth, the so-called sphere 23 will grant a wish to anyone who holds it and uses an action to concentrate on it. The wish can be anything, including something that bends reality: raising the dead, altering time, and so forth. However, the wisher must immediately make a Might defense roll or be consumed by the sphere. If the roll succeeds, they must then make an Intellect defense roll or be driven permanently and irrevocably mad.
+Depletion: 1-3 in 1d6
+
+---
+FAIRY TALE ARTIFACTS
 A Tisket a Tasket
 Level: 1d6
 Form: Woven yellow basket with wooden handles
@@ -816,3 +825,5 @@ Level: 1d6 + 2
 Form: Hefty ale tankard carved of stone
 Effect: In addition to serving as a convenient means to drink a variety of liquids, if the tankard is topped off with good ale or spirits, it can be used as a medium weapon that inflicts +2 damage (for a total of 6 points of damage). Anyone who picks up the tankard is practiced in using it in this fashion. Surprisingly, using the tankard as a melee weapon does not cause more than a modicum of good ale or spirits to slosh out.
 Depletion: 1 in 1d20 (check each fight)
+
+---

@@ -9,12 +9,12 @@ use crate::common_types::*;
 #[derive(Builder, Serialize, Deserialize, Debug)]
 pub struct Cypher {
     pub name: String,
+    pub tags: Vec<String>,
     pub level_dice: Option<String>,
     pub level_mod: usize,
     pub form: Option<String>,
     pub effect: String,
     pub options: Vec<RollTable>,
-    pub kinds: Vec<String>,
 }
 
 #[derive(PartialEq)]
@@ -40,7 +40,7 @@ pub fn load_cypher_tables(db_cyphers: &mut Vec<Cypher>) -> Vec<RollTable> {
             let start = captures.get(1).unwrap().as_str().parse().unwrap();
             let end = captures.get(3).map(|s| s.as_str().parse().unwrap()).unwrap_or(start);
             let effect : String = captures.get(4).unwrap().as_str().trim().into();
-            db_cyphers.iter_mut().filter(|c| c.name == effect.to_ascii_uppercase()).next().expect(&effect).kinds.push(current_kind.clone());
+            db_cyphers.iter_mut().filter(|c| c.name == effect.to_ascii_uppercase()).next().expect(&effect).tags.push(current_kind.clone());
             current.add_options(RollEntry { start, end, entry: effect });
         } else if line.is_empty() {
             out.push(current.build().unwrap());
@@ -64,7 +64,7 @@ pub fn load_cyphers() -> Vec<Cypher> {
             .form(capture.name("form").map(|s| s.as_str().to_ascii_uppercase().trim().into()))
             .effect(capture.name("effect").map(|s| s.as_str().trim().replace("\r", "").replace("\n", "").into()).unwrap())
             .options(capture.name("options").map(|s| s.as_str()).map(load_option_table).map(|t| RollTableBuilder::default().table(t).name(capture.name("optname").map(|s| s.as_str().trim().into())).build().unwrap()).into_iter().collect())
-            .kinds(vec![])
+            .tags(vec![])
             .build()
             .unwrap();
         out.push(cypher)
