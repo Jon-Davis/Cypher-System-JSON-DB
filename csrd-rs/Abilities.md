@@ -588,7 +588,7 @@ Encouragement (1 Intellect point): While you maintain this ability through ongoi
 
 Encouraging Presence (2 Intellect points): For one minute, allies within short range gain an asset on defense rolls. Action. 
 
-Endurance: Any duration dealing with physical actions is either doubled or halved, whichever is better for you. For example, if the typical person can hold their breath for thirty seconds, you canhold it for one minute. If the typical person can march for four hours without stopping, you can do so for eight hours. In terms of harmful effects, if a poison paralyzes its victims for one minute, you are paralyzed for thirty seconds. The minimum duration is always one round. Enabler. 
+Endurance: Any duration dealing with physical actions is either doubled or halved, whichever is better for you. For example, if the typical person can hold their breath for thirty seconds, you can hold it for one minute. If the typical person can march for four hours without stopping, you can do so for eight hours. In terms of harmful effects, if a poison paralyzes its victims for one minute, you are paralyzed for thirty seconds. The minimum duration is always one round. Enabler. 
 
 Energize Creature (6+ Might points): You extend your Absorb Kinetic Energy ability to one creature within immediate range so that they also can absorb energy from physical attacks and impacts for one hour. That creature, however, cannot release excess energy as a blast. For each level of Effort you apply, you can increase the number of targets you affect by one. If you have Absorb Pure Energy or Improved Absorb Kinetic Energy, those abilities are also duplicated in your target when you use Energize Creature. Action to initiate. 
 
@@ -680,7 +680,7 @@ Exploratory Experience: You are trained in two additional skills in which you ar
 
 Explosive Release (6 Intellect points): You can amplify the energy stored in your Siphon Pool (from your Store Energy ability) and release it in a massive blast that affects either one target within short range or everything within immediate range. If you choose a single target, it takes 2 points of damage for every point in your Siphon Pool. If you choose an area, everything in the area (except you) takes 1 point of damage per point in your Siphon Pool (or half that if your attack fails against them). This drains your Siphon Pool to 0 points. Action. 
 
-Extra Recovery: You gain an additionalone-action recovery each day. Enabler. 
+Extra Recovery: You gain an additional one-action recovery each day. Enabler. 
 
 Extra Skill: You are trained in one skill of your choice (other than attacks or defense) in which you are not already trained. You can select this ability multiple times. Each time you select it, you must choose a different skill. Enabler.
 
@@ -840,7 +840,7 @@ Gamer: Pick any one style of game such as real-time strategy games, games of cha
 
 Gamer's Fortitude: Sitting and playing a game for twelve hours straight is not something most people can do, but you've figured it out. Once after each ten-hour recovery roll, you can transfer up to 5 points between your Pools in any combination, at a rate of 1 point per round. For example, you could transfer 3 points of Might to Speed and 2 points of Intellect to Speed, which would take a total of five rounds. Action. 
 
-Gaming God: Any time you use Effort on an Intellect action, add one of the following enhancements to the action (your choice): Free level of Effort Automatic minor effectEnabler.
+Gaming God: Any time you use Effort on an Intellect action, add one of the following enhancements to the action (your choice): Free level of Effort or Automatic minor effect. Enabler.
 
 Gargantuan: When you use Enlarge, you can choose to grow up to 30 feet (9 m) in height, and you add 3 more temporary points to your Might Pool (if you also have the Bigger ability, the temporary points from Gargantuan are in addition to the points from Bigger). Enabler. 
 
@@ -912,7 +912,7 @@ Greater Skill With Defense: Choose one type of defense task, even one in which y
 
 Group Friendship (4 Intellect points): You convince a sentient creature to regard you (and up to ten creatures that you designate within immediate distance of you) positively, as they would a potential friend. Action. 
 
-Guide Bolt (4+ Intellect points): When you makean attack with a metallic bolt or metal-tipped arrow on a target within short range, you can improve the attack's aim and velocity, which grants an asset to the attack and inflicts an additional 2 points of damage. If you apply a level of Effort, you grant the same benefits to a ranged attack made by an ally within immediate range. In any case, you can use this ability only once per round. Enabler. 
+Guide Bolt (4+ Intellect points): When you make an attack with a metallic bolt or metal-tipped arrow on a target within short range, you can improve the attack's aim and velocity, which grants an asset to the attack and inflicts an additional 2 points of damage. If you apply a level of Effort, you grant the same benefits to a ranged attack made by an ally within immediate range. In any case, you can use this ability only once per round. Enabler. 
 
 Guild Training: Your type abilities that have durations last twice as long. Your type abilities that have short ranges reach to long range instead. Your type abilities that inflict damage deal 1 additional point of damage. Enabler. 
 
@@ -1284,11 +1284,11 @@ Mentally Tough: Staring into the naked weave of hyperspace, warped space, or a s
 
 Meticulous Planner: If you spend a long time planning an action, you gain an asset on performing it. The time to study and plan for the action is ten times as long as it takes to perform the action. For example, if you want to jump across a hole in the floor (one action), you can study the area for ten rounds (about a minute), and when you attempt to jump over the hole, you have an asset on the jump. This benefit applies to only one roll-if you want to perform the task again with the benefit of an asset, you need to study and plan again. Enabler. 
 
-Microgravity Adept: You ignore all the ill effects of low gravity and no gravity on movement; you are trained in low-gravity maneuvers andzero-gravity maneuvers. (You might still be subject to negative biological effects of long-term exposure, if any.) Enabler. 
+Microgravity Adept: You ignore all the ill effects of low gravity and no gravity on movement; you are trained in low-gravity maneuvers and zero-gravity maneuvers. (You might still be subject to negative biological effects of long-term exposure, if any.) Enabler. 
 
-Microgravity Avoidance: By taking advantage of microgravity conditions, you gain an asset to Speed defense tasks while in zero-gravity orlow-gravity conditions. Enabler. 
+Microgravity Avoidance: By taking advantage of microgravity conditions, you gain an asset to Speed defense tasks while in zero-gravity or low-gravity conditions. Enabler. 
 
-Mind Control (6+ Intellect points): You control the actions of another creature you touch. This effect lasts for one minute. The target must be level 2 or lower. Once you have established control, you maintain mental contact with the target and sense what it senses. You can allow it to act freely or override its control on acase-by-case basis. In addition to the normal options for using Effort, you can choose to use Effort to increase the maximum level of the target or increase the duration by one minute. Thus, to control the mind of a level 5 target (three levels above the normal limit) or control a target for four minutes (three minutes above the normal duration), you must apply three levels of Effort. When the duration ends, the creature doesn't remember being controlled or anything it did while under your command. Action to initiate. 
+Mind Control (6+ Intellect points): You control the actions of another creature you touch. This effect lasts for one minute. The target must be level 2 or lower. Once you have established control, you maintain mental contact with the target and sense what it senses. You can allow it to act freely or override its control on a case-by-case basis. In addition to the normal options for using Effort, you can choose to use Effort to increase the maximum level of the target or increase the duration by one minute. Thus, to control the mind of a level 5 target (three levels above the normal limit) or control a target for four minutes (three minutes above the normal duration), you must apply three levels of Effort. When the duration ends, the creature doesn't remember being controlled or anything it did while under your command. Action to initiate. 
 
 Mind for Might: When performing a task that would normally require spending points from your Intellect Pool, you can spend points from your Might Pool instead, and vice versa. Enabler. 
 
@@ -1544,7 +1544,7 @@ Push on Through (2 Might points): You ignore the effects of terrain while moving
 
 Quarry (2 Intellect points): Choose a quarry (a single individual creature that you can see). You are trained in all tasks involving following, understanding, interacting with, or fighting that creature. You can have only one quarry at a time. Action to initiate. 
 
-Question the Spirits (2 Intellect points): You can call a spirit to you and petition it to answer a few questions (usually no more than three before the spirit fades). First, you must summon a spirit. If it is a spirit of the dead, you must have personally known the creature, have an object that was owned bythe creature, or touch the physical remainsof the creature. For other spirits, you must know the spirit's full name or have a great deal of an element (such as fire or earth) that the spirit is associated with. If the spirit responds, it can manifest as an insubstantial shade that answers for itself, it can inhabit an object or any remains you provide, or it can manifest as an invisible presence that you speak for. The spirit may not wish to answer your questions, in which case you must persuade it to help. You can attempt to psychically wrestle the spirit into submission (an Intellect task), or you can try diplomacy, deception, or blackmail ("Answer me, or I'll tell your children that you were a philanderer" or "I'll destroy this relic that belonged to you"). The GM determines what the spirit might know, based on the knowledge it possessed in life. Action to initiate. 
+Question the Spirits (2 Intellect points): You can call a spirit to you and petition it to answer a few questions (usually no more than three before the spirit fades). First, you must summon a spirit. If it is a spirit of the dead, you must have personally known the creature, have an object that was owned by the creature, or touch the physical remains of the creature. For other spirits, you must know the spirit's full name or have a great deal of an element (such as fire or earth) that the spirit is associated with. If the spirit responds, it can manifest as an insubstantial shade that answers for itself, it can inhabit an object or any remains you provide, or it can manifest as an invisible presence that you speak for. The spirit may not wish to answer your questions, in which case you must persuade it to help. You can attempt to psychically wrestle the spirit into submission (an Intellect task), or you can try diplomacy, deception, or blackmail ("Answer me, or I'll tell your children that you were a philanderer" or "I'll destroy this relic that belonged to you"). The GM determines what the spirit might know, based on the knowledge it possessed in life. Action to initiate. 
 
 Quick Block: If you use a light or medium weapon, you are trained in Speed defense tasks. Enabler. 
 

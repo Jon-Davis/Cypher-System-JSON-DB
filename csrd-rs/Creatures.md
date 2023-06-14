@@ -30,7 +30,7 @@ Anyone within short range of a basilisk who meets its gaze and fails a Might def
 Interaction: Basilisks act like simple animals and respond threateningly if disturbed or provoked. If not hungry, a basilisk avoids conflict and hides in its lair. 
 Use: A blighted area in a field, briar, or forest suggests that a basilisk has moved into the area. Swarms of snakes enter a village, fleeing an approaching basilisk. 
 Loot: Basilisk venom is valuable, but it must be stored in a strong, sealed container or the bearer will succumb to the poison. Its blood has alchemical properties relating to transmuting metals. 
-GM intrusion: Thebasilisk strikes quickly,biting the same creaturetwice on its turn.
+GM intrusion: The basilisk strikes quickly,biting the same creature twice on its turn.
 
 
 BLACKGUARD 6 (18)
@@ -74,7 +74,7 @@ Soulfire Blast: An explosion of soul-rending black and crimson fire explodes aro
 Interaction: Cambions are bleak, depressed, and misunderstood. Most have turned to evil, but a few can be redeemed.
 Use: A great fire is seen burning on the horizon. The next day, travelers come across a burned region with a crater that has destroyed a farmhouse. At the center of the crater is an unconscious human with hornlike growths on its head.
 Loot: Powerful cambions sometimes wield artifacts as weapons.
-GM intrusion: Thecharacter's cypherexplodes when touchedby cambion demonfire on a failed Speeddefense task.
+GM intrusion: The character's cypher explodes when touched by cambion demon fire on a failed Speed defense task.
 
 CHIMERA	6 (18)
 Chimeras are unsettling hybrids that combine the features of many different animals, often arranged in odd formations. The fusion of animal forms is the only thing that unifies these creatures-otherwise, different chimeras often look very different from each other. They include combinations of goat and lion, lizard and bat, dragon and spider, dinosaur and giant insect. A few even display human features, such as an improbably located face or hands instead of claws. Some chimeras can fly. Others slither across the ground. 
@@ -334,7 +334,7 @@ An air elemental can disperse itself over a short area as an action. In this for
 Air elementals are elusive opponents and hard to destroy. If an air elemental is reduced to 0 health, there is a 50 percent chance that it rejuvenates a few rounds later with 6 health. The elemental then continues to fight or flees to cause trouble elsewhere. 
 Interaction: Air elementals see and hear many things, but they are flighty and what they remember usually isn't important or relevant. They can be summoned with magic but don't like being controlled, and there is a 10 percent chance that they free themselves and strike out on their own. 
 Use: A safe mountain trail has become hazardous due to unseasonal winds that threaten to push travelers off a cliff. An old tree is surrounded by whispers of conversations that took place recently and has started hurling sticks and fruit at anyone who comes too close.
-GM intrusion: Aviolent blast of winddisarms a characterand sends whateverthey were holding up toa long distance away(depending on theobject's size and weight).
+GM intrusion: A violent blast of wind disarms a character and sends whatever they were holding up toa long distance away(depending on the object's size and weight).
 
 ELEMENTAL, THORN 6 (18)
 The grisly sign of an active thorn elemental in areas of heavy woods or jungle is the presence of shriveled bodies dangling from vines, dead of strangulation and poison. Thorn elementals take form in areas dense with woody growth under threat by hatchet, axe, saw, and, sometimes, human-caused climate disruptions. 
@@ -350,7 +350,7 @@ Interaction: Thorn elementals communicate through speech, though they generally 
 Use: Adventuring characters journey through a forest that is under threat of destruction by an encroachment of other humanoids. Thinking the PCs are part of the encroachers, a thorn elemental attacks them. If communication is opened, it might break off hostilities and instead ask the characters to help. 
 Loot: The bodies of those previously defeated by thorn elementals dangle from the forest or jungle canopy with all their former possessions. One or two might have a cypher and other tools and treasure.
 	Woody vine: level 4; Armor 1
-GM intrusion: A character within short range of a thorn elemental must make a successful Speed defense roll or be hauled into the air by a vine noose around their neck. They can try to cut thew oody vine or attempt a Might task to break free before they strangle. Each round after thefirst in which they fail to break the noose, they move down one step on the damage track.
+GM intrusion: A character within short range of a thorn elemental must make a successful Speed defense roll or be hauled into the air by a vine noose around their neck. They can try to cut the woody vine or attempt a Might task to break free before they strangle. Each round after the first in which they fail to break the noose, they move down one step on the damage track.
 
 ELEMENTAL, WATER 4 (12)
 Water elementals are animate masses of water. When swimming, they are nearly indistinguishable from their surroundings, but when they have to move on dry land, they usually take the form of a curling wave, amorphous blob, or large puddle. They can spontaneously appear in locations with pristine salt or fresh water. 
@@ -365,7 +365,7 @@ Instead of a bashing attack, a water elemental can use its action to attempt to 
 Any attack that inflicts 6 or more points of cold damage hinders a water elemental's actions on its next turn.
 Interaction: Water elementals are somewhat intelligent but think very differently from humans, so they often seem distracted and dull. They are generally compliant when summoned with magic, but there is about a 5 percent chance that they break free of the spell and lash out against their summoner. 
 Use: Offerings left at a sacred pond have gone missing, and the water itself seems threatening. Garbage or dead bodies have polluted a water source, spawning an angry elemental that attacks everyone until the mess is cleaned up.
-GM intrusion: The forceof the elemental's attackknocks over a character,sweeps them a shortdistance away, or both.
+GM intrusion: The force of the elemental's attack knocks over a character,sweeps them a short distance away, or both.
 
 ENTHRALLER	6 (18)
 Hundreds of thousands of years ago, enthraller ancestors psychically dominated a group of interstellar spacefarers who had the misfortune to land on the enthraller homeworld. Leapfrogging technological prowess by mentally commandeering the know-how of every new species they encountered using their stolen space vessel, the aliens fashioned the Enthraller Dominion, which stretches across vast swaths of space, cemented by the psychic control.
@@ -409,7 +409,7 @@ Priests usually know several spells, such as how to banish or control creatures 
 Interaction: Evil priests tend to be knowledgeable, arrogant, and condescending toward heroes and members of rival faiths. They might strike a bargain to save their lives or the life of a valuable minion, or to gain an advantage later on. 
 Use: An evil priest is converting frightened peasants into followers, and turning those who refuse into zombie slaves. A new religious figure in the city is acting suspiciously, and members of rival faiths have been disappearing or turning up dead. 
 Loot: Evil priests usually have mundane treasures equivalent to three or four expensive items, a few useful manifest cyphers, and an artifact.
-GM intrusion: The dying evil priestutters a curse thatattempts to pull the character's soul intothe afterlife with them,moving them one stepdown the damagetrack if they fail anIntellect defense roll. The evil priest ignores, avoids, or immediately recovers from an attack that would have killed orgreatly harmed them.
+GM intrusion: The dying evil priest utters a curse that attempts to pull the character's soul into the afterlife with them,moving them one stepdown the damage track if they fail anIntellect defense roll. The evil priest ignores, avoids, or immediately recovers from an attack that would have killed or greatly harmed them.
 
 FAERIE 3 (9)
 Faeries are magic creatures of music, mirth, tricks, and taunts. Some might only perform a silly song or follow people for a while, flitting around and asking questions like an annoying young child. Some faeries are crueler and delight in stealing clothing, equipment, or prized objects. And a few are downright malicious and, under the guise of a helpful guide or a pretty light in the distance, lure lost travelers to various dooms. 
