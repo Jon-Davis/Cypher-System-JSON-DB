@@ -840,7 +840,7 @@ Gamer: Pick any one style of game such as real-time strategy games, games of cha
 
 Gamer's Fortitude: Sitting and playing a game for twelve hours straight is not something most people can do, but you've figured it out. Once after each ten-hour recovery roll, you can transfer up to 5 points between your Pools in any combination, at a rate of 1 point per round. For example, you could transfer 3 points of Might to Speed and 2 points of Intellect to Speed, which would take a total of five rounds. Action. 
 
-Gaming God: Any time you use Effort on an Intellect action, add one of the following enhancements to the action (your choice): Free level of Effort Automatic minor effectEnabler.
+Gaming God: Any time you use Effort on an Intellect action, add one of the following enhancements to the action (your choice): Free level of Effort or Automatic minor effect. Enabler.
 
 Gargantuan: When you use Enlarge, you can choose to grow up to 30 feet (9 m) in height, and you add 3 more temporary points to your Might Pool (if you also have the Bigger ability, the temporary points from Gargantuan are in addition to the points from Bigger). Enabler. 
 
