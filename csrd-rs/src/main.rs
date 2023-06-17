@@ -69,7 +69,7 @@ fn main() {
         creatures,
         equipment
     };
-    let json = serde_json::to_string(&db).unwrap();
+    let json = serde_json::to_string(&db).unwrap().replace("\\r", "").replace("\r", "");
     println!("{json}");
     let _new : CsrdDb = serde_json::from_str(&json).unwrap();
 }

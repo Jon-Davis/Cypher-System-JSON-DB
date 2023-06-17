@@ -2092,7 +2092,7 @@ Morgan Le Fay 9 (27)
 Morgan le Fay (also known as Morgen, Margain, Morgant, and various other names) is a powerful sorceress from the legends of King Arthur. She has an unpredictable duality to her nature, with the potential for great good and great evil.
 Motive: 
 Environment: 
-Health:
+Health: 
 Damage Inflicted: 
 Movement: 
 Combat: Attacks with a variety of weapons, including a sword and staff. She also can use
@@ -2105,7 +2105,7 @@ Oz, The Great and Terrible 5 (15)
 It is perhaps the greatest feat the Wizard of Oz ever pulled off to make everyone believe that he was not a sorcerer at all, but merely a ventriloquist and balloonist from some faraway land. He is, in fact, far more powerful than that, but prefers that no one were ever to know. For if they did, they would expect things of him, and that makes him anxious. 
 Motive: 
 Environment: 
-Health:
+Health: 
 Damage Inflicted: 
 Movement: 
 Combat: Oz does not fight, but instead sends his army of green-whiskered soldiers forth.
@@ -2120,7 +2120,7 @@ Virgilius the Sorcerer 7 (21)
 The most renowned of all the poet-sorcerers, Virgilius studies and uses the power of the written word to enhance his magical abilities. He keeps a black book, which is the source of his spells, and creates copper creatures to protect and defend him. He has a love of challenges, such as magician’s battles, and seeks them out.
 Motive: 
 Environment: 
-Health:
+Health: 
 Damage Inflicted: 
 Movement: 
 Combat: Can use the following abilities: animate, blood to stone, enchant, endless passage. 
@@ -2153,6 +2153,7 @@ Interaction: Faeries are mercurial creatures, but except for the malicious ones,
 Use: The characters come upon an injured faerie, who promises to grant them their deepest wish if they agree to help it. They must decide if they believe the faerie speaks true, or if it’s a trap.
 Loot: The tiny pouches that faeries carry are stuffed with forest bric-a-brac, but some of those pouches are ten times larger on the inside and could contain expensive items or cyphers.
 GM intrusion: A character accidentally does something to offend a helpful faerie, causing it to turn on them.
+
 Fairy Godmother 6 (18)
 Fairy godmothers are nearly always beneficent beings, typically acting as mentors, parents, or protectors, much like human godparents. The difference, of course, is that fairy godmothers have a great deal more magic at their disposal.
 Overall, fairy godmothers are kind, gentle, and loving to almost everyone, not just their godchildren. Of course, not all fairy godmothers are good at their roles—some may act out of their own interests and inadvertently (or purposefully) do harm to those they are supposed to protect. This is particularly true if they feel like they have not been given the respect they deserve, or have been offended in some way.
@@ -2173,6 +2174,7 @@ Prophecy: Creates a prediction for the future of a single person. The prediction
 Interaction: Interacting with fairy godmothers is usually a little frantic, frenzied, and full of “Bibbidi-bobbidi-boo!” If they like you, they’re likely to prove a loyal, steadfast, and useful ally. If not, well, hopefully you like being turned into a horse, or worse.
 Use: Fairy godmothers make great lighthearted additions to encounters, particularly ones where the characters are preparing for a ball, a fight, or a big adventure.
 GM Intrusion: The fairy godmother’s magic goes awry and a character is accidentally turned into a horse.
+
 Áine, Fairy Queen of Light an Love 9 (27)
 Áine is the fairy queen of summer and the sun, and is known by many names: the Fairy Queen of Light and Love, Bright One, Sun Goddess, and Sweetheart of the Fairies. She is a kind, true, and benevolent ruler, and is loved by nearly everyone. Known for making just and fair bargains with humans, she is often sought after for blessings and boons.
 Motive: To be just and true, to protect her realm
