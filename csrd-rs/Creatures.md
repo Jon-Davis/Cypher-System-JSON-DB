@@ -30,7 +30,7 @@ Anyone within short range of a basilisk who meets its gaze and fails a Might def
 Interaction: Basilisks act like simple animals and respond threateningly if disturbed or provoked. If not hungry, a basilisk avoids conflict and hides in its lair. 
 Use: A blighted area in a field, briar, or forest suggests that a basilisk has moved into the area. Swarms of snakes enter a village, fleeing an approaching basilisk. 
 Loot: Basilisk venom is valuable, but it must be stored in a strong, sealed container or the bearer will succumb to the poison. Its blood has alchemical properties relating to transmuting metals. 
-GM intrusion: The basilisk strikes quickly,biting the same creature twice on its turn.
+GM intrusion: The basilisk strikes quickly, biting the same creature twice on its turn.
 
 
 BLACKGUARD 6 (18)
@@ -612,7 +612,7 @@ Anyone within short range of a gorgon who meets its gaze and fails a Might defen
 Interaction: Bitterness consumes gorgons. They lead lonely lives, cut off from everyone they have loved. Negotiating with one would be something of a feat. 
 Use: A gorgon's head retains its power to petrify for several days after being cut from the creature. The PCs might brave the gorgon so they can use its head to defeat an even more powerful foe. 
 Loot: A gorgon typically has a few cyphers and may have an artifact as well.
-GM intrusion: A character glimpsesa gorgon's eyes, and a sheen of stone covers their body for one minute, during which time they gain +1 to Armor but can't move farther than an immediate distance in one round.
+GM intrusion: A character glimpses a gorgon's eyes, and a sheen of stone covers their body for one minute, during which time they gain +1 to Armor but can't move farther than an immediate distance in one round.
 
 
 GREY	4 (12)
@@ -705,7 +705,7 @@ Whenever the hydra takes 4 or more points of damage from a single attack, a heal
 Interaction: A hydra is a cunning predator, but not intelligent. It can't bargain or negotiate. 
 Use: The PCs investigate an ancient ruin hoping to find artifacts of the gods. A hydra saw them enter and trails them through the crumbling structure at a considerable distance, waiting for them to take a rest or become otherwise distracted before attacking.
 Loot: Hydras sometimes collect cyphers and artifacts in their lair, or failing that, they guard something of value.
-GM intrusion: The character reacts poorly to the poison in the air or a bite and goes intonhelpless convulsions for one round if they fail a Might defense task.
+GM intrusion: The character reacts poorly to the poison in the air or a bite and goes into helpless convulsions for one round if they fail a Might defense task.
 
 
 JOTUNN (NORSE GIANT)
@@ -2128,7 +2128,7 @@ Interaction: Virgilius is quick thinking, wily, and full of interesting schemes.
 Use: The characters enter into a battle of wits or wills, only to discover they’re competing with Virgilius.
 Loot: Carries a black book. Black book (artifact): level 6; allows the user to cast animate, blood to stone, enchant, or endless passage. Casting a spell from the black book costs 2 Intellect points and is an action. Depletion: 1 in 1d6
 
-Faerie 3 (9)
+Faerie (We Are All Mad Here) 3 (9)
 In general, faeries (sometimes called fairies or fair folk) are humanoid in appearance, small in stature, and magical. They are associated with music, mirth, tricks, and taunts. Seeing one is an omen—hopefully, an omen of a silly song or the first appearance of an annoying new road companion (the very faerie sighted) flitting around, asking the questions of a curious four-year-old hyped up on sugar water and ice cream. Some faeries are tricksters, delighting in playing pranks and stealing clothing, equipment, or prized objects. And a few are malicious, luring travelers to their various dooms, making deadly deals, and forcing others into captivity.
 	Not all faeries have wings, but those that do find many ways to use them to their advantage.
 Motive: Unpredictable
@@ -2395,3 +2395,206 @@ of flying monkeys), hexbolt, imprison, protect, and shrivel.
 Interaction: She is volatile in nature and quick to anger. However, she can also be a bit cowardly, and will likely back down in a confrontation (only to send her hordes of magical animals out afterward to do her dirty work).
 Use: The characters need to find galoshes of fortune and decide to steal a pair from the Wicked Witch of the West. Perhaps they need to make it through the land she presides over and must find a way to get her approval.
 Loot: Whatever shoes she’s wearing (which are very likely an artifact).
+
+Blob 8 (24)
+The huge, undulating mass of this creature is composed of a mucus-like solid. The half-amorphous blob defeats its foes by absorbing prey, integrating a victim’s tissue into its own. In essence, the victim becomes the blob, and all of the victim’s knowledge is available to the blob for later use.
+If it later desires, a blob can release a nearly perfect replicant of any creature that it has absorbed. Replicants have the memories and personalities of the originals, but they do the blob’s bidding, which is usually to explore distant locations or lure prey into the open using a friendly face. A particularly well-crafted replicant might not know it’s not the original. Creating a replicant takes a blob a day or two of effort, during which time it’s unable to defend itself or eat, so it’s not a task the creature attempts lightly.
+Motive: Assimilation of all flesh
+Environment: Anywhere
+Health: 66
+Damage Inflicted: 8 points (acid gout)
+Movement: Immediate; immediate when burrowing
+Modifications: Speed defense as level 5 due to size
+Combat: The blob can project a gout of acid at short range against a single target. Though slow, a blob is always moving forward. A character (or two characters next to each other) within immediate range of a blob must succeed on a Might defense roll each round or be partly caught under the heaving mass of the advancing creature. A caught victim adheres to the blob’s surface and takes 10 points of damage each round. The victim must succeed on a Might defense roll to pull free. A victim who dies from this damage is consumed by the blob, and their body becomes part of the creature. If a blob has absorbed living flesh within the last hour, it regenerates 3 points of health per round while its health is above 0.
+Interaction: A blob’s favored method of communication is to absorb whoever tries to interact with it. If a replicant is handy, the blob might talk through it if the blob can touch the replicant and use it like a puppet.
+Use: The old man the PCs accidentally hit with their vehicle has a weird, mucus-like growth on one hand (in addition to the damage he sustained in the accident). He probably should be taken to the hospital to have his injuries and the quivering growth looked at.
+Loot: A blob might have several cyphers swirling about in its mass that it uses to equip replicants.
+GM intrusion: The character pulls free of a blob they were caught under, but a piece of quivering protoplasm remains stuck to their flesh. They must do serious damage to themselves (enough to incapacitate) within the hour, scraping off the protoplasm before it absorbs them and becomes a new mini-blob.
+
+Cryptic Moth 5 (15)
+Normal moths are enigmatic, gauzy haunts of twilight. The feathery touch of their wings on your face can startle, even frighten. This is to be expected, since moths are the children of cryptic moths, malign and intelligent entities of another realm. Sometimes referred to as mothmen, other times as shadow faeries, cryptic moths are certainly alien. Each possesses a unique wing pattern and coloration, and, to some extent, body shape. These patterns
+and colors may signify where in the hierarchy a particular cryptic moth stands among its siblings of the night, but for those who do not speak the language of moths, the complexity of their social structure is overwhelming.
+Motive: Capture humans, possibly for food, possibly for breeding purposes
+Environment: Almost anywhere, usually at night
+Health: 23
+Damage Inflicted: 5 points
+Movement: Short; long when flying
+Modifications: All knowledge tasks as level 6; stealth tasks as level 7 while invisible 
+Combat: Cryptic moths usually enter combat only when they wish, because until they attack and become visible, they can remain unseen and invisible to most eyes. The touch of a cryptic moth’s wing draws life and energy from targets, inflicting 5 points of Speed damage (ignores Armor).
+Cryptic moths regain 1 point of health per round while their health is above 0, unless they’ve been damaged with a silvered or cold iron weapon, or by electrical attacks. 
+Once every hour or so, a cryptic moth can summon a swarm of normal moths to aid them in combat or, more often, serve as a fashion accessory or component in a piece of living art.
+	Moth swarm: level 2
+If a cryptic moth is prepared, it may carry cyphers useful in combat, and perhaps even an artifact.
+Interaction: Although very few cryptic moths speak human languages, peaceful interaction with these creatures is not impossible. It’s just extremely difficult, as they see most humans as a source of food or bodies to lay their eggs in.
+Use: A character is followed by a cryptic moth intent on capturing and enslaving them. 
+Loot: A cryptic moth usually has a few cyphers, and possibly a delicate artifact.
+GM intrusion: The cryptic moth grabs the character and flies up and away, taking the victim with them.
+
+Elder Thing 8 (24)
+Elder things are mostly extinct, but a few remain trapped in the Antarctic ice or rule over crumbling cities in deep trenches at the bottom of the ocean.
+Beholding an elder thing bends the mind to the point of breaking. An elder thing has a great barrel-like body standing some 8 feet (2 m) tall. Knobby protrusions in the crown and base each unfold five appendages that recall the arms of a starfish. When agitated, an elder thing unfolds a pair of wings that help it flutter a limited distance.
+Meddling by elder things created multicellular life that spread across Earth billions of years ago and ultimately brought about humanity. As the younger species grew in numbers and influence, the elder things went into decline, a process hastened by wars against strange beings from other worlds and uprisings by the servitor race they created, the shoggoths.
+Motive: Reclaim absolute sovereignty
+Environment: In arctic regions or deep underwater
+Health: 30
+Damage Inflicted: 6 points
+Movement: Immediate; long when flying
+Modifications: All tasks related to knowledge of magic or science as level 10; Speed defense as level 6 due to form
+Combat: An elder thing can attack with five tentacles divided any way it chooses among up
+to three targets within immediate range. A target hit by a tentacle must also succeed on a Speed defense roll or become grabbed until it escapes. Each round, the elder thing automatically inflicts 6 points of damage on each grabbed target until the victim succeeds on a Might defense roll to escape. 
+An elder thing can reach into the mind of a target within short distance. If the target fails an Intellect defense roll, the elder thing reads their thoughts while the target remains within long
+distance. During this time, the elder thing knows everything the target knows, hindering the target’s attack and defense rolls against the elder thing. The elder thing can use an action to rend the target’s thoughts, which inflicts 6 points of Intellect damage on a failed Intellect defense roll. An elder thing can passively read the thoughts of up to two creatures at one time.
+An elder thing also might carry a few cyphers and an artifact it can use in combat.
+Interaction: An elder thing communicates through whistles and pops created by moving air through tiny orifices arranged around its body. Elder things see humans as a lesser form of life and may demand worship, sacrifices, or something else from people it encounters.
+Use: Fishermen return to a coastal village with a large block of ice in tow. In the ice is something dark and large—an elder thing frozen alive. If the thing thaws out, it will likely take over the community and enslave the people living there.
+Loot: An elder thing usually has one artifact and two or three cyphers.
+GM intrusion: A character who sees an elder thing for the first time goes temporarily crazy on a failed Intellect defense roll. They might stand in place and gibber, run away, or laugh hysterically for a few rounds. If the character takes damage, they shake off the temporary madness. 
+
+Fundamental Angel 7 (21)
+Fundamental angels are mysterious holy beings that maintain and guard fundamental concepts of the universe, such as time, gravity, and energy. They have powers and agendas deriving from higher states of reality. They are strange, terrifying, and inconstant in form, unlike the relatively benign and comprehensible winged humanoids from religion and myth.
+In the rare times when mortals interfere with these concepts, fundamental angels manifest in the world to set things right. They have intervened to destroy cataclysmic atomic weapons, power sources that skirt the rules of matter and energy, and life forms that betray the principles of creation.
+For the purpose of vampire aversions, the angel’s direct and area attacks count as religious power or sunlight, whichever is worse for the vampire.
+Motive: Preserving the natural order
+Environment: Anywhere, usually in response to mortal activity
+Health: 35
+Damage Inflicted: 8 points
+Armor: 2 
+Movement: Short; short when flying
+Modifications: All knowledge as level 9; attacks against mad science and supernatural targets as level 8; Armor +3 against energy
+Combat: A fundamental angel attacks other creatures by creating a long-range blast of bright divine energy that inflicts 8 points of damage. In addition, it automatically inflicts 4 points of damage each round against all creatures within short range, although it can shield itself with wings or other protrusions to negate this effect against individuals.
+Any creature within long range that sees it and fails an Intellect defense roll becomes frightened unless the angel tells it (specifically or in general) not to be afraid.
+As an action, it can teleport up to a hundred miles away or transport itself fully to its native dimension where it exists as pure thought and spirit.
+Interaction: A fundamental angel operates on a mental and metaphysical level far above humans and doesn’t bother to explain itself to anyone other than its targets. It goes out of its way to not harm innocent creatures. It can communicate with any creature that uses language.
+Use: “FEAR NOT!” says the radiant being that appears out of nowhere. It ignores bystanders and uses a beam of energy to destroy a scientist and his experimental reactor.
+Loot: Fundamental angels sometimes create or refresh subtle cyphers by their mere presence.
+GM intrusions: A fundamental angel’s successful attack also blinds its opponent, lasting until they make an Intellect defense roll (try once each round). A fundamental angel makes a second attack this round against a target that is adjacent to its primary target.
+
+Hivemind Child 2 (6)
+A hivemind family is a scouting expedition of part-alien creatures sent to study and infiltrate human society, either out of scientific curiosity or as a long-term plan for world domination or human extinction. Some entities might intercept human astronauts, reprogramming their DNA or attaching a parasite to their mind or soul. Others might send a machine to
+an isolated community, remotely impregnating some of the inhabitants to gestate and give birth at the same time. The end result is a group of hivemind children who have a psychic link, unusual powers, and loyalty to their inhuman creators.
+Hivemind children often have a very similar appearance even if they have different parents—they might all have pale blond hair, unusually wide-set eyes, six fingers on one hand, or an odd posture. They eerily match each other’s expressions and movements. They think and speak as children years older than they appear. Their emotional responses are muted to an almost sociopathic extent.
+Depending on their origin, the weird children may be mentored or protected by an altered adult, or by human parents in denial about the monsters they care for.
+Motive: Conquest, exploration, infiltration
+Environment: Human settlements
+Health: 6
+Damage Inflicted: 2 points
+Movement: Short
+Modifications: Mental attacks and Intellect defense as level 3; defend against attacks from living creatures as level 3 due to mind reading; perception and scientific knowledge as level 4
+Combat: Individually, hivemind children are physically no stronger or more durable than a typical human. Their true strength is in their ability to read and control minds. Their telepathic link means that if one of them knows something, all of them within long range automatically know it.
+Hivemind children can automatically read the surface thoughts of anyone they can see within short range, even if the target is unwilling. As an action, they can force an intelligent living creature within short range to take a physical action, including something that would cause the target harm, such as forcing a target to stick their hand into boiling water, steer a moving car off a cliff, or shoot themselves with a pistol (if used as an attack, this inflicts damage equal to the hivemind child’s level or the controlled creature’s level, whichever is greater).
+Two hivemind children within short range of each other automatically augment each other’s mental powers, allowing them to read or control minds of two targets at once as a level 4 creature. Four within short range of each other can read or control minds of four targets at once as a level 5 creature, and eight or more can work together to read or control minds of eight people as a level 6 creature.
+Interaction: Hivemind children want to protect themselves and observe humans and will try to do so until they appear as old as adults. Their long-term goals are unclear but probably don’t have humanity’s best interests in mind.
+Use: Children born after a scientific expedition are strange and different. Multiple small villages all over the world experience births of children with weird abilities.
+Loot: Hivemind children may have no useful items or one weird science device they’ve built with their inhuman knowledge.
+GM intrusions: A group of hivemind children briefly manifest a teleportation or telekinesis ability at the same level as their mind control. The injury or death of one hivemind child angers the rest, increasing their level and damage by +2 for one round.
+
+Ichthysian 5 (15)
+Ichthysians are thought to be aquatic evolutionary offshoots of hominids or the result of experiments trying to fuse human and amphibian or fish DNA. They are physically similar to humans standing fully upright, with webbed hands, claws, froglike or fishlike features, gills, and strong muscles from a lifetime of swimming. They live in the water but are comfortable with extended forays onto land. Their intelligence is between that of a smart animal and a human; they can use simple tools such as rocks and sticks, and may build dams to modify waterways in their territory.
+Some ichthysians are reputed to have the ability to heal others, and local villages may worship these beings as gods.
+Motive: Hunger for flesh, curiosity, solitude 
+Environment: Anywhere near bodies of fresh water 
+Health: 18
+Damage Inflicted: 6 points
+Armor: 2
+Movement: Short on land; long in the water
+Modifications: Strength-based tasks and swimming as level 6; defense against poison as level 3
+Combat: Ichthysians attack with their powerful claws. They are less mobile on land and prefer to attack from the water. If overmatched, they would rather flee to deep, dark water than fight to the death.
+An ichthysian regenerates 2 points of health each round as long as it starts the round with at least 0 health. This regeneration greatly extends their lifespan, and it is common for them to live to be more than two hundred years old.
+Ichthysians are prone to mutation, especially in response to pollutants and other chemicals. These mutations might be physical deformities, but could be as strange as transparent flesh, poisonous skin, extra eyes with enhanced senses, or extra limbs.
+Interaction: Ichthysians are not aggressive but will retaliate with full force against anything that attacks them, and one can remember specific enemy humans from its past.
+Use: A cryptid fish-person has been spotted in the vicinity of a deforested area adjacent to a mighty river. Villagers tell stories of an ancient water god that heals sickness and grants wishes.
+Loot: An ichthysian’s lair might have a strange relic or device that works like a cypher or artifact.
+GM Intrusions: A slain ichthysian suddenly regenerates 5 health and immediately attacks or tries to flee. The ichthysian suddenly mutates in response to an attack, thereafter gaining +2 Armor or +2 levels in defense against that type of attack.
+
+Mummy 6 (18)
+Mummies are intelligent undead, usually royalty or members of the priesthood, risen from their burial places to destroy those who disturbed their rest. Many seek to undo wrongs against them from ages past or re-establish themselves in their former high stations. 
+Motive: Vengeance, love, power
+Environment: Regions where mummification was common 
+Health: 24
+Damage Inflicted: 7 points
+Armor: 2
+Movement: Short
+Modifications: Climb, stealth, ancient history, and ancient religion as level 8 
+Combat: Mummies are strong, capable of lifting an adult human with one hand and throwing the person across a room. They attack with weapons that were buried with them or use their fists. A mummy usually has one or more of the following abilities: 
+Curse: Anyone who disturbs a mummy’s tomb must make an Intellect defense roll or become cursed, which hinders their
+actions by two steps (forever, or until cured). 
+Disease: The mummy’s attacks carry a rotting disease. The target must make a level 5 Might defense roll every twelve hours or take 5 points of ambient damage.
+Lifelike appearance: A mummy can repair its body to assume a fully human appearance. This usually requires time and the flesh of several people, often those who awakened it.
+Magic: Once per hour, the mummy can cast a spell from the Minor Wish character ability.
+Minion: Animate up to four mummified bodies as mindless lesser mummies or skeletons (depending on how well the bodies are preserved), lasting for one day. 
+	Lesser mummy: level 3, climb and stealth as level 4; health 12; Armor 1
+Swarm: Call a swarm of bugs (usually scarab beetles or scorpions) to attack a foe or obscure vision.
+	Swarm of bugs: level 3
+Interaction: Mummies want to destroy anyone who disturbs their burial places. Ambitious mummies might choose living beings to be their spies and servants, bribing them with funereal treasures or threatening them into submission.
+Use: Villagers whisper that a tomb has been opened and a mummy’s curse will strike down anyone who gets in the creature’s way.
+Loot: Mummies usually have treasures equivalent to three or four expensive items and perhaps a handful of magical manifest cyphers or even a magical artifact.
+GM Intrusions: A dying mummy speaks a curse upon those who killed it, hindering all their actions by two steps (forever, or until cured). What was overlooked as a fake or a prop turns out to be an actual mummy and attacks a character.
+
+Nightgaunt 3 (9)
+A nightgaunt’s hands and feet have no opposable digits. All its fingers and toes can grasp with firm but unpleasant boneless strength. Hungry nightgaunts swoop out of the night, grab prey, and fly off into darkness. The creatures sometimes “work” for other agencies, though often enough, their goals are obscure.
+Motive: Unknowable
+Environment: Anywhere dark, usually in groups of four to seven
+Health: 9
+Damage Inflicted: 4 points
+Armor: 1
+Movement: Immediate; long when flying (short when flying with a victim) Modifications: Perception and Speed defense as level 4; stealth as level 7
+Combat: A nightgaunt can attack with its barbed tail. To catch a foe, a nightgaunt dives through the air from just outside of short range. When it does, it moves 100 feet (30 m) in a round and attempts to grab a victim near the midpoint of its movement. A target who fails a Speed defense roll (and who isn’t more than twice the size of the nightgaunt) is jerked into the creature’s boneless clutches and carried upward, finding themselves dangling from a height of 50 feet (15 m). The nightgaunt automatically tickles grabbed victims with its barbed tail. This subtle form of torture hinders all the victim’s actions by two steps.
+Interaction: Nightgaunts never speak, and they ignore anyone who attempts to interact with them, whether the communication takes the form of commanding, beseeching, or frantically pleading. Such is the way of nightgaunts.
+Use: Someone who bears one or more of the PCs a grudge discovers a tome of spells and summons a flight of nightgaunts, which set off in search of their prey.
+Loot: One in three nightgaunts has a valuable souvenir from a past victim, which might be an expensive watch, a ring, an amulet, or sometimes a cypher.
+GM intrusion: The character is startled by the nightgaunt and suffers the risk of temporary dementia. On a failed Intellect defense roll, the character shrieks and faints (or, at the GM’s option, babbles, drools, laughs, and so on). The character can attempt a new Intellect defense roll each round to return to normal.
+
+Reanimated 6 (18)
+A reanimated is a humanoid creature patched together from corpses (or crafted directly from muscle, nerves, and sinew), then returned to life through a hard-to-duplicate series of electromagnetic induction events. Though made of flesh, a reanimated’s return to consciousness and mobility is marked by a substantial increase in hardiness, resistance to injury, and longevity. On the other hand, the process usually obliterates whatever mind was once encoded in the donor’s brain, giving rise to a creature of monstrous rage and childlike credulity. Sometimes the reanimated is bound to its creator in service, but such ties are fragile and could be snapped by an ill-timed fit of fury.
+Motive: Defense, unpredictable
+Environment: Anywhere in service to a mad scientist, or driven to the edges of civilization 
+Health: 70
+Damage Inflicted: 7 points
+Movement: Short; long when jumping
+Modifications: Speed defense as level 4; interaction as level 2; feats of strength and toughness as level 8
+Combat: A reanimated attacks foes with its hands. Any time a foe inflicts 7 or more points of damage on the reanimated with a single melee attack, the creature immediately lashes out in reactive rage and makes an additional attack in the same round on the foe who injured it.
+If the reanimated begins combat within long range of foes but outside of short range, it can bridge the distance with an amazing leap that concludes with an attack as a single action. The attack inflicts 4 points of damage on all targets within immediate range of the spot where the reanimated lands.
+Some reanimated are psychologically vulnerable to fire, and they fear it. When these reanimated attack or defend against a foe wielding fire, their attacks and defenses are hindered by two steps.
+If struck by electricity, a reanimated regains a number of points of health equal to the damage the electricity would normally inflict.
+Interaction: Fear and food motivate a reanimated, though sometimes beautiful music or innocence can stay its fists.
+Use: Depending on where a reanimated falls along its moral and psychological development, it could be a primary foe for the PCs, a secondary guardian to deal with, or a forlorn beast in need of aid.
+GM Intrusion:	The character’s attack bounces harmlessly off the stitched, hardened flesh of the reanimated. 
+
+Shoggoth 7 (21)
+Shoggoths vary in size, but the smallest are usually at least 10 feet (3 m) across. They are the product of incredibly advanced bioengineering by some strange species in the distant past. They are angry, vicious predators feared by any who have ever heard of these rare creatures (or who have encountered them and somehow survived to tell the tale). They were created by the elder things but overthrew their masters and now roam the vast, ancient cities they have claimed for themselves.
+Rumors abound of a few very rare, particularly intelligent shoggoths that intentionally reduce their own mass and learn to take on the forms of humans so they can integrate themselves into society (and prey upon humans at their leisure).
+Motive: Hungers for flesh 
+Environment: Anywhere
+Health: 35
+Damage Inflicted: 10 points
+Armor: 0 
+Movement: Long
+Modifications: Speed defense as level 6 due to size; Armor 10 against fire, cold, and electricity
+Combat: Shoggoths sprout tendrils and mouths and spread their wide, amorphous forms, allowing them to attack all foes within immediate range. Those struck by a shoggoth’s attack are grabbed and engulfed by the thing’s gelatinous body and suffer damage each round until they manage to pull themselves free (engulfed creatures can take no other physical actions while they are caught). Each round of entrapment, one object in the victim’s possession is destroyed by the foul juices of the amorphous horror.
+Shoggoths regenerate 5 points of health each round. They have protection against fire, cold, and electricity.
+Interaction: A shoggoth can’t be reasoned with. 
+Use: The PCs find an ancient structure of metal and stone. Wandering through it, they note that every surface is clear of dirt and debris. Soon they discover why—a shoggoth squirms through the halls, absorbing everything it comes upon (and it fills the passages it moves down, floor to ceiling, wall to wall).
+Loot: A shoggoth’s interior might contain a cypher.
+GM intrusion: The character is engulfed in the shoggoth, their gear scattered throughout the thing’s undulating form, and their body turned upside down so that escape attempts are hindered.
+
+Yithian 6 (18)
+The yithians (also known as the Great Race of Yith) were immense wrinkly cones 10 feet (3 m) high, with a head, four limbs, and other organs spreading from the top of their body. They communicated by making noises with their hands and claws, and they moved by gliding their lower surface across a layer of slime, like a slug. Their civilization was destroyed a billion years before the present day, but they transported their minds into new bodies far in the future and may still be encountered observing the past (our present) by telepathically inhabiting human bodies.
+Motive: Knowledge 
+Environment: Anywhere 
+Health: 22
+Damage Inflicted: 6 points 
+Armor: 2
+Movement: Short
+Modifications: All knowledge as level 8; Intellect defense as level 7; Speed defense as level 5 due to size and speed
+Combat: Although large and hardy, members of the Great Race are ill-suited to physical combat. If they must engage in melee, they use pincer-like claws. They almost always wield artifacts and cyphers, however, which makes them dangerous opponents. Assume that a yithian has one or more of the following abilities arising from advanced technology devices:
+ • Force field that grants them +3 Armor
+• Mental field that gives them +4 Armor against any mental attack
+• Ray emitter that inflicts 7 points of damage up to long range
+• Cloaking field that renders them invisible for up to ten minutes
+• Stun weapon with short range that makes the target fall unconscious for ten minutes
+Yithians have the ability to transfer their consciousness backward or forward through time, swapping minds with a creature native to the era they wish to observe. A yithian inhabiting the body of another creature is in complete control of that body. A creature trapped in the body of a yithian must attempt Intellect-based tasks each time it wishes to exert control. For the most part, it is trapped in the yithian’s body and is merely along for the ride.
+It’s worth noting that the bodies the yithians use are not their original bodies, but instead the bodies of supremely ancient creatures that they inhabit. The Great Race hails originally from some extraterrestrial world.
+Interaction: Yithians are not malicious, but they are quite focused and relatively uncaring about other races, such as humans.
+Use: A yithian projects its mind across the aeons, swapping consciousnesses with the character. While controlling the character’s body, the yithian is there mainly to learn and observe, and rarely takes any violent actions.
+Loot: A yithian encountered in the flesh will have 1d6 manifest cyphers and very likely a technological artifact.
+GM intrusion: The yithian produces a cypher that has a function that is perfect for its current situation: a teleporter to get away, a protective field against precisely the kind of attack being used against it, or a weapon that exploits a weakness of the character’s.

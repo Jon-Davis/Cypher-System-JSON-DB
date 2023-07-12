@@ -614,7 +614,7 @@ Form: Woven yellow basket with wooden handles
 Effect: This basket can contain up to one cypher per artifact level, as long as each is no larger than a typical cat. Cyphers in the basket do not count against a character's limit.
 Depletion: 1 in 1d20 (check each time a cypher is added to the basket)
 
-Bounding Boots
+Bounding Boots (We Are All Mad Here)
 Level: 1d6 + 1
 Form: Beautifully made leather and gold boots that adjust to fit the wearer perfectly
 Effect: The boots are an asset for jumping and running (easing one of these skills by two steps if the artifact is level 6 or higher).
