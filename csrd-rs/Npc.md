@@ -220,3 +220,134 @@ Interaction: Care should be taken when negotiating with wizards because they are
 Use: A wizard is putting together a team to challenge a great foe, and the PCs fit the bill.
 Loot: A mighty wizard has 1d6 cyphers.
 GM intrusion: The wizard casts two spells as a single action instead of just one.
+
+Aristocrat 4 (12)
+Aristocrats are not quite high royalty—they are not kings or queens, nor even princes and princesses—but they are those with money and power enough to wield in dangerous or glorious ways. Knights and barons are typically aristocrats, as are characters like Bluebeard and Mr. Fox. Some aristocrats, such as knights, may only want to do good and protect the things that matter to them. Others, of course, prefer to use the darker side of their privileged position.
+Motive: Money, power, marriage, take who or what they want, protect what they care about 
+Environment: Typically in cities and towns, occasionally off by themselves in large castles and manors 
+Health: 12
+Damage Inflicted: 5 points
+Armor: 2
+Movement: Short
+Modifications: Social engineering, persuasion, intimidation, and lying as level 6
+Combat: Many aristocrats have had training in combat maneuvers, as is appropriate to their station. Others may wield knives, scalpels, or butcher’s tools with precision.
+Interaction: Interaction with an aristocrat often starts out positive—after all, it is delightful to be in the glow of someone so charming and powerful. For some, the interaction remains positive. A knight is just a knight. For others, a sense of unease begins to settle in after a time, as if there’s something not quite right behind the facade.
+Use: An aristocrat is about to marry and someone is worried about the safety of their future spouse. A knight is outmatched by a dragon or other strong opponent and seeks someone to come to their aid.
+Loot: Most aristocrats have currency equal to a very expensive item, in addition to fine clothes or medium armor, weapons, and miscellaneous items.
+GM intrusions: The aristocrat’s house has a sentient door or lock that suddenly begins to yell about intruders.
+
+Child 1 (3)
+Children play the roles of urchins, siblings, daughters, sons, waifs, servants, royal family members, child brides, and more.
+Motive: Seeking safety, comfort, money, or food; play; bringing joy
+Environment: With their families, or lost in the world trying to find their way. Sometimes in the employ or care of someone who has found them, stolen them, or otherwise become their guardians, caretakers, or keepers. 
+Health: 3
+Damage Inflicted: 1 point
+Armor: 0
+Movement: Short
+Modifications: Run, hide, sneak, and escape as level 2; knowledge of the nearby area, people, and activities as level 3
+Combat: Most children fight only in response to being provoked, threatened, or attacked. They typically use makeshift weapons, such as their fists, a stick, or a toy. 
+Interaction: Children are often smarter, more creative, and more wily than they’re given credit for. They may have a lot of knowledge about nearby people, places, and activities that can help the PCs, particularly if there’s an exchange of food, money, or other goodies involved.
+Use: Someone or something is stealing children from the village, and the mayor is offering to pay a large sum to anyone who tracks down the creature and rescues the children. One of the PCs catches a waif stealing from their pack in the night; the child says they’ve been lost in the woods for days.
+Loot: Children typically have very little on their person, although they may have a special memento of their family or a close friend.
+GM intrusions: The child shouts, laughs, or talks too loudly, accidentally drawing the attention of a nearby guard toward a character. Someone mistakenly thinks a character has stolen the child, and attacks them.
+
+Crafter 2 (6)
+Crafters include bakers, cobblers, candlemakers, butchers, millers, tailors, woodworkers, and cooks. While most crafters aren’t particularly agile fighters, they are usually clever and strong, and have a number of familiar tools at their disposal for weapons.
+Motive: Defense
+Environment: In their workshops or peddling their trade while traveling 
+Health: 8
+Damage Inflicted: 3 points
+Armor: 0
+Movement: Short
+Modifications: Appropriate craft as level 3
+Combat: Crafters are unlikely to initiate combat, as most just want to be left alone to do their work (or to convince you to buy their wares). If they’re forced to fight, they will typically use any item they have at hand (such as a rolling pin, butcher’s knife, crafting tool, or length of wood).
+Interaction: Most crafters are happy to talk about their craft or the objects that they’ve made and have for sale. They take pride in their work, and flattery and attention can go a long way.
+Use: To the PCs, crafters can be allies, obstacles, or both. Being friends with a crafter often has obvious long-term benefits, while stealing from them has short-term advantages (and possible long-term disadvantages).
+Loot: A crafter has currency equivalent to an inexpensive item, as well as crafting tools and materials and anything they’ve crafted that they’re carrying or wearing.
+GM intrusion: The crafter uses their crafting tool in a way that the character didn’t anticipate, putting the character in a disadvantaged position.
+
+Huntsman 2 (6)
+A huntsman may be in the employ of a powerful magic user, protecting a section of the woods they consider their own, or just trying to provide for their family by chopping wood and hunting game.
+Motive: Follow orders, support their loved ones, protect the innocent
+Environment: Woods, forests, and other wild lands 
+Health: 8
+Damage Inflicted: 2 points
+Armor: 1
+Movement: Short
+Modifications: Tracking and pathfinding as level 4
+Combat: Huntsmen and woodcutters both understand the power of the perfectly aimed shot or swing. They take their time, steady their hand and breath, and hit with precision and force. When they take no action on a turn, their next attack inflicts twice the normal damage. 
+Interaction: Many huntsmen and woodcutters are motivated by a deep need to be loyal, but they’re also soft of heart and have a strong moral center. If they’re tasked with something they deem unpalatable, they may forgo their promises and go rogue.
+Use: They are hunting the characters on the orders of a higher authority. They save the PCs from a dangerous foe, then ask for assistance for their own tasks.
+Loot: In addition to their clothing and mundane weapon, they likely have an expensive token of promise or affection from someone they have helped or who they owe fealty to.
+GM intrusion: A perfectly timed cut sends a tree down in the direction of the character.
+
+Robber 4 (12)
+Robbers, thieves, highwaymen, robin hoods—whatever name you call them, they want what you have, and they’re willing to get it any way they can. Some robbers are honorable, stealing only from the rich or the evil. Others will take anything that isn’t nailed down or magically protected.
+Robbers often travel in pairs or small groups of dedicated friends and fellow robbers. 
+Motive: What’s yours is mine
+Environment: Anywhere there’s something to be stolen
+Health: 12
+Damage Inflicted: 2 points
+Armor: 1
+Movement: Short
+Modifications: Stealth, including sneaking, stealing, hiding, and deception, as level 5; attacking from hiding as level 5
+Combat: Robbers typically prefer light and medium weapons, particularly bows and small blades. Interaction: Most robbers have a moral code of some sort—it just may not be the code that others abide by. Still, they are willing to listen to reason (and particularly the sound of sliding coins). Robbers are often willing to be hired for jobs that are too difficult for others.
+Use: Robbers happen upon the place where the characters have made camp, and ask to join them. A group of robbers arrives to steal a thing that the characters are just about to steal themselves.
+Loot: Depending on whether they’ve just robbed someone or not, robbers may have anywhere from nothing (other than their weapons and clothing) up to the currency equivalent of a very expensive item.
+GM intrusion: The robber’s arrow manages to hit two foes in a single attack, or the robber shoots two arrows at multiple foes.
+
+Scholar 2 (6)
+Scholars might be librarians, sages, wise women, crones, experts, or soothsayers. Typically, scholars seek knowledge above all else, and many also are willing to share it with others (sometimes for a price, sometimes just for the joy of sharing knowledge). A scholar’s expertise might be general or specific—they may study the world at large or home in on a specific type of magic or fey being, for example.
+Motive: Find answers, seek knowledge
+Environment: Schools, libraries, the royal study, laboratories, and anywhere there are sources of information 
+Health: 6
+Damage Inflicted: 3 points
+Movement: Short
+Modifications: Intuition, persuasion, detecting falsehoods, and most knowledge tasks as level 4
+Combat: Scholars prefer to avoid a fight. If they must fight, a scholar tries to deduce a foe’s weaknesses (if any) and exploit them in combat. Some scholars might have learned spells or abilities from those they’ve studied. Others might be examining a useful cypher or artifact, and will use it on their attackers.
+Interaction: Most scholars are helpful and full of information (whether or not it’s useful or true information varies from scholar to scholar). What they don’t know, they may be willing to learn or study, if given the proper tools and incentive. However, some scholars are secretive, hoarding their knowledge for their own personal uses.
+Use: Scholars can be incredible allies, offering clues, hints, and information that can help the characters. However, they may be reclusive and hard to find, hidden away in ancient libraries or secret laboratories.
+Loot: Most scholars have currency equivalent to a very expensive item and one or two cyphers.
+GM Intrusion: Something the scholar is studying comes alive, creating havoc and disarray throughout the area.
+
+Cannibal 3 (9)
+A cannibal is someone who has decided that eating other people is not only necessary but desirable. Whether this decision was forced by circumstance or made out of some secret, maladaptive urge, cannibals are dangerous because they hide in plain sight, pretending friendship and aid for strangers until their prey lowers their guard. That’s when a cannibal strikes. Some cannibals like it raw; others delight in elaborate preparations.
+Motive: Hungers for human flesh 
+Health: 12
+Damage Inflicted: 5 points 
+Movement: Short
+Modifications: Deception, persuasion, intimidation, and tasks related to friendly interaction as level 6
+Combat: Cannibals use whatever weapon is at hand. They usually don’t attack unless they can surprise their prey. When cannibals have surprise, they attack as level 5 creatures and inflict 2 additional points of damage.
+Interaction: Cannibals seem friendly and charming until they decide you are for dinner. Use: Characters looking for a place to sleep, hide, or stay for the night are invited in by one or more cannibals—perhaps an entire family of them.
+Loot: A cannibal has currency equivalent to a very expensive item and possibly a cypher.
+GM intrusion: The cannibal reveals a severed and gnawed- upon body part of a previous victim. The character must succeed on an Intellect defense task or be stunned and lose their next turn.
+
+Mad Scientist 4 (12)
+A mad scientist is someone who delves into areas of science best left unexamined, abandoning ethics and pushing for what can be created without asking if it should be. 
+Motive: Understanding and exploiting reality
+Environment: Usually in a lab
+Health: 15
+Damage Inflicted: 7 points
+Movement: Short
+Modifications: Defends as level 6 due to a gadget (or cypher); knowledge of advanced science as level 7
+Combat: Mad scientists are usually accompanied by security guards, robots, zombies, or some other appropriate creature. A mad scientist can attempt to take command of an enemy’s technological device (armor, a weapon, a cypher, a robot, and so on) within short range for up to one minute using a handheld device.
+Mad scientists usually have access to a long-range energy or high-velocity weapon that inflicts 7 points of damage. They often carry manifest cyphers that increase Armor, confuse opponents’ senses, or transform themselves into a form that eases all their actions by two steps.
+Interaction: Mad scientists are narcissistic and love to monologue about their work. They negotiate but usually are sociopathic and don’t care about other people. Some are filled with self-loathing but too far gone to feel they can change.
+Use: Blackouts and strange noises have been traced to a location found to hold a secret lab where a scientist is creating something amazing and monstrous.
+Loot: Mad scientists have a few manifest cyphers and possibly an artifact.
+GM intrusion: The mad scientist produces a gadget or cypher that proves to be the perfect answer to a dilemma at hand.
+
+Tin Woodman 7 (21)
+Once an ordinary woodman of flesh and blood named Nick Chopper, the Tin Woodman’s story is a sad one. His beloved axe was enchanted by a wicked witch in order to keep him from his other true love (it’s a long story, but suffice it to say that witches who are wicked do wicked things). His beloved axe turned on Nick Chopper, taking off one limb after another. A tinsmith kindly replaced Nick’s missing body parts (except his heart) with tin prosthetics, but eventually nothing was left of the original human and he became the Tin Woodman.
+Note that the Tin Woodman will never tell you this story himself, for he has no heart and seeks only revenge: revenge upon the witch who cursed him, upon the tinsmith who did not replace his heart, upon the rain that rusts him. Someday, he will find all the original parts of himself, no matter who they belong to currently, so that he can return to his original form.
+Motive: Revenge, find his original body parts 
+Environment: Anywhere
+Health: 21
+Damage Inflicted: 4 points
+Armor: 4
+Movement: Short; immediate if rusted Modifications: Speed defense as level 5 due to rust
+Combat: Inflicts 7 points of damage with his enchanted axe.
+Interaction: The Tin Woodman is singularly focused, and cares only about clues that lead to revenge or his original body parts. He does not eat, drink, or sleep, and often comes across as frantic and frenzied.
+Use: The PCs are hunting the same foe that the Tin Woodman is, and either they join together, or the Tin Woodman tries to prevent them from reaching the foe before he does.
+Loot: Enchanted axe Enchanted axe (artifact): level 7; inflicts 7 points of damage; can be activated to move a long distance away from the wielder and attack a foe as an action. Depletion: 1 in 1d20 (check each activation)
+GM intrusion: A character’s weapon gets caught in the Tin Woodman’s metal body, pulling the weapon out of their hands. 

@@ -1555,7 +1555,7 @@ Effect: The weapon extends tendrils, skin, wires, nerves, or other material into
 OPTION TABLE
 1-4 Hunting knife
 5-8 Machete
-9-12 Nightstike
+9-12 Nightstick
 13-16 Light handgun
 17-20 Medium handgun
 

@@ -53,7 +53,7 @@ pub fn load_cypher_tables(db_cyphers: &mut Vec<Cypher>) -> Vec<RollTable> {
 
 // Named regex: (?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Effect:\s*(?P<effect>.*)\s*(?P<options>OPTION TABLE\s*(?:(?:\d*)-?(?:\d*)?\s(?:.*)\s*)+)?
 pub fn load_cyphers() -> Vec<Cypher> {
-    let cyphers = unidecode(&fs::read_to_string("Cyphers.md").unwrap());
+    let cyphers = unidecode(&fs::read_to_string("cyphers.md").unwrap());
     let cypher_regex = Regex::new(r"(?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*(Form:\s*(?P<form>.*)\s*)?Effect:\s*(?P<effect>[\s\w\W]*?)(OPTION TABLE[^\S\r\n]*(?P<optname>.*)?(?P<options>[[\s\w\W]]*?))?(^\s*$)").unwrap();
     let mut out = vec![];
     for capture in cypher_regex.captures_iter(&cyphers) {
