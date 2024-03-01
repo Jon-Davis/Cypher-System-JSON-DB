@@ -8,7 +8,7 @@ distinctive likenesses thereof, are trademarks of Monte Cook Games, LLC.
 
 CSRD.json is Compatible with the Cypher System.
 
-CSRD.json is currently based on the Cypher System Reference Document 2023-04-18
+CSRD.json is currently based on the Cypher System Reference Document 2024-02-29
 
 CSRD.json is not stable, meaning the structure may change as new content is added.
 
@@ -92,6 +92,7 @@ Flavor is the same as a Cypher System Flavor
 ```
 struct Flavor {
     name: String,                   // The name of the Flavor
+    description: String,            // The description provided for the flavor
     abilities: Vec<AbilityRef>,     // Abilities found at each tier
 }
 ```
