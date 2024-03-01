@@ -1623,3 +1623,246 @@ WOLFSBANE POTION
 Level: 1d6
 Form: Flask or injection
 Effect: Suffuses the user’s body with a mixture of colloidal silver and wolfsbane, making the user repellent to werewolves (and similar werecreatures). Wolfsbane is poisonous, and using this cypher inflicts Speed damage and Intellect damage equal to the cypher’s level. Werewolf attacks with melee weapons against the user are hindered. Any werewolf who attempts to feed on the user feels nauseous and all its actions are hindered for ten minutes. The cypher’s effect persists in the user’s body for one day (two days if the cypher is level 4 or higher). If used directly against a werewolf instead of being applied to a living creature, it hinders all the werewolf’s actions and stops it from regenerating for several minutes.
+
+Ammunition 	
+Level: 1d6 + 1
+Effect: The character gains ten shells or bullets suitable for a firearm owned by someone in the group. If no one has a firearm, ten shotgun shells are found. If the cypher’s level is 6 or higher, thirty shells or bullets are found.
+
+Construction Supply
+Level: 1d6 + 1
+Effect: One of the following items is gained; roll randomly. If the cypher’s level is 6 or higher, the character can choose which item they obtain. The right component or substance for the job provides an asset to related tasks.
+OPTION TABLE
+1 Glue, wood, ceramic, or super
+2 Epoxy, metal welding
+3 Nails, screws, fasteners
+4 Electrician’s tape
+5-6 Duct tape
+
+Edible Food
+Level: 1d6 + 1
+Effect: One of the following items is gained; roll randomly. If the cypher’s level is 6 or higher, the character can choose which item they obtain. Food obtained is enough to feed one adult for one day, or if coffee is discovered, about a gallon (4 L).
+OPTION TABLE
+01-03 Baby food, jarred
+04-06 Beans, canned
+07-08 Beans, dehydrated
+09-12 Bouillon cubes
+13-14 Canned pasta
+15-16 Cereal, breakfast
+17-18 Cheese in wax
+19-20 Chocolate, dark
+21-22 Coffee, instant
+23 Eggs, fresh
+24 Eggs, powdered
+25-26 Energy bar
+27-28 Fruit, canned
+29-30 Fruit, dried
+31-34 Fruit, fresh
+35-40 Honey
+41-42 Mayonnaise
+43-44 Meat, canned
+45-47 Milk, powdered
+48-50 Nuts
+51-53 Oatmeal
+54-56 Pasta, dried
+57-58 Pet food, canned
+59-62 Rice, dried
+63-72 Snack bag, dried chips, candy, etc
+73-83 Sugar, bulk
+84-97 Vegetables, canned
+98-00 Vegetables, fresh
+
+Firearm
+Level: 1d6 + 1
+Effect: One of the following items is gained; roll randomly. If the cypher’s level is 6 or higher, the character can choose which item they obtain. A firearm is usually found with about ten bullets or shells (or crossbow bolts). The discovered firearm works, but it is damaged and has a GM intrusion range of 1–3 on a d20. In addition to any other effect of a GM intrusion, the firearm breaks (but could be repaired).
+OPTION TABLE
+1 Handgun (light, shortrange)
+2 Light crossbow (medium, long range)
+3 Handgun (medium, long range)
+4 Heavy crossbow (heavy, long range)
+5 Rifle (medium, long range)
+6 Shotgun (heavy, immediate range)
+7 Handgun, big (heavy, long range)
+8 Assault rifle (heavy, rapid-fire, long range)
+9 Heavy rifle (heavy, very long range)
+10 Submachine gun (medium, rapid-fire, short range)
+
+First Aid
+Level: 1d6 + 1
+Effect: The character gains a fully stocked first aid kit. The kit provides an asset for one healing task. If the cypher’s level is 6 or higher, it provides assets for four healing tasks before it is exhausted.
+
+How-To Manual
+Level: 1d6 + 1
+Effect: One of the following items is gained; roll randomly. If the cypher’s level is 6 or higher, the character can choose which item they obtain. If the manual is studied for about an hour, the character gains an asset to a related knowledge task.
+OPTION TABLE
+1 Plumbing
+2 Electronics
+3 Gardening
+4 Farming
+5 Civil engineering
+6 Robotics
+7 Health
+8 Renewables (solar, wind)
+9 Smithcraft
+10 Chemistry
+
+Medicine
+Level: 1d6 + 1
+Effect: One of the following items is gained; roll randomly. If the cypher’s level is 6 or higher, the character can choose which item they obtain. The right medicine vanquishes (or treats the symptoms of) an eligible disease or illness. Other medicines are preventative.
+Special: A character who suffers from one of these medical conditions, without treatment, descends one step on the damage track every month or so.
+OPTION TABLE
+1 Radiation sickness (iodine tablets)
+2 Hypothyroidism
+3 Diabetes
+4 High blood pressure
+5 Depression and anxiety
+6 Heart and artery condition
+7 High cholesterol
+8 Bacterial infection
+9 Lung issues
+10 Seizures
+11 Asthma
+12 Arthritis
+13 Degenerative nerve condition
+14 Cancer
+15 Pregnancy prevention/termination
+16 Gender dysmorphia
+17 Enlarged prostate
+18 Ulcers
+19 Acid reflux
+20 Blood clots
+
+Melee Weapon
+Level: 1d6 + 1
+Effect: One of the following items is gained; roll randomly. If the cypher’s level is 6 or higher, the character can choose which item they obtain.
+OPTION TABLE
+1 Sap/blackjack (light)
+2 Hand axe (light)
+3 Hunting/combat knife (light)
+4 Brass knuckles (light weapon, deals 3 points of damage)
+5 Axe (medium)
+6 Baseball bat (medium)
+7 Baton (medium)
+8 Saber/machete (medium)
+9 Bow (medium)
+10 Pickaxe (heavy)
+
+Potable Liquid
+Level: 1d6 + 1
+Effect: One of the following items is gained; roll randomly. If the cypher’s level is 6 or higher, the character can choose which item they obtain. Water obtained is enough to hydrate one adult for one day.
+OPTION TABLE
+1 Milk, fresh
+2-3 Milk, bottled/canned
+4-5 Soda, can
+6-7 Liquor
+8-9 Water, bottled or canned
+10 Wine
+
+Transport
+Level: 1d6 + 1
+Effect: One of the following items is gained; roll randomly. If the cypher’s level is 6 or higher, the character can choose which item they obtain.
+OPTION TABLE
+1 Roller skates
+2 Inline skates
+3 Skateboard
+4-6 Bicycle
+7 Moped/scooter, gas or electric
+8 Hang glider
+9 Motorcycle, gas or electric
+10 Two-wheeled, self-balancing personal transporter
+
+Useful Clothing
+Level: 1d6 + 1
+Effect: One of the following items is gained; roll randomly. If the cypher’s level is 6 or higher, the character can choose which item they obtain.
+OPTION TABLE
+1 Cold-weather coat
+2 Raincoat
+3 Leather jacket (light armor)
+4 Boots
+5 Motorcycle leathers (light armor)
+6 Kevlar vest (medium armor)
+7 Lightweight body armor (medium armor, encumbers as light)
+8 Riot gear (medium armor)
+9 Military body armor (heavy armor)
+10 Hazmat suit (light armor, +2 Armor against chemical and radiation damage)
+
+Useful Thing
+Level: 1d6 + 1
+Effect: One item from the Useful Stuff table is gained; roll randomly. If the cypher’s level is 6 or higher, the character can choose which item they obtain from the table.
+
+Useful Tool
+Level: 1d6 + 1
+Effect: One of the following items is gained; roll randomly. If the cypher’s level is 6 or higher, the character can choose which item they obtain. The right tool or tools for the job provide an asset to related tasks.
+OPTION TABLE
+1 Manual drill
+2 Hammer
+3 Chainsaw, gas or electric
+4 Lever hoist
+5 Screwdriver
+6 Saw
+7 Pliers
+8 Wrench
+9 Level
+10 Tape measure
+11 Crowbar
+12 Drill, electric
+13 Nail gun
+14 Air compressor
+15 Heat gun, electric
+16 Scissors
+17 Binoculars
+18 Lighter
+19 Can opener
+20 Box of black markers
+
+AI-Fashioned Manifest Cyphers 
+OPTION TABLE
+1 AI instance
+2 Armor breach
+3 Data wipe
+4 Denature nanotech
+5 Detonation (prion)
+6 Disassembler
+7 Disassembler, ephemeral 
+8 Fabricator, civil
+9 Fabricator, military
+10 Smartdust
+
+AI INSTANCE
+Level: 1d6 + 1
+Effect: Installs an AI instance in an inert object. The instance persists for about a day. The AI’s level is equal to this cypher's level. The AI has the ability to understand and audibly synthesize nearly any language and can provide answers to questions. The GM assigns a level to the question, so the more obscure the answer, the higher its level. The instance can only answer questions equal to its level or less. Generally, knowledge that could be found by looking somewhere other than the current location is level 1 or higher, and obscure knowledge of the past is level 7. Gaining knowledge of the future is impossible. If the AI answers a question of level 5 or higher, the instance’s existence terminates. Alternatively, the AI can be used to engage another AI in the area, distracting it from taking direct actions for a number of minutes equal to this cypher’s level. After this interval, the instance’s existence terminates.
+
+ARMOR BREACH 
+Level: 1d6 
+Effect: A successfully targeted creature or object within short range becomes coated with a clinging film of nanotech for one minute. While coated, a creature has 2 less Armor than usual (3 less if the cypher is level 5 or 6). While coated, an object temporarily moves one step down the object damage track (or two steps down if the cypher is level 5 or 6).
+
+DATA WIPE 
+Level: 1d6 + 2 
+Effect: A successfully targeted AI instance within short range whose level is equal to or less than this cypher’s level is suppressed and unable to function for one minute. If this cypher’s level is 7 or higher, a success means the instance is permanently wiped from the hardware (or wetware, if installed on a living creature).
+
+DENATURE NANOTECH
+Level: 1d6 + 3
+Effect: Coats a short area surrounding the user, or adjacent to the user, with a nearly invisible film of nanotech that lasts for years. The first time anyone attempts to use a nanotech‑based cypher, ability, or other effect in the affected area whose level is less than this cypher’s level, that use is suppressed and fails. Once one effect is suppressed, the denaturing effect is expended. The cypher instead can be used to end one ongoing nanotech effect of the cypher’s level or less in a short area, but the user must succeed on an Intellect attack roll against the level of the effect or the target creating the effect. For instance, if this cypher is successfully used against a creature genetically engineered by nanotech, the creature would become so much inert biological matter.
+
+DETONATION (PRION)
+Level: 1d6 + 2
+Effect: Projects a small physical explosive up to a long distance away that bursts in an immediate radius, inflicting damage equal to the cypher’s level. On a hit, the living tissue of targets whose level is less than the cypher’s level begins to unravel due to a prion‑unfolding chain reaction. These targets take damage equal to the cypher’s level on the first round, then 1 point of damage each subsequent round until only so much cloudy pink fluid remains. PCs can make a Might defense roll each round to end the effect; two successful defense rolls end the chain reaction. NPCs whose level is equal to or higher than the cypher’s level take damage from the cypher for only one round.
+
+DISASSEMBLER
+Level: 1d6 + 1
+Effect: Recycles waste or other unwanted material by breaking it down to constituent atoms and molecules. If used destructively, this cypher can disassemble an object within immediate range whose level is equal to or less than the cypher’s level that fits into a 10‑foot (3.5 m) cube, or it can create a cavity of the same volume in a larger object whose level is less than the cypher’s level. If used as a weapon against creatures, the cypher can be hurled a short distance like a detonation, inflicting damage equal to the cypher’s level in an immediate area and reducing the effectiveness of any Armor worn by targets by 1.
+
+DISASSEMBLER, EPHEMERAL
+Level: 1d6 + 2
+Effect: An object or creature whose level is equal to or less than this cypher’s level within immediate range is temporarily disassembled into its component atoms and molecules. The disassembly lasts for up to ten hours or until a time specified by the user, whichever occurs first. When the effect ends, the object or creature is reassembled over the course of one round at the location where it was disassembled (or at the location the fine “dust” of its disassembly was moved to). A Speed attack roll is necessary to affect an unwilling target. PCs can make a Might defense roll to resist being disassembled.
+
+FABRICATOR, CIVIL
+Level: 1d6 + 1
+Effect: Assembles a specified object whose level is equal to the cypher’s level. Once created, the object is permanent until destroyed. A civil fabricator can build one object on the Additional Post‑Apocalyptic Equipment table (or another equipment table in the Cypher System Rulebook) that falls into the “other items” category—no weapons or armor. The user chooses which item to fabricate by speaking aloud the name of the item they want as they activate the cypher. The higher the cypher level, the more expensive an item the fabricator can create, as follows: Level 2 cyphers can fabricate inexpensive items, cyphers of level 3 or less can fab inexpensive and moderately priced items, cyphers of level 6 or less can fab up to expensive items, and level 7 cyphers can fab up to very expensive items. A civil fabricator can create appropriately priced food items. However, it can’t fabricate living creatures.
+
+FABRICATOR, MILITARY
+Level: 1d6 + 1
+Effect: A military fabricator cypher functions like a civil fabricator; however, it can be used to create armor or weapons. If a weapon that uses ammunition is fabricated, the weapon’s magazine holds up to ten rounds of fabbed ammunition.
+
+SMARTDUST
+Level: 1d6 + 2
+Effect: Coats an area up to a short distance in diameter with a nearly invisible film of nanotech that lasts for a number of months equal to the cypher’s level. Afterward, the user can see, hear, smell, and feel the vibrations of any activity that occurs in that location no matter how far they are from it.

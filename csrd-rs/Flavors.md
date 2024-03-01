@@ -1,4 +1,4 @@
-STEALTH FLAVOR
+STEALTH FLAVOR Characters with the stealth flavor are good at sneaking around, infiltrating places they don’t belong, and deceiving others. They use these abilities in a variety of ways, including combat. An Explorer with stealth flavor might be a thief, while a Warrior with stealth flavor might be an assassin. An Explorer with stealth flavor in a superhero setting might be a crimefighter who stalks the streets at night.
 
 1-TIER STEALTH ABILITIES
 Danger Sense
@@ -43,7 +43,7 @@ Thief's Luck
 Twist of Fate
 
 
-TECHNOLOGY FLAVOR
+TECHNOLOGY FLAVOR Characters with a flavor of technology typically are from science fiction or at least modern-day settings (although anything is possible). They excel at using, dealing with, and building machines. An Explorer with technology flavor might be a starship pilot, and a Speaker flavored with technology could be a techno-priest. Some of the less computer-oriented abilities might be appropriate for a steampunk character, while a modern-day character could use some of the abilities that don’t involve starships or ultratech.
 
 1-TIER TECHNOLOGY ABILITIES
 Datajack
@@ -86,7 +86,7 @@ Information Gathering
 Master Machine
 
 
-MAGIC FLAVOR
+MAGIC FLAVOR You know a little about magic. You might not be a wizard, but you know the basics—how it works, and how to accomplish a few wondrous things. Of course, in your setting, “magic” might actually mean psychic powers, mutant abilities, weird alien tech, or anything else that produces interesting and useful effects. An Explorer flavored with magic might be a wizard-hunter, and a Speaker with magical flavor might be a sorcerer-bard. Although an Adept flavored with magic is still an Adept, you might find that swapping some of the type’s basic abilities with those given here tailors the character in desirable ways.
 
 1-TIER MAGIC ABILITIES
 Blessing of the Gods
@@ -130,7 +130,7 @@ Traverse the Worlds
 Word of Death
 
 
-COMBAT FLAVOR
+COMBAT FLAVOR Combat flavor makes a character more martial. A Speaker with combat flavor in a fantasy setting would be a battle bard. An Explorer with combat flavor in a historical game might be a pirate. An Adept flavored with combat in a science fiction setting could be a veteran of a thousand psychic wars.
 
 1-TIER COMBAT ABILITIES
 Danger Sense
@@ -168,7 +168,8 @@ Mastery With Defense
 
 
 
-SKILLS AND KNOWLEDGE FLAVOR
+SKILLS AND KNOWLEDGE FLAVOR This flavor is for characters in roles that call for more knowledge and more real-world application of talent. It’s less flashy and dramatic than  supernatural powers or the ability to hack apart multiple foes, but sometimes expertise orknow-how is the real solution to a problem. A Warrior flavored with skills and knowledge might be a military engineer. An Explorer flavored with skills and knowledge could be a field scientist. A Speaker with this flavor might be a teacher.
+
 
 1-TIER SKILLS AND KNOWLEDGE ABILITIES 
 Interaction Skills

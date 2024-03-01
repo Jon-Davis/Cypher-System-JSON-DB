@@ -1192,3 +1192,60 @@ Tier 5: Greater Enhanced Intellect
 Tier 6: Knowledge Is Power
 Tier 6: Tower of Intellect or Read the Signs
 GM Intrusions: Books burn, get wet, or get lost. Computers break or lose power. Glasses break.
+
+Merges Mind With Machine 
+You were raised in an underground bunker by Milly, an AI instance installed in your brain before you developed cognition of your own. Unlike AI zombies, your personality and motivations haven’t been replaced; your sense of self grew alongside the AI, as collaborators rather than foes. This granted you superior intellect and an uncanny knack for computers. Now you’ve emerged into the larger world, where survivors are predisposed to distrust you, and you may need to keep your background a secret to be accepted. Whether you hate AI or remain loyal to Milly, you face the best odds if you can fit in with another group of survivors. After all, there’s a lot you don’t know about how things work on the surface and the things people have done to stay alive in the past twenty years. 
+Tier 1: Interface
+Tier 2: Robot Assistant
+Tier 3: Assisted Sight or Machine Telepathy
+Tier 4: Machine Bond 
+Tier 4: Network Tap
+Tier 5: Greater Enhanced Intellect 
+Tier 6: Master Machine or  See the Future
+
+Prepped for the End
+You prepared for ultimate disaster, unlike most of the sheeple. Which means you stashed away food, water, and other survival gear when things were still okay. You trained yourself for harsh conditions, for basic machine and electronic repair, and maybe even in a musical instrument to pass the time in the bunker when no other entertainments could be had. You’d excel in a small group of other survivors, but you’re ready to go it alone if that’s what it takes. Above all, you’re prepared to make it through whatever the future holds, no matter how daunting the odds. Because you prepped wisely.
+Tier 1: Practiced in Light Armor
+Tier 1: Prepared Caches
+Tier 1: Trained for Toughing It
+Tier 2: Tinker
+Tier 2: Weather the Vicissitudes
+Tier 3: Fruitfully Pass the Time or Stashed Vehicle
+Tier 4: Know Where to Look
+Tier 5: Ambusher
+Tier 6: Discipline of Watchfulness or Escape the Ruins
+
+Raids
+When civilization fell, you did what you had to do to stay alive. Did you kill innocent people? Probably, insofar as anyone who survived the end can really be considered “innocent.” You figured they’d have done the same to you. But whether they deserved it or not, you and the other raiders you ran with survived, and your targets did not. Then something life‑changing happened to you, altering your perspective; it’s up to you to decide what. In any case, you’ve turned over a new leaf. You don’t indiscriminately kill anymore, though surviving is still a goal. But you’ve joined with others who you want to protect as much as or even more than your own life. You’re done with raiding. But is raiding (and those who might recognize you as a raider) done with you?
+Tier 1: Ignore the Pain 
+Tier 1: Wilderness Life 
+Tier 2: Careful Tracker
+Tier 2: Fearsome Reputation 
+Tier 3: Raider Follower or Grand Deception 
+Tier 4: Greater Frenzy
+Tier 5: Using the Environment 
+Tier 6: Deep Consideration or Twisting the Knife
+
+Remembers the Past
+You are a student of the before‑times. Maybe that’s because you grew up in the ruins of an old library and read everything as your hobby, you found a friendly AI archivist who taught you about how things once were, you’re long‑lived and were alive before the apocalypse, or you have a deep recollection of the world before the end for some other reason. This knowledge gives you an appreciation of the before‑times as well as a point of view that many other survivors lack that benefits you in and around ruins. You can find things others wouldn’t know to look for, plucking fruits of the past that would otherwise go unharvested.
+Tier 1: Ruin Lore
+Tier 1: Knowledge Skills
+Tier 2: Fixer
+Tier 2: Know the Way
+Tier 3: Disable Mechanisms or Resource Seeker
+Tier 4: Improvise
+Tier 5: Task Specialization 
+Tier 6: Use the Network
+
+Walks the Wasteland 
+Most people want to hide from the devastation or just curl up and die rather than face a hostile world. Not you. You’re determined to see what’s out there, to survive, and, more than that, to thrive. It’s that or let the radioactive rats—or whatever it is that hunts the ruins—get you. If you were around before the end, you could have been a soldier, mercenary, or at least someone who had basic survival training. What sets you apart from all the others like you is that you decided to hope when everything looked darkest. Since then, you have eaten your share of spoiled food and irradiated water, and survived. Whether that’s because you’ve adapted, you’re luckier, or you were just tougher than the rest is anyone’s guess. But you’re still walking the wastes even though so many others are gone. You probably don’t spend a lot of time on your appearance, given that you wear the cobbled‑together clothing and bits and pieces of armor you’re able to scavenge from the ruins. Appearance doesn’t matter; actions do.
+Tier 1: Surviving the Wasteland
+Tier 1: Tolerance
+Tier 2: Devoted Defender
+Tier 2: Hardened by the End
+Tier 3: Hard to Hit or Rapid Attack 
+Tier 3: Apocalyptic Stare
+Tier 4: Improved Recovery
+Tier 4: Push on Through
+Tier 5: Ignore the Pain 
+Tier 6: Using What’s Available or Wasteland Camouflage

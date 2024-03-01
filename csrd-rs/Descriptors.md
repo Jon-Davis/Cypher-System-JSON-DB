@@ -877,38 +877,38 @@ Skill: Quintar fascination with human behavior eases all interaction rolls (plea
 Difficult Rest: Quintar subtract 2 from all recovery rolls (minimum 1).
 
 AMAZING
-You have a knack for surprising people-- performing impossible athletic feats, sneaking up on someone who’s alert, or instantly reacting to an ambush. You like to make use of these talents to enhance (or rehabilitate) your reputation as a hero prone to spectacular rescues, defeating foes way above your league, and arriving just in time to save the day. Ironically, in your normal daily life, you’re a little awkward and overlooked.
+You have a knack for surprising people-- performing impossible athletic feats, sneaking up on someone who's alert, or instantly reacting to an ambush. You like to make use of these talents to enhance (or rehabilitate) your reputation as a hero prone to spectacular rescues, defeating foes way above your league, and arriving just in time to save the day. Ironically, in your normal daily life, you're a little awkward and overlooked.
 You gain the following characteristics:
 Exceptional: +2 to your Speed Pool, and 2 additional points to divide among your stat Pools.
-Skill: You’re trained in initiative and stealth tasks.
+Skill: You're trained in initiative and stealth tasks.
 Self-Hype: When you apply a level of Effort to a task, you get a free level of Effort. You can do this one time, although the ability is renewed each time you make a one-hour or ten-hour recovery roll.
-Inability: Your sudden appearances are startling to regular people. Positive social reactions are hindered (villains and other superheroes aren’t affected by this).
+Inability: Your sudden appearances are startling to regular people. Positive social reactions are hindered (villains and other superheroes aren't affected by this).
 Initial Link to the Starting Adventure: From the following list of options, choose how you became involved in the first adventure.
-1. You got in a bit over your head, but another PC’s coincidental arrival gave you just the distraction you needed.
+1. You got in a bit over your head, but another PC's coincidental arrival gave you just the distraction you needed.
 2. You were tailing someone the other PCs were following and decided to drop in.
 3. You saw that the other PCs were in a fight and chose to help them out.
 4. You had a hunch that something big was about to go down.
 
 INCREDIBLE
-You’re misunderstood, and you might not even think of yourself as a hero, but somehow you keep ending up in situations where your abilities are just what’s needed to prevent disaster. Maybe good luck cancels out just enough of being cursed to count as a win. You’ve saved innocent lives, defeated some really bad people, and perhaps even cheated death a couple of times. Half the time you don’t even know how you did it, but you succeeded at the impossible . . . often with a lot of collateral damage. When you hear police sirens, it’s time to leave, but you know that trouble will find you eventually—and you’ll be ready to smash it.
+You're misunderstood, and you might not even think of yourself as a hero, but somehow you keep ending up in situations where your abilities are just what's needed to prevent disaster. Maybe good luck cancels out just enough of being cursed to count as a win. You've saved innocent lives, defeated some really bad people, and perhaps even cheated death a couple of times. Half the time you don't even know how you did it, but you succeeded at the impossible . . . often with a lot of collateral damage. When you hear police sirens, it's time to leave, but you know that trouble will find you eventually—and you'll be ready to smash it.
 You gain the following characteristics:
 Strong: +2 to your Might Pool, and 2 additional points to divide among your stat Pools.
-Skill: You’re trained in breaking things. 
-Skill: You’re trained in all jumping tasks. 
+Skill: You're trained in breaking things. 
+Skill: You're trained in all jumping tasks. 
 Inability: Your destructive reputation or some other reluctance to communicate makes people distrust you. Any task involving social interaction is hindered.
-Incredible Action: You can choose to automatically succeed on one task without rolling, as long as the task’s difficulty is no higher than 6. When you do so, however, you also trigger a GM intrusion as if you had rolled a 1. The intrusion doesn’t invalidate the success, but it probably qualifies it in some fashion. You can do this one time, although the ability renews each time you make a ten-hour recovery roll.
+Incredible Action: You can choose to automatically succeed on one task without rolling, as long as the task's difficulty is no higher than 6. When you do so, however, you also trigger a GM intrusion as if you had rolled a 1. The intrusion doesn't invalidate the success, but it probably qualifies it in some fashion. You can do this one time, although the ability renews each time you make a ten-hour recovery roll.
 Initial Link to the Starting Adventure: From the following list of options, choose how you became involved in the first adventure.
 1. One of the other PCs sensed your decent heart and decided to befriend you.
 2. You literally crashed through a wall and ended up in the middle of the other PCs.
 3. One of the other PCs reminds you of someone from your past.
-4. You were feeling lonely and took a risk talking to someone, and so far it’s paying off
+4. You were feeling lonely and took a risk talking to someone, and so far it's paying off
 
 MIGHTY
-You have a very impressive physique. Your strength, power, and very importance are superior. Whether you’re truly the mightiest may be up for debate (and you may have a friendly rivalry about this with other superheroes), but there is no question that you are exceptional. These things make you confident, but you know that you have these physical gifts in order to perform heroic deeds, and unseemly conduct is beneath you.
+You have a very impressive physique. Your strength, power, and very importance are superior. Whether you're truly the mightiest may be up for debate (and you may have a friendly rivalry about this with other superheroes), but there is no question that you are exceptional. These things make you confident, but you know that you have these physical gifts in order to perform heroic deeds, and unseemly conduct is beneath you.
 You gain the following characteristics:
 Very Powerful: +4 to your Might Pool.
-Skill: You’re trained in all actions involving lifting and throwing things.
-Skill: You’re trained in Might defense tasks.
+Skill: You're trained in all actions involving lifting and throwing things.
+Skill: You're trained in Might defense tasks.
 Healthy: Add 1 to the points you regain when you make a recovery roll.
 Initial Link to the Starting Adventure: From the following list of options, choose how you became involved in the first adventure.
 1. You joined the other PCs because they would fail without your strength.
@@ -917,29 +917,164 @@ Initial Link to the Starting Adventure: From the following list of options, choo
 4. An authority figure told you to do this to show you the value of humility.
 
 SENSATIONAL
-The public and the press like you. Maybe you’re photogenic, or you’re inherently nice, or you have really good luck with journalists. Whatever the cause of it, you’re the darling of the media, and whenever you’re seen in public, you generate a lot of positive interest and excitement. (If you don’t have a secret identity, this attention probably also carries over to your day job, which is a mixed blessing.) People know that you’re a hero and that they can count on you to do the right thing—fighting crime, battling injustice, punching evil robots, that kind of stuff. Sometimes being in the public eye so much can be wearying or even a burden, but you know how to use your reputation to set a good example and make the world a better place.
+The public and the press like you. Maybe you're photogenic, or you're inherently nice, or you have really good luck with journalists. Whatever the cause of it, you're the darling of the media, and whenever you're seen in public, you generate a lot of positive interest and excitement. (If you don't have a secret identity, this attention probably also carries over to your day job, which is a mixed blessing.) People know that you're a hero and that they can count on you to do the right thing—fighting crime, battling injustice, punching evil robots, that kind of stuff. Sometimes being in the public eye so much can be wearying or even a burden, but you know how to use your reputation to set a good example and make the world a better place.
 You gain the following characteristics:
 Versatile: You get 4 additional points to divide among your stat Pools.
-Skill: You’re trained in positive social interactions.
-Skill: You’re trained in one skill relating to your current or past career, such as computers, journalism, law, machinery, or medicine.
-Popular: The GM can introduce a GM intrusion on you, based on your fame and the public’s perception of you, without awarding you any XP (as if you had rolled a 1 on a d20 roll). However, if this happens, 50 percent of the time, your reputation works to your advantage. Rather than hurting you (much), it helps you, or it hurts your enemies. You get spotted by a guard, but they’re dumbstruck for a moment because you’re even more impressive in person than you are on TV. You attract a crowd of fans, but they slow down the fleeing villain you’re trying to catch. A photographer pesters you for a photo and a quote, but their camera catches something interesting in the background. You and the GM should work together to determine the details. If the GM wishes, they can use GM intrusions based on your fame normally (awarding XP).
+Skill: You're trained in positive social interactions.
+Skill: You're trained in one skill relating to your current or past career, such as computers, journalism, law, machinery, or medicine.
+Popular: The GM can introduce a GM intrusion on you, based on your fame and the public's perception of you, without awarding you any XP (as if you had rolled a 1 on a d20 roll). However, if this happens, 50 percent of the time, your reputation works to your advantage. Rather than hurting you (much), it helps you, or it hurts your enemies. You get spotted by a guard, but they're dumbstruck for a moment because you're even more impressive in person than you are on TV. You attract a crowd of fans, but they slow down the fleeing villain you're trying to catch. A photographer pesters you for a photo and a quote, but their camera catches something interesting in the background. You and the GM should work together to determine the details. If the GM wishes, they can use GM intrusions based on your fame normally (awarding XP).
 Initial Link to the Starting Adventure: From the following list of options, choose how you became involved in the first adventure.
-1. You’re related to one of the other superhero PCs, and decided to help out because of family.
+1. You're related to one of the other superhero PCs, and decided to help out because of family.
 2. The other PCs relied on your positive reputation to untangle them from a public relations problem, and they invited you along out of gratitude.
 3. The media specifically called you out to fix this problem.
 4. A supervillain chose to make a scene in the hopes of drawing you out.
 
 UNCANNY
-There’s something unusual about you, and it makes other people a little uncomfortable. You know you’re exceptional—gifted, even—and being a bit odd doesn’t make you any less of a person. This uncanny element is a part of you, in your blood, in your DNA. You can’t help it, but you won’t apologize for it. You feel comfortable around other people with similar strangeness, people who’ve experienced the same prejudice that you have; these shared experiences mean they’re your family, perhaps the only family you’ve got.
+There's something unusual about you, and it makes other people a little uncomfortable. You know you're exceptional—gifted, even—and being a bit odd doesn't make you any less of a person. This uncanny element is a part of you, in your blood, in your DNA. You can't help it, but you won't apologize for it. You feel comfortable around other people with similar strangeness, people who've experienced the same prejudice that you have; these shared experiences mean they're your family, perhaps the only family you've got.
 You gain the following characteristics:
 Exceptional: +2 to your Might Pool and +2 to your Speed Pool.
-Distinctive Physical Quirk: You have an unusual physical aspect. Depending on the setting, this can vary greatly; it might be something external and obvious, such as an odd smell or blue hair, or internal and hidden, like having blood type “omega.” Whatever it is, your quirk draws a lot of attention when it’s discovered.
-A Sense for the Weird: Sometimes—at the GM’s discretion—an event or person that seems related to your uncanny nature attracts your attention. You can sense it from afar, and if you get within long range of it, you can sense whether it is overtly dangerous or not.
-Skill: You’re trained in either perception tasks or stealth tasks.
-Skill: You’re trained in one kind of knowledge related to your quirk, such as olfactory science, mutations, or hematology.
-Inability: People find you unnerving. All tasks relating to pleasant social interaction are hindered. (Other people who are unusual like you aren’t affected by this.)
+Distinctive Physical Quirk: You have an unusual physical aspect. Depending on the setting, this can vary greatly; it might be something external and obvious, such as an odd smell or blue hair, or internal and hidden, like having blood type "omega." Whatever it is, your quirk draws a lot of attention when it's discovered.
+A Sense for the Weird: Sometimes—at the GM's discretion—an event or person that seems related to your uncanny nature attracts your attention. You can sense it from afar, and if you get within long range of it, you can sense whether it is overtly dangerous or not.
+Skill: You're trained in either perception tasks or stealth tasks.
+Skill: You're trained in one kind of knowledge related to your quirk, such as olfactory science, mutations, or hematology.
+Inability: People find you unnerving. All tasks relating to pleasant social interaction are hindered. (Other people who are unusual like you aren't affected by this.)
 Initial Link to the Starting Adventure: From the following list of options, choose how you became involved in the first adventure.
 1. You felt the objective was someone like you, so you got involved.
 2. Whether the other PCs realize it or not, their mission has to do with your field of knowledge, so you got involved.
 3. As an expert in an unusual kind of knowledge, you were specifically recruited by the other PCs.
 4. You believe one of the other PCs may be uncanny or is related to someone who is.
+
+Bitter
+Someone you cared for wronged you. They may have done so directly by betraying a trust, stealing your supplies, or giving you up to raiders to save their own life. Maybe they did it indirectly by going missing or dying on you. Or maybe it was an organization or institution that let you down. Whatever it was, you've spent a lot of time pulled into yourself, paranoid and mistrustful of others. But something's happened lately that has at least opened you to the possibility of trusting others again. Maybe you have to work with someone else or die. Alternatively, perhaps you've decided to try one more time, despite your disillusionment. It's either that or fully give in to bitterness.
+You gain the following characteristics:
+Skeptical: +4 to your Intellect Pool.
+Skill: You're always wondering who's going to wrong you next. You are trained in detecting deception.
+Skill: You are trained in tracking creatures. If a creature has wronged you, the tracking task is eased.
+Inability: You have a hard time not letting bitterness stain everything you do. Interaction tasks are hindered.
+Additional Equipment: You have a keepsake from whoever wronged you. It could be an object they once possessed, a picture of them, or something else you associate with what makes you so bitter.
+Initial Link to the Starting Adventure: From the following list of options, choose how you became involved in the first adventure.
+1. You found the other PCs in a situation they couldn't survive. Uncharacteristically, you helped them.
+2. You were facing certain death, but the PCs saved you, for no reason other than they saw your need.
+3. You want to change your ways, and the PCs seem to offer a chance for you to explore that possibility.
+4. You have no idea how you joined the PCs. You're just going along with it for now until answers present themselves.
+
+Canien
+You're an evolved, intelligent dog with the ability to speak and use tools. Some caniens stand upright and have hands, and others are quadrupeds who can use a combination of their front paws and mouth as adroitly as a handed canien; you decide which kind of canien you are. Most canien clothing and equipment accommodates walking on either two feet or four, so that's normally not an issue. Either way, you've got fur, a tail, and a noble dog visage true to your particular line of descent. And like most caniens, you're loyal to your pack and friends. But you may find strangers a little suspicious, in which case you aren't shy about letting them know. However, you're usually willing to entertain the idea that a newcomer may be a friend you just don't know yet.
+You gain the following characteristics:
+Dogged: +2 to your Might Pool.
+Skill: You are naturally vigilant. You are trained in perception tasks.
+Skill: You are playful. You are trained in tasks involving playing physical games.
+Loyal: If an ally within immediate range descends one or more steps on the damage 
+track, you can take an action immediately but in a restricted fashion. You can use this  action either to move the willing ally up to an immediate distance or to attempt a  healing task on your ally.
+Bite: You are practiced in making unarmed bite attacks (light weapon). Enabler.
+Chewer: You are something of an oral fidgeter, like most caniens. After each ten-hour recovery roll, make a difficulty 2 Intellect defense roll. If you fail, you discover you've unconsciously been chewing on a piece of your equipment; it's ruined, at least until it is repaired.
+Inability: You have a hard time seeing disloyalty in others. Tasks that involve detecting falsehoods are hindered.
+Initial Link to the Starting Adventure:
+From the following list of options, choose how you became involved in the first 
+adventure.
+1. One of the other PCs needed help, and you obliged without a second's hesitation.
+2. The other PCs were going somewhere, and you came along even though they didn't ask you to.
+3. Aggression got the better of you, and now you're running from the fallout of that experience.
+4. You feel that one of the other PCs is in danger in some way, and you'd like to help 
+out or keep an eye on them.
+
+Felis
+You're an evolved, intelligent cat with the ability to speak and use tools. Felis are equally comfortable running on all fours or standing around in a clowder of other felis gossiping over catswort tea. Your fur is your protection from the elements, but you sometimes wear a harness for your equipment and may adopt boots for rough terrain and hats for fashion or function. Your visage is like that of before-times cats, including piercing, reflective eyes. Like other felis, you are crafty and cautious, unless you feel comfortable with others, in which case you can laze away hours in the sun or a warm spot. But if need be, you are quick to act and are not afraid to use your claws to defend yourself.
+You gain the following characteristics:
+Crafty: +2 to your Intellect Pool.
+Skill: You're innately curious. You are trained in tasks involving knowledge, figuring out problems, or solving puzzles.
+Skill: You are agile. You are trained in tasks involving balancing and movement.
+Darksight: You can see in dim light as though it were bright light and see in darkness as though it were dim light. Enabler.
+Claws: You are practiced in making unarmed claw attacks (light weapon). Enabler.
+Light on Your Paws: You ignore the first 4 points of damage you would otherwise suffer from a fall. Enabler.
+Jumpy: Like most felis, you are a bit high-strung. Anytime another creature acts with surprise against you, make a difficulty 2 Intellect defense roll. If you fail, the first action you take on your turn is to flee using your full movement away from whoever surprised you.
+Inability: You often come across as aloof. Tasks that involve positive social interaction are hindered.
+Inability: You sometimes get lost in new locations you haven't visited before. You have an inability in navigation.
+Initial Link to the Starting Adventure:
+From the following list of options, choose how you became involved in the first adventure.
+1. Everything was fine until you were attacked by a raiding band of "cat-skinners." The PCs helped you fight back or flee.
+2. You saw the PCs up to something, and your curiosity got the better of you, so you followed them.
+3. One of the other PCs invited you to join after they saw you scheme, plot, or solve a difficult problem.
+4. You got lost. The PCs found you and invited you to join their group.
+
+Flutter
+You emerged from the chrysalis with your mind awash in skills instilled while you matured, as well as knowledge handed down from your ancestors. If the stories are true, some of your knowledge comes from even further back, ceded by godlike "humans" who raised flutters into the light of self-knowledge. That was before humans were lost, leaving the world in ruins. Ruins that are now yours to refurbish and rebuild or, as many prefer, to  ignore while you instead go your own way. Humans may have created you, but they're gone, and you can decide what you think you owe them, if anything.
+As a flutter, you are kin to the much smaller natural moths that still flit by night. But you have an internal skeleton and lungs, and are far larger. For all that, you also have wings, a proboscis, and much thinner limbs than the average animal still roaming the world.
+You gain the following characteristics:
+Quick: +2 to your Speed Pool.
+Skill: You are adept at using your body's natural patterns of camouflage. You are trained in hiding.
+Darksight: You can see in dim light as though it were bright light and can see in darkness as though it were dim light. Enabler.
+Fragile: When you fail a Might defense roll to avoid damage, you take 1 extra point of damage.
+Inability: You are confused by bright light. Perception tasks are hindered in bright light.
+Erratic Flyer: You can select Hover as if it were on your type's list of tier 1 abilities. Your ability to move as described in Hover is due to your wings. In addition to the base ability described for Hover, if you succeed on a difficulty 2 Intellect roll, you can keep your position in the air instead of drifting with the wind or allowing momentum to move you.
+On a failure, you fly erratically as your action, possibly into the ground, a wall, or the midst of enemies you were trying to avoid. Enabler.
+Initial Link to the Starting Adventure:
+From the following list of options, choose how you became involved in the first adventure.
+1. Some piece of knowledge gleaned from your time in the chrysalis made you seek out and join the PCs.
+2. The ruins are where knowledge of humans exists, and you heard the PCs were headed there.
+3. You overheard the PCs talking about a grand adventure, and you wanted to be part of it.
+4. You zigged when you should have zagged and ran headlong into the PCs. They patched you up and you stayed with them.
+
+Hopeful
+Despite civilization's fall, you're optimistic about what the future could bring, confident 
+that it will be bright. In fact, now that all the old institutions and cares of the world are gone, you hope something better can be rebuilt in its place. It's possible that you're bubbly and full of cheer. But you might instead be quietly confident, your hope revealed by the way you always try again if at first you fail. Being hopeful doesn't mean you're blind to others' faults, but you can hope they will do better next time, which might lead you to be more forgiving than other survivors. After all, when you screw up, you hope others will allow you the same luxury of learning from your mistakes.
+You gain the following characteristics:
+Spirited: +4 to your Intellect Pool.
+Skill: Mental malaise doesn't affect you like it does others. You are trained in Intellect defense tasks.
+Shrug Off Disappointment: When you fail at a noncombat task and try that task again the very next round, you can apply a free level of Effort toward the success of that task. This benefit effectively alleviates the requirement to apply a level of Effort when retrying failed tasks, at least the first time you retry. Enabler.
+Inability: You have a lightness of being, but you really feel it when you're physically challenged. Might defense tasks are hindered.
+Inability: You're spirited but not fast. All movement-related tasks are hindered.
+Initial Link to the Starting Adventure:
+From the following list of options, choose how you became involved in the first adventure.
+1. The PCs were in a bad spot, and one of the other PCs asked you along to add some perspective.
+2. You had a spot of bad luck, but you jumped back in to try something new, hopeful it would work out.
+3. To make good on a promise to help, you came with the other PCs.
+4. You answered a cry for help when another PC got in over their head.
+
+Mutant
+Savage forces strong enough to destroy a world left you transformed. Either through latent mutations passed down from ancestors that survived the apocalypse, or because something about you reacts when you're exposed to radiation or some other mutagenic source, you are prone to mutation. You might look relatively similar to others of your species, or you might have one or more obvious physical differences that make it hard to disguise your nature. Not that you necessarily want to hide what you are; you might wish to proudly display what makes you different and, to your mind, better.
+You gain the following characteristics:
+Significant Mutations: Choose which option from the following list you'd like for your mutations. Whichever you choose, it is rolled for randomly; you don't select it.
+• Two beneficial mutations rolled randomly.
+• Three beneficial mutations plus one harmful mutation, all rolled randomly
+• One powerful mutation and one harmful mutation, both rolled randomly.
+• One beneficial mutation, one distinctive mutation, and one harmful mutation, all rolled randomly.
+Distinctive Mutations: You can choose if you want to have distinctive mutations or not. If you do, choose the number, up to four distinctive mutations, which are rolled for randomly. (If the GM is using the transitory mutations optional rule, you can only choose to have up to three distinctive mutations.)
+Cosmetic Mutations: You can choose if you want to have cosmetic mutations or not. If you do, choose whether you want one or two cosmetic mutations, which are rolled for randomly. Once all your mutations have been rolled for, work together with the GM to ensure that what's been rolled is a character you want to play.
+Initial Link to the Starting Adventure:
+From the following list of options, choose how you became involved in the first adventure.
+1. The other PCs found you in some weird "mutant" chrysalis and pulled you out; you were grateful and joined them.
+2. The other PCs were "hunting mutants" but when they found you, they realized they had been misguided.
+3. You wanted to get away from a bad situation, so you went with the PCs.
+4. The PCs asked you to come along, believing that your particular mutations could be harnessed for the benefit of the mission.
+
+Rusted
+Life has dealt you some hard knocks. You lost an eye, an arm, or a leg several years ago, possibly during the apocalypse itself, or perhaps afterward. But you didn't give up. You adjusted, learning to do everything again, despite what first seemed like a limitation. If you lost a limb, you use a prosthetic; if an eye, you sometimes quip that binocular vision is overrated. Sure, there are times when you struggle with discomfort, pain, and possibly even self-consciousness. However, overcoming all that only makes you stronger and more determined to succeed. Ultimately, your scars, your prosthetic (if any), and your story represent who you are: a survivor who overcomes whatever is thrown your way.
+You gain the following characteristics:
+Resilient: +2 to your Might Pool or +2 to your Intellect Pool or +1 to all three Pools.
+Skill: Hard knocks have toughened you; you are trained in either Might defense tasks or Intellect defense tasks (choose one).
+Skill: You had to fake it until you made it; you are trained in one creative skill such as singing, writing, acting, composing, public speaking, painting, sculpture, dancing, or something similar.
+Inability: You've learned to do everything again and, in truth, better than most people ever could. But your injury is real; it's why you sometimes joke that you're "rusted." If you've lost an eye, your perception tasks involving sight are hindered. If you rely on a prosthetic leg, tasks requiring movement are hindered. If you rely on a prosthetic arm, tasks involving using both hands are hindered.
+Additional Equipment: You have a prosthetic for one arm or one leg, or you have an eyepatch (and prosthetic eye) for a missing eye.
+Initial Link to the Starting Adventure:
+1. You bragged that there's nothing someone else could do that you couldn't do twice as well, which is how you got involved in your current situation.
+2. You're afraid of what might happen if the other PCs fail.
+3. You were tailing one of the other PCs for reasons of your own, which brought you into the action.
+4. You stepped in to defend one of the PCs when that character was threatened. While talking to them afterward, you heard about the group's task.
+
+Shiny
+You're brash and bright, and you exult in situations, people, and objects that seem to  you as if they have a similar sheen. Literally shiny objects qualify, as well as objects that are not rusted or degraded by time's passage or the effects of the apocalypse. You also tend to fall into the orbit of people who are strong, unbeaten, and possessed of an inner brightness. You believe that they, like you, reflect the light of some greater spiritual purpose in the world. When you believe you are acting in that glow, you are emboldened and may take risks others fear. You don't seek death, but you're confident that death in the pursuit of something shiny is the definition of a life well-lived.
+You gain the following characteristics:
+Lithe: +2 to your Speed Pool.
+Skill: You've had practice driving a before-times vehicle. Choose a motorcycle, car or truck, or long-haul truck; you're trained in driving that kind of vehicle. 
+Skill: You know how to get out of the way. You are trained in Speed defense tasks.
+Shiny Maneuver: You know how to push yourself harder, at the risk of a more dramatic failure. When you attempt a shiny maneuver, you ease a task, attack roll, or defense roll, but in doing so you increase the intrusion range by two for that roll, to a 1–3 on a d20. If you fail and decide to retry the task (requiring that you spend a level of Effort, as normal), it has the same increased intrusion range. Once you attempt a shiny maneuver, you can't attempt another until you make a recovery roll. Enabler.
+Inability: You may be lithe and shiny, but you're not sneaky. Tasks related to sneaking and staying quiet are hindered.
+Inability: You are irrepressible, but that makes it hard to dissemble. Deception and disguise tasks are hindered.
+Additional Equipment: You have a treasured object that is literally shiny in bright light, such as a polished stainless-steel sphere, a silver coin, a pocket watch from the before-times, or something else small and easily carried.
+Initial Link to the Starting Adventure:
+From the following list of options, choose how you became involved in the first adventure.
+1. It seemed like there were equal odds that the other PCs wouldn't succeed, which sounded good to you.
+2. The first word that popped into your head upon seeing the PCs was "shiny."
+3. You think the tasks ahead will present you with unique and fulfilling challenges.
+4. Someone you trust and respect above all others suggested you join the PCs to help them complete their task.

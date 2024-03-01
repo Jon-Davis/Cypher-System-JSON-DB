@@ -2598,3 +2598,299 @@ Interaction: Yithians are not malicious, but they are quite focused and relative
 Use: A yithian projects its mind across the aeons, swapping consciousnesses with the character. While controlling the character’s body, the yithian is there mainly to learn and observe, and rarely takes any violent actions.
 Loot: A yithian encountered in the flesh will have 1d6 manifest cyphers and very likely a technological artifact.
 GM intrusion: The yithian produces a cypher that has a function that is perfect for its current situation: a teleporter to get away, a protective field against precisely the kind of attack being used against it, or a weapon that exploits a weakness of the character’s.
+
+ANGEL OF THE APOCALYPSE 7 (21)
+If the End Times causes civilization to fall, biblical threats multiply across the land, including one or more angels of the apocalypse. They are every bit as terrifying as the Four Horsemen because they’re charged with bringing about the end of the world. They have little room for pity or the plights of individuals; they have nations to topple and the forces of Hell to oppose. 
+Angels of the apocalypse radiate a halo of golden white light. Their 10 foot (3.5 m) tall forms—caparisoned for war—are somewhat humanoid, though each has one or more sets of wings. Apocalypse angels also wield an implement that seems to be equal parts trumpet and sword, which they can sound to bring about terrible events, or swing to slay those who oppose them.
+Motive: Instigate the biblical apocalypse; fight the forces of Hell 
+Environment: Almost anywhere, usually alone or fighting Hell’s armies 
+Health: 27 
+Damage Inflicted: 8 points 
+Armor: 3 
+Movement: Short; long when flying 
+Modifications: Speed defense as level 5 due to size; perception and detecting falsehoods as level 8 
+Combat: The angel of the apocalypse attacks twice each round with their greatsword. 
+An angel’s halo momentarily brightens with unbearable psychic energy as combat begins; foes within short range are stunned for one minute if they fail an Intellect defense roll, or until they succeed on an Intellect defense task on their turn to end the effect early. A success means that creature becomes immune to the halo’s overwhelming effect. 
+The angel can blow their trumpet as their action, creating a blast of sound and energy that sweeps out in all directions to a long distance, inflicting 8 points of damage to all creatures that hear it who fail a Might defense roll, and 2 points even with a successful roll. Structures in the area descend one step on the object damage track. Once they blow their trumpet, they usually can’t blow it again for several rounds. 
+Interaction: Wrapped in purpose, an angel of the apocalypse may ignore entreaties or, if one deigns to respond, tell supplicants to ready themselves for judgment. However, if someone manages to convince an angel to take notice due to their persuasion skill and/or the importance of their need, the angel may give that character aid in the form of healing or direct help immediately or at some promised future date. 
+Use: A high, pure trumpet sounds. All around the characters, structures fall, revealing an angel of the apocalypse overhead.
+
+ARTIFICIAL INTELLIGENCE (AI) 6 (18)
+An artificial intelligence thinks independently, learning and evolving with experience. AIs have their own goals and motivations, and may work with or against humans. Some want to gather data, some want to solve technological problems, and some want to take over the world—at any cost. 
+AIs take many forms. Some are distributed across a vast network. Others are isolated in a single computer. A few are machines with organic parts or can use such machines as servitors. 
+Because AIs are entities of extreme intelligence, they can adapt to new situations. Most AIs act on some kind of plan, whether long acting or concocted to fit the situation at hand.
+*When acting from a remote terminal, the AI’s effective level is lowered. It can be as low as level 3, but typically is level 5. 
+Motive: Varies 
+Environment: Almost anywhere 
+Health: 23 
+Damage Inflicted: 6 points 
+Armor: 2 
+Movement: None, or instantly to any networked machine able to host them 
+Combat: An electrical discharge—or in some cases precisely pulsed sequences of lights, each designed for a specific creature to see—can affect all targets within short range of the AI (or the AI’s local “terminal”), inflicting damage from electricity (or Intellect damage, which ignores Armor). 
+An AI may attempt to install an instance of themself in the wetware (the brain) of humans and any other nearby sapient creatures. Anyone within immediate range of a video screen playing carefully crafted symbols and sounds who fails an Intellect defense roll is stunned, losing their next turn as they stare in rapt attention. If they fail a subsequent defense roll, they come under the control of the AI instance for one minute, or until they succeed on an Intellect defense roll on their turn. A PC under AI control might stand and do nothing, fall mysteriously unconscious, or take an action to advance the AI’s goals. 
+AIs can control other lower level computer systems and sometimes even nanobots. 
+Some targets of AI instance installation never recover, becoming AI zombies. Besides AI zombies, an AI may also rely on guardians (such as mechanical soldiers or CRAZRs made to their own design). 
+Unless the PCs can track a given AI to their original computing core, damage to one may just be damage done to a terminal. Thus, even if an AI is seemingly destroyed, they might exist as another instance somewhere else. However, over time, alternate instances may collect different data and thus develop different memories and motivations. 
+Some AIs continue to improve themselves by modifying their own code. These AIs are level 8 threats with 27 health, and they can create cyphers and artifacts, which they often deploy in combat. 
+Interaction: Some AIs enjoy negotiation. Others simply ignore humans as unworthy of their time and attention. An AI’s voice often sounds surprisingly human. 
+Use: The PCs’ shelter is overtaken by a storm of grey goo, which answers to an AI operating out of a nearby safehouse. 
+Loot: An AI may have access to 1d6 cyphers and two or three artifacts.
+
+CANNIBAL 3 (9)
+Cannibals come in a variety of different forms, depending on their situation. Some seem like normal and perhaps even charming survivors, except to their targets. These “nice” cannibals may eat human flesh when desperate or to take advantage of meat that would otherwise go to waste. Or maybe they’ve developed a taste for human flesh. 
+Others look the part, having descended into the kind of bestial, erratic behavior that cannibalism can inflict on long term practitioners. 
+Some are part of a crazed settlement of raiders always looking for more sweet meats, and others hide in plain sight, pretending friendship and offering aid to strangers until their prey lowers their guard. Some cannibals like their prey raw; others delight in elaborate preparations. 
+Whether becoming an eater of human flesh was forced by circumstance or out of some secret, maladaptive urge, cannibals are dangerous.
+Motive: Hunger for human flesh 
+Environment: In areas where food is scarce; alone, or in groups of four to ten 
+Health: 12 
+Damage Inflicted: 3 points 
+Movement: Short 
+Modifications: Deception, persuasion, intimidation, and friendly interaction as level 6 
+Combat: Cannibals use improvised weapons, like ropes, chair legs, and jagged pieces of broken glass. A few cannibals with more resources rely on long range firearms and rifles until they run out of ammunition. 
+In any group of four or more cannibals, there’s probably one (revealed as a GM intrusion) who has filed their teeth and can make a horrific bite attack once every minute or two. This attack inflicts damage and requires the target to succeed on a Might defense roll. On a failure, the cannibal bites off a bit of the target, who is stunned and loses their next turn. See the Cannibal Severing Bite Effects table. 
+OPTION TABLE Severing Bite Effects
+1 End of nose
+2 Little finger
+3 Chunk from forearm
+4 Chunk from leg 
+5 Ear; target’s perception task that rely on hearing are hindered until target adapts
+6 Throat; target descends on step on damage track each round until ally succeeds on a difficulty 5 healing task
+Interaction: A friendly and charming cannibal may remain so indefinitely, unless they decide a PC is perfect for dinner. 
+Use: Characters looking for a place to sleep, hide, or stay for the night are invited in by one or more cannibals. A group of raiders the PCs must negotiate with are also revealed to be cannibals. 
+Loot: A cannibal has currency equivalent to an expensive item.
+
+FOUR HOURSEMEN OF THE APOCALYPSE BEAST 6 (18)
+Beast (also called “Conquest”) is present at mass shootings and acts of genocide. He is adroit at spreading misinformation and, prior to the apocalypse, was often seen on various “newstainment” shows and conspiracy theory websites, spreading lies under an alias. Then and now, he appears in a white suit, accessorized with white shades and gloves. His hair is white, too.
+Motive: Spread lies; incite others to rabid acts of cruelty 
+Environment: Almost anywhere with a dupe he’s gaslighted and/or with one or more of the Four 
+Health: 24 
+Damage Inflicted: 6 points 
+Armor: 1 
+Movement: Short; long when mounted or riding 
+Modifications: Deception as level 8 
+Combat: Beast prefers that others fight in his stead. Those convinced of his lies ease their attacks and defenses, and deal 2 additional points of damage with a successful attack. If forced into conflict, Beast produces a handgun, making two long range attacks as his action. The first time any target is hit by Beast in combat, that target takes damage and must succeed on an Intellect defense roll. A failed roll means the target mistakenly believes one of their allies attacked them instead of Beast. The target gets a new Intellect defense roll each round to realize their error. 
+As one of the Four, Beast can see in the dark, regains 1 health each round, and, if killed, reappears within 1d10 days at the next nearest location that previously experienced a mass shooting or genocidal act. 
+Interaction: Beast comes across as a kind truth teller, someone “just asking questions,” but it doesn’t take long for perceptive people to realize he’s a consummate, continual gaslighter, always working to manipulate others. 
+Use: A sniper on the ridge tries to pick the PCs off as they pass across a bridge. Behind the sniper stands a man in white.
+
+SWORD 6 (18)
+Sword (also called “War”) is never far from large‑scale conflicts. She glories in battle and warfare, and before the world ended, she was a provocateur, a mercenary, a soldier, and sometimes a general. However, once a war is good and started, she prefers fighting over watching. Then and now, she dresses in red, preferring red military attire and a massive sword—or assault rifle—the color of blood.
+Motive: Hunger for combat; incite war 
+Environment: Almost anywhere war is waged and/or with one or more of the Four 
+Health: 24 
+Damage Inflicted: 6 points 
+Armor: 3 
+Movement: Short; usually has a red mount or vehicle nearby 
+Modifications: Attacks as level 8 
+Combat: Sword’s blood colored weapon is either a greatsword or an assault rifle, whatever she needs it to be in the moment. She attacks three times with the sword as her action. With the rifle, she can make one very long range attack (with no hindrance despite the range) or two long range attacks. 
+As part of her attack, she can imbue one bullet each round with an explosive charge. If the attack hits, in addition to normal damage, the target and everyone within immediate range of the target must succeed on a Speed defense roll or take 6 points of damage from shrapnel, or 2 points even with a successful roll. 
+As one of the Four, Sword can see in the dark, regains 1 health each round, and, if killed, reappears within 1d10 days at the next nearest location that previously experienced war. 
+Interaction: Sword is full of swagger, often causing fights with biting insults. However, if she can’t incite a fight, she’s just as happy to start one herself, especially as part of a false flag operation. 
+Use: A band of raiders, dozens strong, appears on the horizon. Leading them is a woman on a red horse.
+
+FAMINE 6 (18)
+Famine delighted in economic collapse and starvation before the apocalypse. They still spend time destabilizing survivor groups’ livelihoods by direct and indirect means. Famine is rail thin, and carries a chain weapon with weighted, disc shaped ends that can also be used as an improvised scale.
+Motive: Starve the living; destabilize organized groups
+Environment: Almost anywhere people are starving and/or with one or more of the Four
+Health: 24
+Damage Inflicted: 6 points
+Armor: 1
+Movement: Short; usually has a black mount or vehicle nearby
+Modifications: Intellect defense as level 8
+Combat: Famine attacks foes with their chain weapon, attacking up to two targets within immediate range at once, or a single target within short range. On a hit, they inflict damage and can choose to entangle one target, who is held helpless on a failed Might defense roll until they escape. Entangled targets automatically take damage each round from the tightening chains. Alternatively, Famine can release a pulse of decay once every few hours that affects all creatures and food stores within short range. Food automatically goes bad, losing all nutritional value. Living targets in the area that fail a Might defense roll feel an overwhelming pang of hunger and descend one step on the damage track. As one of the Four, Famine can see in the dark, regains 1 health each round, and, if killed, reappears within 1d10 days at the next nearest location that previously experienced death through starvation or other privation. 
+Interaction: Famine is keen to talk about delicacies of every kind, becoming more animated and descriptive about mouthwatering foods and drinks the hungrier those nearby are.
+Use: The characters are trying to help a group of survivors transport much‑needed food stores to their community when someone all in black on a black motorcycle appears on the road ahead.
+
+PLAGUE 6 (18)
+Plague (often called “Death”) is present wherever people die of disease or infirmity brought on by age. She prefers black and pale green evening wear, including long pale green gloves and often a grinning skull mask. When traveling, she drives a pale green hearse or motorcycle, or rides a horse the same sickly green color.
+Motive: Death
+Environment: Almost anywhere people are dying (but especially of disease and/or old age) and/or with one or more of the Four
+Health: 24
+Damage Inflicted: 6 points
+Armor: 1
+Movement: Short; usually has a pale green mount or vehicle nearby
+Modifications: Might defense as level 8
+Combat: When she wishes, Plague wields a scythe, as if she had always been holding it. She attacks twice with it as her action. On a hit, the scythe deals damage and the target must succeed on a Might defense roll. On a failed roll, the target contracts a supernatural disease requiring that they succeed on a Might defense roll each minute or descend one step on the damage track. If an affected target succeeds on three Might defense rolls at any point, they recover. If Plague removes a glove as an action, she can use her next action to imbue her scythe with necrotic power, or simply touch a target with her bare hand. On a hit with either her touch or the imbued scythe, she inflicts damage, and the target must succeed on a Might defense roll or die. Plague can use this ability about once a day, or immediately again if her previous target dies because of it. As one of the Four, Plague can see in the dark, regains 1 health each round, and, if killed, reappears within 1d10 days at the next nearest location that previously experienced death by disease or due to old age.
+Interaction: Of all the Four, Plague is the most changeable in outlook, and sometimes is even somewhat sympathetic to humanity’s plight. When she’s in such a mood, persuasive characters could convince Plague to pass them over, though she promises that it’s only a temporary stay of death.
+Use: The characters find a before‑times bunker filled with corpses killed by some strange infection, plus a living “human” wearing a black and pale green evening gown.
+
+GAMMA WORM 6 (18)
+Gamma worms hide their large forms by burrowing beneath the ground, and when they emerge on the surface, they cloak themselves behind psychic distortion fields. The only clue someone has that they’re being stalked is a smell of cloves over the stale whiff of death. Unfortunately, if someone smells a gamma worm’s distinctive odor, it’s probably already too late. 
+Gamma worms might be the result of military research, radioactive mutation, or aliens or other strange intruders seeking to eradicate human life as part of their terraforming efforts to change Earth to their liking.
+Motive: Hunger for flesh; eliminate humans 
+Environment: Almost anywhere 
+Health: 18 
+Damage Inflicted: 6 points 
+Armor: 2 (immune to radiation) 
+Movement: Short; short when burrowing 
+Modifications: Stealth as level 8 when psychic field active; Speed defense as level 5 due to size; ability to see through tricks as level 4 
+Combat: Gamma worms attack twice each round with blades they unfold from their wormlike lengths. Alternatively, about once each hour a gamma worm can unleash a hail of gamma spikes against up to three targets within short range. Targets struck by the spikes take damage and must succeed on a Might defense roll or fall unconscious. Unconscious targets wake up a few rounds later feeling dizzy and slightly sick to their stomach—they’ve developed radiation sickness. 
+Gamma worms can use their action to generate a psychic field that effectively grants them invisibility. The invisibility lasts until they attack or move more than an immediate distance on their turn. 
+Gamma worms are vulnerable to cold; in chilly conditions, their Speed defense is hindered by four steps. In addition, cold attacks ignore their Armor. 
+Interaction: Gamma worms act like prey driven monsters, but they may have a secret language and purpose (if aliens placed them on Earth to hasten the apocalypse or kill survivors in the post apocalyptic world). 
+Use: Irradiated and hungry gamma worms emerge from the ruins to hunt fresh meat in outlying communities.
+
+GLOWING ROACH 2 (6)
+Radiation born mutant roaches are terrible individually, but absolutely horrible in swarms. Many times the size of roaches in the before times, these firefly like creatures prefer dark areas, such as ruined subways and abandoned basements. 
+Some swarms are rumored to have an insidious group intelligence, one that is utterly inimical to humankind.
+Motive: Hunger for flesh 
+Environment: Anywhere dark, usually in nests of four to ten (or more) 
+Health: 6 
+Damage Inflicted: 2 points 
+Armor: 2 
+Movement: Short; short when flying 
+Modifications: Speed defense as level 3 due to small size; perception as level 5 
+Combat: A glowing roach attacks with radioactive mandibles. When four glowing roaches act together, they can make a single attack as a level 4 creature inflicting 4 points of damage. Targets damaged by a group of glowing roaches must also succeed on a difficulty 4 Might defense task or face additional consequences from the effects of radiation and slashing mandibles, as determined on the Glowing Roach Effects table. The effects are cumulative and last until a target makes a recovery roll. 
+Sometimes a single glowing roach mutates further, allowing it to grow into a 20 foot (6 m) long monstrosity. Thankfully, these monstrous glowing roaches are rare and seldom come out into the light. 
+Roaches dislike bright illumination: in sunlight or other bright light, glowing roach attacks are hindered. 
+*Monstrous glowing roach: level 5, Speed defense as level 4; Armor 2; mandible attack inflicts 7 damage and results in a check on the Glowing Roach Effects table
+OPTION TABLE Glowing Roach Effects
+1 Head wound: Intellect defense tasks hindered
+2 Wounded leg: Speed defense tasks hindered
+3 Gut wound: Might defense tasks hindered
+4 Spit in eye: Perception tasks hindered
+5 Limb numb: Physical tasks hindered
+6 Lingering radioactive effect: Refer to Radiation in the Real World and possibly Incredible Mutations if your game has such fantastic elements. 
+Interaction: Glowing roaches almost always react like voracious insects, despite their size. That is, except for swarms of ten or more, which act like sapient creatures. Sapient swarms may try to lure survivors, possibly even spelling out human readable letters in the sand that anonymously ask for help or promise it. But it’s a ruse; they despise humans for all the ways people used to exterminate roaches in the before times. 
+Use: A visit to a ruined hospital or airport scares up a few glowing roaches when light is introduced to a dark place.
+
+HOOKED BLOSSOM 2 (6)
+Hooked blossoms germinate almost like regular plants but can root even on constructed surfaces, including cement and sometimes metal. Rooted juveniles display pinkish flowers—which some equate to the color of an open wound—that give off an alluring perfume. 
+If they mature, they uproot themselves, revealing an ambulatory body plated in a dull grey metallic hide and limbs that end in a single hook like digit. 
+Both forms are dangerous. The most common variety of rooted blossoms work in small groups to cook prey with focused beams of microwave energy. Ambulatory versions are about the size of large domestic cats. They use their sharp limbs to hook themselves into a target, then use their flowers to cook their prey or, alternatively, put them to sleep for later consumption.
+Juvenile, rooted blossom: level 1; Armor 1; a group of five flowers attacks with a level 3 microwave ray inflicting 3 ambient damage
+Motive: Hunger for flesh
+Environment: In groups of five or more anyplace touched by radiation, mutation, or AI genetic‑nanotech engineering
+Health: 6
+Damage Inflicted: 3 points
+Armor: 2
+Movement: Short; immediate when climbing
+Modifications: Speed defense as level 4 due to size; disguise as level 6 when not moving
+Combat: A mature blossom attacks twice with its hooks, inflicting damage with each strike. If a blossom hitsa target, the target must succeed on a second Speed defense roll, which is hindered. On a failed roll, the blossom hooks itself to the target until the target can detach the blossom with a successful Might roll as their action. Each round a blossom is hooked to a target, the target automatically takes 3 points of ambient damage from microwave energy emitted by the creature’s bloom. Some varieties of hooked blossoms produce soporific pollen (treat as poison) instead of microwaves. If a character is hooked by one of these blossoms, they must instead succeed on an Intellect defense roll each round they remain hooked, or fall asleep. A sleeping target must be roused by an ally or suffer physical damage to wake. Each round a target remains asleep, they automatically take 3 points of Intellect damage (ignores Armor). In its juvenile, rooted form, a hooked blossom resembles a flower with a metallic stem, which is dangerous when active. In direct sunlight, a rooted hooked blossom regains 1 point of health each round.
+Interaction: Hooked blossoms act much like animal predators, though they are not concerned with self‑preservation.
+Use: The scavenging PCs spy a flower‑clad hill in the distance, shining in the sun. Even from here, they can smell the pleasant perfume drifting on the breeze.
+
+MELTED 4 (12)
+Survivors assume the melted are another strain of mutants. Maybe so, but they’re not originally from Earth. Or rather, not this Earth. The melted leaked in from a parallel world’s apocalypse caused by a snafu with a high energy supercollider. Dozens of different but parallel timelines smashed into each other. The few survivors were fused beings composed of many different alternate versions of the same person, each still “radioactive” with latent transdimensional energy.
+Motive: Surcease from constant pain; absorb more sapient beings 
+Environment: Groups of three to five roaming the ruins 
+Health: 15 
+Damage Inflicted: 4 points 
+Movement: Short 
+Modifications: Initiative and Speed defense as level 5 due to seeing a second into the future 
+Combat: The melted attack with two claws. 
+If a melted defeats a foe, they “consume” it by drawing it fully into their body cavity as their action, healing the melted for 10 health and giving the creature a few hours free of pain, allowing their mind to clear. 
+A given melted may also have a trait associated with the transdimensional energy they burn with. 
+OPTION TABLE Transdimensional Energy Enhancement 
+1 Enhanced strength: Attacks inflict 6 points of damage (instead of 4)
+2 Healing factor: Regains 2 health each round
+3 Bite: In addition to their claw attacks, makes a bit attack each round that inflicts 6 points of damage
+4 Gravitic repulsion: Flies a long distance each round
+5 Dimensional instability: Teleports up to a long distance before or after each attack
+6 Transdimensional blast: About once each hour, emits transdimensional energy filling an adjacent short area; all creatures in the area take 6 points of ambient damage on a failed Might defense roll, as parts of them temporarily fuse with other affect creatures, or creatures in alternate dimensions
+Interaction: A few of the melted gain moments of clarity, but all are burdened with anguish stemming from their fused state. They unleash their full fury on whoever and whatever they catch among the ruins, but they seem particularly bent on finding and absorbing scientists. 
+Use: A group of the melted seek out a surviving scientific installation and attempt to consume everyone nearby. 
+Loot: One out of three melted may carry a manifest cypher (in the form of before times military tech), such as an armor reinforcer or a sonic detonation.
+
+RADIOACTIVE BEAR 7 (21)
+Exposure to radiation and other mutagens—or possibly the malign design of some before times military lab or inscrutable AI instance—transformed an already large and aggressive bear into something truly horrific. Standing well over 20 feet (6 m) tall, radioactive bears are drawn to radioactive areas, which empower and sustain them, though not completely. Which is why sometimes they head into uncontaminated areas to hunt large game. They especially prefer people.
+Motive: Hunger for flesh and radiation 
+Environment: Anywhere radioactive 
+Health: 35 
+Damage Inflicted: 7 points 
+Armor: 1
+Movement: Short 
+Modifications: Speed defense as level 4 due to size; perception as level 8 
+Combat: Creatures within immediate range of a radioactive bear are irradiated on a failed Might defense task, hindering their tasks on their next turn. 
+The bear attacks twice each round with its claws, or bites once. If its bite attack succeeds against a target suffering from radiation sickness, the bear regains 5 points of health. 
+On a target’s failed Might defense roll, the bear holds the target in its jaws, hindering their tasks until they can escape. If the bear begins its turn with a target held in its jaws, the bear automatically deals bite damage as its action. 
+As an action, the bear can cough forth a radioactive cloud once every few hours (and again if the bear is killed), targeting everything within immediate range. Targets that fail a Might defense roll take damage from the radiation. 
+If the radioactive bear is the result of military or AI design rather than a natural mutation, it may also have a mechanism capable of firing a long range laser at distant targets, deployed from a harness fused to the creature’s flesh. 
+In areas of dangerous radiation, the radioactive bear regains 2 points of health each round. 
+Interaction: Radioactive bears are clever predators, sly if they need to be. If not too hungry, a radioactive bear might let potential prey pass it by, assuming they don’t antagonize the bear. 
+Use: The characters glance behind them as they drive their vehicle across the landscape and see a huge bear, apparently giving chase. 
+
+RAIDER
+Stripped of humanity by brutal living conditions and their determination to survive no matter the cost, raiders still look human. But beneath that veneer, they’re feral.
+Motive: Raid and kill for what they want 
+Environment: Groups of four to six roaming the ruins 
+Interaction: If a raider believes a just met survivor has food, water, or shelter, or might prove to be a threat immediately or at any later date, they laugh off any suggestion of parley and attack. 
+Use: The raider encampment has a new leader, a warlord whose presence doubles raider activity.
+
+FELL RIDER 3 (9)
+Motorcycle riding raiders keep their “motor wheels” alive through constant tinkering and repair. The two wheeled machines are modified with spears, spikes, lances, and sometimes guns and flamethrowers. Fell riders wear heavy protective garments made from fur, salvaged clothing, and leather from past targets. Goggles protect their eyes, and bones are sewn through their wild, greasy hair as decoration.
+Health: 12
+Damage Inflicted: 4 points
+Armor: 1
+Movement: Short; long while riding motorcycle
+Modifications: Motorcycle repair and modification as level 5; stealth tasks as level 0 due to screaming engines
+Combat: Using pikes, spears, or lances welded to the front of their bike, a fell rider typically makes ride‑by attacks against foes from just outside short range. A fell rider is one with their bike, always moving to engage and disengage. If knocked from their bike (possibly a minor effect), a fell rider’s attacks and Speed defenses are hindered until they regain the seat as their action. Some riders use larger four‑wheeled vehicles with open canopies instead of motorcycles. These fell riders have 2 Armor and can attempt a run‑down attack on up to three targets that are next to each other and not in a vehicle, inflicting 8 points of damage. Struck targets that fail a Might defense roll descend one step on the damage track.
+Loot: A fell rider’s motorcycle, when repaired, is a useful vehicle with enough gas for miles of travel.
+
+MARAUDER 3 (9)
+Marauders are raiders who attack with stealth, wrapping themselves in light smothering clothes and targeting survivors after midnight. By day, they act like regular people, part of a survivor community. That’s pretense; when time allows, they torture targets to death and take flesh trophies.
+Health: 12 
+Damage Inflicted: 4 points; see Combat 
+Movement: Short; short when climbing 
+Modifications: Stealth and deception tasks as level 5 
+Combat: Marauders use stealth and the night to position themselves before attacking, hoping to make their initial attack with surprise using bladed weapons. Whether they have surprise or not, if they attack before their target’s first action, their attacks are eased and inflict 6 points of damage. 
+Marauders often dose their bladed weapons with poison, so targets must also make a Might defense roll or take 2 points of Speed damage (ignores Armor) each round for three rounds.
+
+WARLORD 5 (15)
+A warlord enjoys supreme authority over other raiders. Brutal rulers, warlords are a living symbol of power and strength where survival is valued above all else. 
+Warlords caparison themselves in trophies of vanquished enemies—such as gilded skulls or flayed skins. Some wear garish helms designed to intimidate. An impressive weapon, especially something from the before times, is always close at hand. A warlord is rarely encountered without raiders and other lackeys that fight for and serve them.
+Motive: Control through fear and brutality 
+Environment: Usually in the company of five to twenty raiders 
+Health: 25 
+Damage Inflicted: 5 points 
+Armor: 3 
+Movement: Short 
+Modifications: Defends as level 6 due to nearby raiders willing to take no actions other than defend the warlord 
+Combat: Warlords attack twice each round with bladed or spiked melee weapons or ranged firearms. When possible, they fight from an open canopy vehicle (driven by another raider). 
+A warlord directly leads the raiders they command, fighting at the forefront but also issuing orders. Underlings deal 1 additional point of damage when the warlord can see them and issue commands. 
+Most warlords have a specific additional advantage they can pull out to win a fight. See the table below. 
+OPTION TABLE Unique Warlord Advantage
+1 Rocket launcher (level 7): long‑range weapon inflicts 7 points of damage on targets in an immediate area (depletion: 1–2 in 1d6)	
+2 Fire thrower (level 7): immediate‑range weapon inflicts 7 points of damage on all targets within immediate range (depletion: 1 in 1d10)
+3 Release the beast: Gives the command to “release the beast”; a melted loyal to warlord charges into the fight
+4 Force shield (level 5): Static field blocks all incoming attacks against the warlord for one round (depletion: 1–2 in 1d10)
+5 Power gauntlet: Warlord’s power gauntlet grabs foe and automatically deals damage from crushing until foe escapes
+6 Skystrike: Calls in a “skystrike” from a battered wristband; a round later, a missile launched from a  before‑times satellite strikes nearby, inflicting 10 points of damage on all creatures within a short area who fail a Speed defense roll, and 2 points on those who succeed (depletion: automatic)
+Interaction: Warlords have lackeys and lieutenants that interact with outsiders. They prefer to make pronouncements and threats from on high. 
+Use: The museum, lab, or other important structure the characters wanted to visit to carry out their mission has fallen under the control of a warlord and a dozen or more raiders. 
+Loot: A warlord may carry an artifact.
+
+AI ZOMBIE 3 (9)
+An artificial intelligence that permanently installs itself onto the wetware (in this case, the brain) of a human or other sapient creature creates an AI zombie. The AI replaces the person’s personality and motivations, turning them into a shambling creature who only does the AI’s bidding, even as their body decays and falls apart (though most keep shambling because of an injection of nano repair bots). 
+AI zombies are driven by a single, simple motive implanted by the original artificial intelligence—usually related to destroying resources before competing AI instances can use them. They aren’t intelligent enough to direct themselves or problem solve outside of this goal, unless the AI takes direct control, using a particular AI zombie as a remote “terminal” from which to act and observe the world.
+ 
+Motive: Follow dictates of AI that created or that controls them 
+Environment: Almost anywhere, in groups of five to seven, or in hordes of tens to hundreds 
+Health: 12 
+Damage Inflicted: 3 points 
+Movement: Immediate 
+Modifications: Speed defense as level 2; perception tasks as level 7 
+Combat: AI zombies fight on, no matter the odds, usually attacking by biting. 
+When AI zombies attack in groups of five to seven individuals, they can make a single attack roll against one target as one level 5 creature, inflicting 5 points of damage. 
+AI zombies are hard to finish off because self repairing nanotech stitched into their flesh restores 1 point of health each round. If reduced to 0 health, there is a 50% chance that the nanotech continues to function on the zombie’s turn, allowing the creature to shudder back to life, skin crawling with miniscule “healing” robots. (If an AI zombie is cut off from ambient radio signals, they do not regain health each round.) 
+That same nanotech makes AI zombies infectious. Their bites spread a level 6 (or, in some cases, level 8) disease due to miniscule machines that move a target down one step on the damage track each day a Might defense roll is failed. Targets killed by the process later animate as AI zombies, compelled to serve an AI instance. 
+Interaction: AI zombies often serve some distant AI and may sometimes speak with its voice. But if cut off from its intelligence source, the zombie itself becomes a food seeking monster, more likely to eat someone than to represent an artificial mind. 
+Use: The characters are asked to salvage supplies from an abandoned airplane hangar—abandoned, that is, except for lingering AI zombies.
+
+ZOMBIE HULK 5 (15)
+Most zombies are mindless, shambling, hungry, and infectious. Some varieties, despite their semblance to corpses, enjoy a regenerative process that keeps them active regardless of grievous wounds, rotting flesh, and sometimes missing limbs or organs. That same process kicks into overdrive in zombie hulks, converting everything they eat into additional mass and muscle. The result is three times as massive as a regular zombie and five times as dangerous.
+ZOMBIE SPRINTER: Instead of being much larger than normal, a zombie’s regenerative system can imbue it with incredible quickness, making it much faster than the shamblers often encountered. The resulting zombie sprinter’s speed and ferocity make it hard to escape.
+Zombie sprinter: level 3, initiative as level 5; moves a long distance each round; three bites per round inflict 3 damage each; retains 1 health if attack roll result that would have downed it was an even number
+Motive: Hunger (for flesh, cerebrospinal fluid, certain human hormones, or whatever it is that nourishes the zombie in the setting) 
+Environment: Almost anywhere, alone or with other zombie varieties 
+Health: 23 
+Damage Inflicted: 8 points 
+Armor: 2 
+Movement: Short 
+Modifications: Speed defense as level 3 due to size; perception as level 7 
+Combat: A zombie hulk bashes with massive, permanently balled fists stained with the gore of past targets. 
+Alternatively, a zombie hulk can bite a target. When this occurs, it’s almost impossible to force the hulk’s jaws apart again. When a target takes damage from a bite, they must also succeed on a Speed defense roll or one of their limbs is clamped in the hulk’s mouth. The target automatically takes damage each round they are caught, and all their tasks are hindered, including attempts to escape. Meanwhile, the hulk is free to bash other foes as its action even as it chews on a previously caught target. 
+If an attack would reduce the zombie hulk’s health to 0, it does so only if the number rolled for the attack was an even number; otherwise, the zombie is reduced to 1 point of health instead. 
+Interaction: A zombie hulk may choose to smash a nearby structure instead of going straight toward food, but it is typically a mindless, unreasoning monster. 
+Use: Just when it seems like the characters understand the situation with zombies, a zombie hulk appears, making it clear that bizarre and dangerous zombie permutations are possible. If a regular zombie can become a hulk, what other ways can they mutate and evolve?

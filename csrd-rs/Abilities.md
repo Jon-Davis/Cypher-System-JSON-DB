@@ -2211,3 +2211,47 @@ Wrest From Chance: If you roll a natural 1 on a d20, you can reroll the die. If 
 You Studied: To be able to put two and two together to reach a deduction, you have to know a few things. You are trained in two areas of knowledge of your choosing (as long as they are not physical actions or combat related) or specialized in one area. Enabler. 
 
 Zero Dark Eyes: Some people's eyes are degraded by constantly playing games. And maybe that'll happen to you, but not yet. You're still young and instead of degrading, your vision is actually better thanks to all your practice. You can see in very dim light as though it were bright light. You can see in total darkness as if it were very dim light. Enabler.
+
+Practiced in Light Armor: You can wear light armor for long periods of time without tiring and can compensate for slowed reactions from wearing light armor. You reduce the Speed cost for wearing light armor by 1. You start the game with a type of light armor available in the area, such as a leather jacket. Enabler.
+
+Assisted Sight (3 Intellect points): You can activate a visual overlay that helps you analyze threats and boons in your environment. When you trigger this ability, you gain an asset on one attack or defense roll of any type, due to your knowledge about the situation. Enabler.
+Machine Telepathy
+
+Prepared Caches: You have a prepped secret hideout with shelter and basic supplies capable of seeing you through a year or more, or up to six people through about three months. In addition, you have knowledge of three different secret supply caches you put together and hid before everything fell apart, chosen from the following. The caches are located no closer than about 5 miles (8 km) from each other.• Food cache (enough food for six people for twelve weeks) • Water cache (enough clean water for six people for twelve weeks) • Ammunition cache (400 shells or bullets for four different weapons) • Firearm cache (six firearms; a mix of light, medium, and heavy weapons, each usually found with about ten bullets or shells)
+Enabler.
+
+Trained for Toughing It: Choose one noncombat skill that would be helpful for surviving after the apocalypse, such as hunting, tracking, carpentry, or stealth. You are trained in that skill. Enabler.
+
+Fruitfully Pass the Time (4 Intellect points): You are trained in one performance skill, such as singing; playing a fiddle, harmonica, or other instrument; or something else that others would enjoy watching or hearing you do. When you perform with the skill gained through this ability for one minute and you succeed on a difficulty 3 performance roll, you and all allies within short range who can hear and see you immediately gain a one‑action recovery roll. You can’t use this on someone again until you use a one‑hour or ten‑hour recovery roll. Action to initiate, one minute to complete.
+
+Stashed Vehicle: You track down where you or a fellow prepper stashed a vehicle, pristinely stored to remain in working order with minimal repairs required. The vehicle has a viable power source (such as hundreds of gallons of gasoline treated to resist decomposition, or a rechargeable battery with options for solar or wind recharging). The vehicle could be an all‑terrain vehicle (ATV), a truck, or something else; work with your GM to figure out the particulars. Enabler
+
+Know Where to Look: Whenever the GM obtains a result for you on the Useful Stuff table, you get two results instead of one. If the GM is using some other method to generate rewards for finding valuables, you gain double the result you would otherwise obtain. Enabler.
+
+Escape the Ruins (6 Intellect points): While in any area containing ruins from before the apocalypse, you find or create a significant shortcut, secret entrance, or emergency escape route where it looked like none existed. Doing so requires that you succeed on an Intellect action whose difficulty is set by the GM based on the situation. You and the GM should work out the details. Action.
+
+Careful Tracker: You are trained in stealth and tracking tasks. Enabler. 
+
+Raider Follower: You gain a level 3 follower (initiative, stealth, and defense as level 4). The follower does as you say and, generally speaking, isn’t someone who makes the other PCs in your group feel uncomfortable because of their
+presence. Enabler.
+
+Ruin Lore: You are trained in scavenging, which means you’re more likely to find useful things (and junk that can potentially be turned into useful things) in the ruins of what came before. Enabler.
+
+Fixer: You’ve learned enough of the past that you are trained in tasks to repair and build before‑times equipment, or equipment made with before‑times parts. In addition, repairing and building tasks take you about 20% less time to complete. Enabler.
+
+Know the Way: You are familiar with before‑times buildings and other structures, which extends to ruins of the same. You are trained in tasks related to getting around inside those buildings quickly, finding alternate routes, finding places to hide, and other tasks associated with gaining a benefit by being able to picture a likely floor plan of any given building. Enabler.
+
+Resource Seeker (3+ Intellect points): When you are looking for a specific inexpensive item you’d like to scavenge from nearby ruins, such as a candle, an aspirin, or a can of preserved chili, you can focus your attention on it so that you are more likely to find it. For the next ten minutes, if what you are seeking is within long range, you find it if you succeed on a difficulty 2 Intellect roll. Each time you use this ability again in the same area, the difficulty is hindered by one additional step. For each level of Effort you apply, you can attempt to find an object of one higher expense category, but the base difficulty of the Intellect roll also increases by 1 per higher expense category. Action to initiate.
+
+Use the Network (5 Intellect points): With a few minutes of looking around and preparing, you can access remnants of the before‑times internet and satellite network (or an active network on which AIs who are not immediately dangerous reside). The GM may decide there is no such connection in the area, but if there is, you can ask one basic question about anything happening within 10 miles (16 km) and receive a simple answer. For example, you could ask about the location of a specific creature or individual, and if they are within the range of this ability, you’ll learn about it from a still‑functioning camera feed, satellite feed, or AI interaction. Action to initiate.
+
+Surviving the Wasteland: Given about half a day of walking and scavenging, you find enough edible food and potable water in the ruins or surrounding wasteland for you and up to one other person for one day. The resources might be scavenged from before‑times supplies, living flora and fauna, and uncontaminated water sources. Enabler.
+
+Tolerance: This hard life has built up your resistance over time, so you are trained in resisting the effects of natural poisons (such as those from plants or living creatures) and radiation. You’re also immune to natural diseases. Enabler.
+Weapon at Hand: You’re practiced with all weapons. To gain this benefit with a weapon you’ve never used before, you must spend at least ten minutes practicing with it first. Enabler.
+
+Hardened by the End: You’re trained in Might defense tasks. 
+
+Apocalyptic Stare: Your demeanor is of someone who shouldn’t be trifled with. You are trained in intimidation. Enabler.
+
+Wasteland Camouflage (5+ Speed or Intellect points): By drawing your clothing about you just so and using various tricks and your deep knowledge of your surroundings, you become invisible for ten minutes in any landscape that contains ruins of the before‑times. (You may also attempt this in a purely wilderness setting, but if you do, you must spend 1 additional point from Speed or Intellect, whichever Pool you activated this power with.) While you are invisible, this asset eases your stealth and Speed defense tasks by two steps. This effect ends if you do something to reveal your presence or position—attacking, using an ability, moving a large object, and so on. If this occurs, you can regain the remaining invisibility effect by taking an action to focus on hiding your position. Action to initiate or reinitiate.

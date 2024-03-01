@@ -148,8 +148,8 @@ Handcuffs; Level 0; moderate;
 Rope; Level 0; moderate; Nylon, 50 feet
 Sleeping bag; Level 0; moderate; 
 Tent; Level 0; moderate; 
-Camera; Level 0; expensive;  designed to be concealed Transmits at long range. <<Long range>>
-Microphone; Level 0; expensive;  designed to be concealed Transmits at long range. <<Long range>>
+Camera designed to be concealed; Level 0; expensive; Transmits at long range. <<Long range>>
+Microphone designed to be concealed; Level 0; expensive; Transmits at long range. <<Long range>>
 Cold weather camping gear; Level 0; expensive; 
 Scuba gear; Level 0; expensive; 
 Smartphone; Level 0; expensive; 
@@ -202,8 +202,8 @@ Handcuffs; Level 0; moderate;
 Portable lamp; Level 0; moderate; 
 Rope; Level 0; moderate;     Nylon, 50 feet
 Sleeping bag; Level 0; moderate; 
-Camera; Level 0; expensive;  designed to be concealed Transmits at long range. <<Long range>>
-Microphone; Level 0; expensive;  designed to be concealed Transmits at long range. <<Long range>>
+Camera designed to be concealed; Level 0; expensive; Transmits at long range. <<Long range>>
+Microphone designed to be concealed; Level 0; expensive; Transmits at long range. <<Long range>>
 Wrist computer; Level 0; expensive;   <<Asset for most knowledge-based tasks>>
 Disguise kit; Level 0; very expensive;     <<Asset for disguise tasks>>
 Gravity regulator; Level 0; very expensive;    Belt-mounted device that regulates gravity to 1G for wearer if within 0 G to 3 G conditions
@@ -254,27 +254,80 @@ Robot servant; Level 3; exorbitant
 ---
 POST-APOCALYPTIC; UTILITY GEAR
 Candle; Level 0; inexpensive; 
+Duct tape; level 0; inexpensive; Useful and ubiquitous
+Matches; level 0; inexpensive; Single box or book
 Plastic bag; Level 0; inexpensive;  Useful and ubiquitous (won’t last long)
+Shopping cart/wheelbarrow; level 0; inexpensive;
+Sunglasses; level 0; inexpensive;
+Tool, single hand tool; level 0; inexpensive; Hammer, tape measure, manual drill, or other single hand tool
 Gas mask; Level 0; inexpensive; Breathable air for four hours
 Padlock with keys; Level 0; inexpensive; 
 Portable lamp, solar; Level 0; inexpensive; 
 Nightvision goggles; Level 0; expensive; 
 Radiation tent; Level 0; expensive;  Prevents radiation damage for three days
 Radiation detector; Level 0; expensive;
+Backpack; Level 0; moderate;
+Batteries; Level 0; moderate; 4-pack, household (one use or rechargeable)
+Bicycle/skateboard/inline skates; Level 0; moderate; Use requires same attention as other vehicular movement
+Binoculars; Level 0; moderate; <<Asset for perception tasks>> at range
+Bolt cutter; Level 0; moderate; Cuts bolts, chains, bars, etc. of up to level 5
+Climbing gear; Level 0; moderate; <<Asset for climbing tasks>>
+Crowbar; Level 0; moderate; Asset for breaking into stuck or locked doors
+Gas mask; Level 0; moderate; Breathable air for four hours
+Glasses; Level 0; moderate; Corrects for different vision impairments
+Handcuffs; Level 5; moderate;
+Lighter (butane or electric); Level 0; moderate; Depletes after 1d100 uses (but may be refilled/recharged)
+Matches, windproof; Level 0; moderate; Single container (25 matches)
+Padlock with keys; Level 5; moderate;
+Personal hygiene product, single; Level 0; moderate; Toilet paper roll, menstrual supply, soap, etc. 
+Portable lamp or flashlight; Level 0; moderate; Requires batteries (expensive version recharges with sunlight or crank)
+Rope; Level 0; moderate; Nylon, 50 ft (16m)
+Sleeping bag; Level 0; moderate;
+Textbook, “How To”; Level 0; moderate; Asset to one knowledge task such as plumbing, electronics, gardening, etc
+Tool set, hand tools; Level 0; moderate; Includes hammer, tape measure, screwdriver, pliers, etc
+Water filter straw or bottle; Level 0; moderate; Filters water while drinking
+Ammo handloading tools; Level 0; expensive; Asset (and needed supplies) for creating ammunition
+Nightvision goggles; Level 0; expensive; See in darkness as if dim light at long range
+Radiation detector, handheld; Level 0; expensive; Immediate range
+Radiation tent; Level 0; expensive; Prevents damage from environmental radiation
 
 POST-APOCALYPTIC; ARMAMENT
+Knife, multipurpose; Level 0; moderate; <<Light weapon>> <<Asset to minor repair tasks>>
+Machete; Level 0; moderate; <<Medium weapon>>
+Baseball bat; Level 0; moderate; <<Medium weapon>>
 Knife; Level 0; inexpensive; Rusty and worn <<Light weapon>>
-Light weapon; Level 0; inexpensive; Won’t last long <<Light weapon>>
+Light weapon, Improvised; Level 0; inexpensive; Chair, ice skate, frying pan, etc. could break after one combat <<Light weapon>>
+Light weapon; Level 0; moderate; <<Light weapon>>
 Wooden club; Level 0; inexpensive; <<Light weapon>>
-Handaxe; Level 0; inexpensive;  <<Light weapon>>
-Knife, multipurpose; Level 0; inexpensive; <<Asset to small repair tasks>> <<Light weapon>>
+Hand axe; Level 0; moderate; <<Light weapon>>
+Handgun, light; Level 0; expensive; <<Light weapon>> <<Short range>>
+Handgun, medium; Level 0; expensive; <<Medium weapon>> <<Long range>>
+Bow; Level 0; expensive; <<Medium weapon>> <<Long range>>
+Rifle; Level 0; expensive; <<Medium weapon>> <<Long range>>
+Shotgun; Level 0; expensive; <<Heavy weapon>> <<immediate range>>
+Handgun, heavy; Level 0; very expensive; <<Heavy weapon>> <<Long range>>
+Assault rifle; Level 0; very expensive; <<Heavy weapon>> <<rapid-fire weapon>> <<Long range>>
+Rifle, heavy; Level 0; very expensive; 300-foot (90 m) range <<Heavy weapon>>
+Submachine gun; Level 0; very expensive; <<Medium weapon>> <<rapid-fire weapon>> <<Short range>>
+Vehicle; Level 0; very expensive; Car, truck, van, boat, or prop two-seater plane (internal combustion engine or EV)
+Horse; Level 0; very expensive; Trained for riding (typically found with a few days of feed)
 
 POST-APOCALYPTIC; APPAREL & ARMOR
-Animal hide; Level 0; inexpensive;  <<Light armor>> Smell hinders stealth tasks 
+Animal hide; Level 0; inexpensive; Smell hinders stealth tasks  <<Light armor>>
 Shield; Level 0; inexpensive;  <<Asset to Speed defense>>
+Kevlar vest; Level 0; expensive; <<Medium armor>>
+Riot gear; Level 0; expensive; <<Medium armor>>
+Hazmat suit; Level 0; expensive; +2 Armor against chemical and radiation damage <<Light armor>>
+Lightweight body armor; Level 0; very expensive; encumbers as light armor <<Medium armor>>
+Military body armor; Level 0; very expensive; <<Heavy armor>>
 
 POST-APOCALYPTIC; HEALTH CARE AND NUTRITION
-Radiation pill (pack of 5); Level 0; expensive;  Asset for defense tasks against radiation effects for twelve hours
+Medication, one pill; level 0; inexpensive; Pain relief, allergy, antacid, antibiotic, anti-nausea, or another single drug pill
+Radiation pill (pack of 5); Level 0; expensive; Asset for defense tasks against radiation effects for twelve hours
+Medication, one bottle; Level 0; moderate; Pain relief, allergy, antacid, antibiotic, anti-nausea, or another drug in a bottle
+Food, perishable; level 0; inexpensive; Single helping of fruit, vegetable, recently slaughtered animal, etc
+Food, preserved; Level 0; moderate; Single can of food, water, or condiment, typically from before-times
+First aid kit; Level 0; moderate; Asset for twenty healing tasks before contents used up
 
 ---
 CONTEMPORARY; COMMUNICATION

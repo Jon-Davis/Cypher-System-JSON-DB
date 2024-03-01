@@ -286,3 +286,18 @@ FAIRY TALE
 96 Witch bottle 
 97 Witch's ladder
 98 Wooden spoon
+
+SCAVENGER SUBTLE
+01-02 Ammunition
+03-04 Construction supply
+05-06 Edible food
+07 Firearm
+08-09 First aid
+10-11 How-to manual
+12 Medicine
+13-14 Melee weapon
+15 Potable liquid
+16 Transport 
+17 Useful clothing
+18 Useful thing
+19-20 Useful tool

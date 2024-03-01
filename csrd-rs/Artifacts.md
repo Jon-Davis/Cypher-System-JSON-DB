@@ -540,7 +540,7 @@ Depletion: =
 OMNI ORB
 Level: 1d6 + 4
 Form: Glowing, orb-shaped technological device 
-Effect: The user holding the orb imagines what they want to happen (similar to using a magical wish), and it happens, within limits. The level of the effect granted is no greater than the level of the orb, as determined by the GM, who can modify the effect accordingly. (The larger the desired effect, the more likely the GM will limit it.) Activating the omni orb automatically moves the character using it one step down the damage track. A benchmark for setting an omni orb's limits is to compare it to a cypher of the orb's level—if there is a cypher that can do what the PC wants, and that cypher is equal to or less than the orb's level, it works. For example, if a team of superheroes tries to use a level 5 orb to teleport to their base 100 miles away, the GM can look at the list of cyphers and see that a teleporter (traveler) cypher can transport one character up to 100 miles per cypher level, so transporting a group of PCs 100 miles is probably within the orb's power.
+Effect: The user holding the orb imagines what they want to happen (similar to using a magical wish), and it happens, within limits. The level of the effect granted is no greater than the level of the orb, as determined by the GM, who can modify the effect accordingly. (The larger the desired effect, the more likely the GM will limit it.) Activating the omni orb automatically moves the character using it one step down the damage track. A benchmark for setting an omni orb's limits is to compare it to a cypher of the orb's level-if there is a cypher that can do what the PC wants, and that cypher is equal to or less than the orb's level, it works. For example, if a team of superheroes tries to use a level 5 orb to teleport to their base 100 miles away, the GM can look at the list of cyphers and see that a teleporter (traveler) cypher can transport one character up to 100 miles per cypher level, so transporting a group of PCs 100 miles is probably within the orb's power.
 Depletion: 1 in 1d6 (instead of depleting, a roll of 1 means the user experiences a GM intrusion related to the effect they created)
 
 SPACE RING
@@ -585,6 +585,72 @@ Level: 1d6 + 1
 Form: Visor fitted with bulky electronics
 Effect: By emitting terahertz and long-range infrared light, this device allows a user to see a short distance through most interior walls of standard structures, through normal clothing, and into normal bags and briefcases. Only stone or concrete more than 6 inches (15 cm) thick prevents a scan. Regardless, images are black and white and fuzzy, and lack fine detail.
 Depletion: 1 in 1d20
+
+Book
+Level: 1d6
+Form: Textbook, how‑to book, or other nonfiction book of knowledge on one topic; may be moldy or otherwise damaged
+Effect: This book covers a particular topic or area of knowledge determined by the GM. A reader who studies it for an hour has an asset on a related Intellect task.
+Depletion: 1 in 1d100
+
+Faraday Cake
+Level: 3
+Form: Container made of metal mesh, of variable size (usually up to the size of a room)
+Effect: Blocks electromagnetic signals from reaching the interior of the cage.
+Depletion: -
+
+Salvaged Car
+Level: 1d6
+Form: Rusted vehicle, with parts cobbled together from multiple before‑times vehicles
+Effect: Transports five characters a very long distance on each turn in an open cab or, if level 6, a closed cab.
+Depletion: 1 in 1d20 (check each time the engine is started or the car begins a trip)
+
+Water Filter
+Level: 1d6 + 1
+Form: Large pitcher with built‑in filter
+Effect: Purifies enough drinking water for one character per artifact level every day.
+Depletion: 1 in 1d20 (check each day used)
+
+Carbonizer
+Level: 1d6 + 1
+Form: Tiny silver device with multiple prong‑like barrels
+Effect: This weapon fires a beam that transmutes the matter of targets within short range into powdery ash, inflicting damage equal to the artifact’s level that ignores Armor (including Armor granted by force fields). A target killed by a carbonizer is turned completely to dust.
+Depletion: 1 in 1d20
+
+Memory Eraser
+Level: 1d6 + 1
+Form: Handheld reflective mass
+Effect: A flash of nano‑textured light erases the last few minutes of memory in all creatures within immediate range that the user makes a successful Intellect attack on (one attack roll per target).
+Depletion: 1 in 1d20
+
+Mutation Inducer
+Level: 1d6 + 1
+Form: Handheld reflective device with gradually evolving fractal textures
+Effect: A targeted willing or helpless creature within immediate range is transformed over the course of one minute, gaining a randomly determined beneficial mutation. If the artifact is level 6 or higher, the target instead gains a powerful mutation. Mutations gained by the inducer fade within about a day.
+Depletion: 1 in 1d10 (upon depletion, target also gains a harmful mutation)
+
+Nanorifle
+Level: 1d6 + 2
+Form: Sleek two‑handed reflective device with gradually evolving fractal textures
+Effect: This weapon contains an onboard AI that assists the user, granting an asset to any attacks made with the weapon. The weapon fires a stream of nanomachine rounds at a target within long range, inflicting damage equal to the artifact’s level. In addition, if the target fails an Intellect defense roll, they are affected as if with a minor AI instance hazard, coming under the control of the AI housed in the nanorifle rather than a random artificial intelligence. The AI usually works with the user to exert control over the target. Control lasts for about a minute.
+Depletion: 1 in 1d100
+
+Seal of Solomon
+Level: 1d6 + 2
+Form: Signet ring bearing a star design
+Effect: The wearer can attempt to command a demon, a devil, a Horseman of the Apocalypse, an angel, or a similar entity by making a successful Intellect attack roll against a target within short range. An affected target must do as requested for up to one minute (if the creature is level 5 or lower) or for one round (if the creature is level 6 or higher). The ring also grants the wearer the ability to understand and communicate with animals.
+Depletion: 1 in 1d100
+
+Spear of Destiny
+Level: 7
+Form: Heavy spear of ancient manufacture
+Effect: Attacks with this spear are eased. If used against a supernatural creature such as a demon, a Horseman of the Apocalypse, or an angel, it ignores Armor, and it inflicts 4 additional points of damage (10 points total). If an attack with the spear kills a target normally able to return to existence (such as a Horseman), the target is truly destroyed instead. Spear of Destiny GM GM intrusion: The wielder’s heart is not pure enough to permit the use of the spear, and it burns the character for 7 points of ambient damage each round they use it.
+Depletion: -
+
+Transfer Discs
+Level: 1d6 + 1
+Form: Two or more matching discs 3 feet (1 m) in diameter
+Effect: The user can step between deployed transfer discs, teleporting any distance. If a series of discs is deployed in a network, the user receives a mental map of the discs upon stepping on any one of them, and they can navigate by stepping on each intervening disc between their current location and their desired location. To deploy a disc as their action, the user places it on a mostly level, secure surface and must succeed on a difficulty 3 Intellect‑based roll.
+Depletion: 1 in 1d20 (check after each day of use)
 
 ---
 HORROR ARTIFACTS
