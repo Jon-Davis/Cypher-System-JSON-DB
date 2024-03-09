@@ -122,22 +122,15 @@ struct Descriptor {
 Focus is the same as a Cypher System Focus
 ```rust
 pub struct Focus {
-    pub name: String,                           // The name of the focus
-    pub description: String,                    // The provided description
-    pub note: Option<String>,                   // Notes found in the margins
-    pub connections: Vec<String>,               // Focus Connections if present
-    pub abilities: Vec<AbilityRef>,             // Abilities at each tier
-    pub intrusions: Option<String>,             // GM Intrusion suggestion
-    pub additional_equipment: Option<String>,   // Additional Equipment
-    pub minor_effect: Option<String>,           // Minor Effect Suggestion
-    pub major_effect: Option<String>            // Major Effect Suggestion
-}
-```rust
-struct Focus {
-    name: String,               // The name of the focus
-    description: String,        // The provided description
-    abilities: Vec<AbilityRef>, // Abilities at each tier
-    intrusions: String,         // GM Intrusion suggestion
+    name: String,                           // The name of the focus
+    description: String,                    // The provided description
+    note: Option<String>,                   // Notes found in the margins
+    connections: Vec<String>,               // Focus Connections if present
+    abilities: Vec<AbilityRef>,             // Abilities at each tier
+    intrusions: Option<String>,             // GM Intrusion suggestion
+    additional_equipment: Option<String>,   // Additional Equipment
+    minor_effect: Option<String>,           // Minor Effect Suggestion
+    major_effect: Option<String>            // Major Effect Suggestion
 }
 ```
 
