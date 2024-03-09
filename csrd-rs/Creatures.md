@@ -297,10 +297,10 @@ Damage Inflicted: 4 to 7 points; see Combat
 Movement: Short
 Modifications: See Combat for escalating attack level modification.
 Combat: A fire elemental attacks with a flaming limb. The more the elemental burns foes, the more powerful it grows. Its power increases according to the number of successful attacks (that dealt fire damage) it made on another creature during the previous minute.
-	0 successful attacks: deals 4 points of damage; attacks as level 4
-	1 successful attack: deals 5 points of damage; attacks as level 5
-	3 successful attacks: deals 6 points of damage; attacks as level 6
-	4+ successful attacks: deals 7 points of damage; attacks as level 7
+0 successful attacks: deals 4 points of damage; attacks as level 4
+1 successful attack: deals 5 points of damage; attacks as level 5
+3 successful attacks: deals 6 points of damage; attacks as level 6
+4+ successful attacks: deals 7 points of damage; attacks as level 7
 If a fire elemental hasn't burned a foe within the last minute, its combat stats drop back to its level 4 baseline.
 A fire elemental is immune to fire attacks but vulnerable to cold; every time it takes 1 point of cold damage, it takes 1 additional point of damage.
 Interaction: Fire elementals are barely sapient and usually respond only to those who know spells able to command them. However, there's a chance (about 10%) that a fire elemental commanded to accomplish a particular task breaks free and instead burns whatever's around until it exhausts all possible fuel sources.
@@ -329,7 +329,7 @@ Health: 24 
 Damage Inflicted: 4 points 
 Movement: Long when flying 
 Modifications: Stealth as level 6 
-	Combat: Air elementals slice foes up to a short distance away with blades of fierce wind, or use blasts of air to throw small objects. Once every other round, an air elemental can turn into a tornado-like vortex that inflicts 4 points of damage to all creatures within immediate range. In this form, the elemental gains +1 to Armor and an additional +2 to Armor against physical projectile weapons such as arrows and javelins. The elemental reverts to its normal form at the start of its next turn. 
+Combat: Air elementals slice foes up to a short distance away with blades of fierce wind, or use blasts of air to throw small objects. Once every other round, an air elemental can turn into a tornado-like vortex that inflicts 4 points of damage to all creatures within immediate range. In this form, the elemental gains +1 to Armor and an additional +2 to Armor against physical projectile weapons such as arrows and javelins. The elemental reverts to its normal form at the start of its next turn. 
 An air elemental can disperse itself over a short area as an action. In this form it is invisible, unable to attack, and can't be attacked except with area attacks. The elemental can remain in this form indefinitely, but must use an action to return to its normal form. 
 Air elementals are elusive opponents and hard to destroy. If an air elemental is reduced to 0 health, there is a 50 percent chance that it rejuvenates a few rounds later with 6 health. The elemental then continues to fight or flees to cause trouble elsewhere. 
 Interaction: Air elementals see and hear many things, but they are flighty and what they remember usually isn't important or relevant. They can be summoned with magic but don't like being controlled, and there is a 10 percent chance that they free themselves and strike out on their own. 
@@ -818,8 +818,8 @@ Armor: 1 
 Movement: Short 
 Modifications: Intellect defense and magical lore as level 10 
 Combat: A lich can shoot blasts of necromantic energy that inflict 8 points of damage on a target and 4 points on any creature within immediate range of the target. A lich knows many spells, such as the following:
- • Animate guards: Animate ten corpses as skeletons or zombies, which obey the lich for one hour before turning back into corpses.
- • Armor: Gain +5 Armor for one hour. 
+• Animate guards: Animate ten corpses as skeletons or zombies, which obey the lich for one hour before turning back into corpses.
+• Armor: Gain +5 Armor for one hour. 
 • Death: Inflict 8 points of damage on a creature within short range; if the creature fails a Might defense roll, it also moves two steps down the damage track. 
 • Fly: For one hour, move through the air as effortlessly as walking. 
 • Paralyze: One target within short range is held motionless for two rounds, unable to take any physical actions. 
@@ -2636,7 +2636,7 @@ Interaction: Some AIs enjoy negotiation. Others simply ignore humans as unworthy
 Use: The PCs’ shelter is overtaken by a storm of grey goo, which answers to an AI operating out of a nearby safehouse. 
 Loot: An AI may have access to 1d6 cyphers and two or three artifacts.
 
-CANNIBAL 3 (9)
+CANNIBAL (Rust and Redemption) 3 (9)
 Cannibals come in a variety of different forms, depending on their situation. Some seem like normal and perhaps even charming survivors, except to their targets. These “nice” cannibals may eat human flesh when desperate or to take advantage of meat that would otherwise go to waste. Or maybe they’ve developed a taste for human flesh. 
 Others look the part, having descended into the kind of bestial, erratic behavior that cannibalism can inflict on long term practitioners. 
 Some are part of a crazed settlement of raiders always looking for more sweet meats, and others hide in plain sight, pretending friendship and offering aid to strangers until their prey lowers their guard. Some cannibals like their prey raw; others delight in elaborate preparations. 

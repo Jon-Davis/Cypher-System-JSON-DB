@@ -190,6 +190,7 @@ GM Intrusions: The illusion isn't believable. The illusion is pierced at just th
 
 Crafts Unique Objects
 You're an inventor of strange and useful objects.
+(Cyphersmith works only in a setting where the cyphers are physical objects. If this isn't the case, this ability should probably be replaced with something akin to Weird Science Breakthrough from the Conducts Weird Science focus.)
 Tier 1: Crafter
 Tier 1: Master Identifier
 Tier 2: Artifact Tinkerer
@@ -199,7 +200,6 @@ Tier 4: Cyphersmith
 Tier 5: Innovator
 Tier 6: Inventor or Fusion Armor 
 GM Intrusions: The object malfunctions, breaks, or suffers catastrophic or unexpected failure.
-(Cyphersmith works only in a setting where the cyphers are physical objects. If this isn't the case, this ability should probably be replaced with something akin to Weird Science Breakthrough from the Conducts Weird Science focus.)
 
 Dances With Dark Matter
 You can manipulate shadow and "dark" matter.
@@ -634,7 +634,7 @@ GM Intrusions: A command is misunderstood. Control is erratic or is lost. Bites 
 
 Masters Weaponry
 You are a master user of a particular type of weapon, be it a sword, whip, dagger, gun, or something else.
-(Someone who Masters Weaponry might have additional equipment, including a high- quality weapon.)
+Additional Equipment: Someone who Masters Weaponry might have additional equipment, including a high-quality weapon.
 Tier 1: Weapon Master
 Tier 1: Weapon Crafter
 Tier 2: Weapon Defense
@@ -682,7 +682,8 @@ Tier 6: Perfect Speed Burst or Incredible Running Speed
 GM Intrusions: Surfaces can be slick or offer hidden obstacles. The movement of other creatures can be unpredictable, and the character might run into them. 
 
 Murders
-You're an assassin, whether by trade, by inclination, or because it was that or be killed yourself. (Someone who Murders might have additional equipment, including three doses of a level 2 blade poison that inflicts 5 points of damage.)
+You're an assassin, whether by trade, by inclination, or because it was that or be killed yourself. 
+Additional Equipment: Someone who Murders might have additional equipment, including three doses of a level 2 blade poison that inflicts 5 points of damage.
 Tier 1: Surprise Attack
 Tier 1: Assassin Skills
 Tier 2: Quick Death
@@ -718,7 +719,7 @@ GM Intrusions: Sometimes, it's equipment or weapons that give out.
 
 Operates Undercover
 Under the guise of someone else, you seek to find answers the powerful do not want divulged.
-(Someone who Operates Undercover might have additional equipment that includes a disguise kit.)
+Additional Equipment: Someone who Operates Undercover might have additional equipment that includes a disguise kit.
 Tier 1: Investigate
 Tier 2: Disguise
 Tier 3: Agent Provocateur or Run and Fight
@@ -922,7 +923,7 @@ Tier 2: Will of Legend
 Tier 3: Trained Slayer
 Tier 3: Improved Monster Bane or Misdirect
 Tier 4: Fight On
-Tier 5: Greater Skill With Attacks (swords)
+Tier 5: Greater Skill With Attacks
 Tier 6: Murderer or Heroic Monster Bane
 GM Intrusions: The monster laid a trap or set an ambush. The monster has previously undisclosed abilities. The monster's mother vows revenge.
 
@@ -1102,7 +1103,7 @@ Tier 2: Heads-Up Display
 Tier 3: Fusion Armor or Incredible Health
 Tier 4: Force Blast
 Tier 5: Field-Reinforced Armor
-Tier 6: Masterful Armor Modification (Jet Assisted Flight) or Masterful Armor Modification (Cypher Pod)
+Tier 6: Masterful Armor Modification or Masterful Armor Modification
 GM Intrusions: The armor won't come off. The armor acts under its own power. The armor suffers a momentary power loss. NPCs are scared by the power armor.
 
 WIELDS AN ENCHANTED WEAPON
@@ -1194,7 +1195,15 @@ Tier 6: Tower of Intellect or Read the Signs
 GM Intrusions: Books burn, get wet, or get lost. Computers break or lose power. Glasses break.
 
 Merges Mind With Machine 
-You were raised in an underground bunker by Milly, an AI instance installed in your brain before you developed cognition of your own. Unlike AI zombies, your personality and motivations haven’t been replaced; your sense of self grew alongside the AI, as collaborators rather than foes. This granted you superior intellect and an uncanny knack for computers. Now you’ve emerged into the larger world, where survivors are predisposed to distrust you, and you may need to keep your background a secret to be accepted. Whether you hate AI or remain loyal to Milly, you face the best odds if you can fit in with another group of survivors. After all, there’s a lot you don’t know about how things work on the surface and the things people have done to stay alive in the past twenty years. 
+You were raised in an underground bunker by Milly, an AI instance installed in your brain before you developed cognition of your own. Unlike AI zombies, your personality and motivations haven’t been replaced; your sense of self grew alongside the AI, as collaborators rather than foes. This granted you superior intellect and an uncanny knack for computers. Now you’ve emerged into the larger world, where survivors are predisposed to distrust you, and you may need to keep your background a secret to be accepted. Whether you hate AI or remain loyal to Milly, you face the best odds if you can fit in with another group of survivors. After all, there’s a lot you don’t know about how things work on the surface and the things people have done to stay alive in the past twenty years.
+Connection: Choose one of the following, or choose one of the Focus Connections in the Cypher System Rulebook.
+1. Pick one other PC. You fear that character is jealous of your abilities, and that it might lead to problems.
+2. Pick one other PC. You’re not sure how or from where, but that character has access to rare machine parts and can get them for you at half price.
+3. Pick one other PC. Seeing you use your focus abilities triggers unpleasant memories for that character. That memory is up to the other PC, although they may not be able to consciously recall it.
+4. Pick one other PC. They are sensitive to your focus abilities, and occasionally they become dazed for a few rounds, hindering their actions.
+Additional Equipment: You have scars on your scalp in the shape of circuitry (like Lichtenberg figures). You probably keep these hidden, as they identify you as one of Milly’s children to anyone familiar with the mark.
+Minor Effect Suggestion: You restore 2 points to your Intellect Pool.
+Major Effect Suggestion: An ally or indicated target can take an additional action.
 Tier 1: Interface
 Tier 2: Robot Assistant
 Tier 3: Assisted Sight or Machine Telepathy
@@ -1205,6 +1214,14 @@ Tier 6: Master Machine or  See the Future
 
 Prepped for the End
 You prepared for ultimate disaster, unlike most of the sheeple. Which means you stashed away food, water, and other survival gear when things were still okay. You trained yourself for harsh conditions, for basic machine and electronic repair, and maybe even in a musical instrument to pass the time in the bunker when no other entertainments could be had. You’d excel in a small group of other survivors, but you’re ready to go it alone if that’s what it takes. Above all, you’re prepared to make it through whatever the future holds, no matter how daunting the odds. Because you prepped wisely.
+Connection: Choose one of the following, or choose one of the Focus Connections in the Cypher System Rulebook.
+1. Pick one other PC. You found them in your prepped hideout, eating and drinking their fill. You befriended them rather than seeking revenge for using your resources.
+2. Pick one other PC. You used to play card games with them before the apocalypse, and you still owe them money, though what that means now is difficult to say.
+3. Pick one other PC. This character doesn’t seem to want any of your stored food or water.
+4. Pick one other PC. When you were hurt, they carried you to your prepped hideout at great risk to themselves. 
+Additional Equipment: A firearm of your choice (with ten bullets or shells), a handloading tool set, and a small musical instrument (such as a harmonica).
+Minor Effect Suggestion: Your foe slips in some decaying garbage or spill from the before‑times, and their actions in the next round are hindered as they regain their balance.
+Major Effect Suggestion: You find or spy an item from the Useful Stuff table.
 Tier 1: Practiced in Light Armor
 Tier 1: Prepared Caches
 Tier 1: Trained for Toughing It
@@ -1217,6 +1234,14 @@ Tier 6: Discipline of Watchfulness or Escape the Ruins
 
 Raids
 When civilization fell, you did what you had to do to stay alive. Did you kill innocent people? Probably, insofar as anyone who survived the end can really be considered “innocent.” You figured they’d have done the same to you. But whether they deserved it or not, you and the other raiders you ran with survived, and your targets did not. Then something life‑changing happened to you, altering your perspective; it’s up to you to decide what. In any case, you’ve turned over a new leaf. You don’t indiscriminately kill anymore, though surviving is still a goal. But you’ve joined with others who you want to protect as much as or even more than your own life. You’re done with raiding. But is raiding (and those who might recognize you as a raider) done with you?
+Connection: Choose one of the following, or choose one of the Focus Connections in the Cypher System Rulebook.
+1. Pick one other PC. That character knows that you were a raider, even though it is a secret you’ve kept from the other PCs so far.
+2. Pick one other PC. They were also a raider, however briefly, along with you (if they agree to this connection).
+3. Pick one other PC. You feel very protective of this character and don’t want to see them harmed.
+4. Pick one other PC. You know that you’re responsible for the death of someone that character knew while you were raiding; they don’t know it, but the guilt has been waking you up in the middle of the night.
+Additional Equipment: You have a tattoo from your raiding days that you probably keep hidden, as it would identify you as a raider to those familiar with the mark.
+Minor Effect Suggestion: You restore 2 points to your Might Pool.
+Major Effect Suggestion: You or an ally get an immediate extra attack.
 Tier 1: Ignore the Pain 
 Tier 1: Wilderness Life 
 Tier 2: Careful Tracker
@@ -1228,6 +1253,14 @@ Tier 6: Deep Consideration or Twisting the Knife
 
 Remembers the Past
 You are a student of the before‑times. Maybe that’s because you grew up in the ruins of an old library and read everything as your hobby, you found a friendly AI archivist who taught you about how things once were, you’re long‑lived and were alive before the apocalypse, or you have a deep recollection of the world before the end for some other reason. This knowledge gives you an appreciation of the before‑times as well as a point of view that many other survivors lack that benefits you in and around ruins. You can find things others wouldn’t know to look for, plucking fruits of the past that would otherwise go unharvested.
+Connection: Choose one of the following, or choose one of the Focus Connections in the Cypher System Rulebook.
+1. Pick one other PC. They remind you of someone you knew or learned about from the past, because of either the way they look or the way they act, and that is what first drew you to them.
+2. Pick one other PC. You saved their life because you found them trapped in a before‑times ruin and you knew how best to free them.
+3. Pick one other PC. You were lost out past the ruins in the wilderness, but they happened across you and saved your life.
+4. Pick one other PC. This character comes from the same place you do, and you knew each other as children.
+Additional Equipment: One book on a technical topic such as plumbing, carpentry, electronics, or physics; it provides you an asset on a related task if you spend ten minutes perusing the book ahead of time.
+Minor Effect Suggestion: You remember something about the area that proves advantageous later, such as realizing there’s probably a fresh location to scavenge close by that has a good chance of not having been picked over by other survivors.
+Major Effect Suggestion: A foe forgets about you unless you draw attention to yourself.
 Tier 1: Ruin Lore
 Tier 1: Knowledge Skills
 Tier 2: Fixer
@@ -1235,10 +1268,18 @@ Tier 2: Know the Way
 Tier 3: Disable Mechanisms or Resource Seeker
 Tier 4: Improvise
 Tier 5: Task Specialization 
-Tier 6: Use the Network
+Tier 6: Skill With Attacks or Skill With Defense or Use the Network
 
 Walks the Wasteland 
 Most people want to hide from the devastation or just curl up and die rather than face a hostile world. Not you. You’re determined to see what’s out there, to survive, and, more than that, to thrive. It’s that or let the radioactive rats—or whatever it is that hunts the ruins—get you. If you were around before the end, you could have been a soldier, mercenary, or at least someone who had basic survival training. What sets you apart from all the others like you is that you decided to hope when everything looked darkest. Since then, you have eaten your share of spoiled food and irradiated water, and survived. Whether that’s because you’ve adapted, you’re luckier, or you were just tougher than the rest is anyone’s guess. But you’re still walking the wastes even though so many others are gone. You probably don’t spend a lot of time on your appearance, given that you wear the cobbled‑together clothing and bits and pieces of armor you’re able to scavenge from the ruins. Appearance doesn’t matter; actions do.
+Connection: Choose one of the following, or choose one of the Focus Connections in the Cypher System Rulebook.
+1. Pick one other PC. This character appears to be an able survivor, but in your mind, they seem to be at the end of their rope. You’re constantly trying to convince them to keep trying, go the distance, and survive for a better tomorrow.
+2. Pick one other PC. You feel very protective of this character and don’t want to see them harmed.
+3. Pick one other PC. This character comes from the same place you do, and you knew each other as children. Whether that place exists any longer is something you and that character should decide.
+4. Pick one other PC. You found this character almost dead in the wastes. You rescued them, nursed them back to health, and kept them safe until they were back on their feet. Whether they feel embarrassment, gratitude, or something else is up to them.
+Additional Equipment: You have a piece of before‑times equipment with three analog dials that measure temperature, air pressure, and humidity. (You also know the names for the instruments nestled behind those dials: a thermometer, a barometer, and a hygrometer, respectively.) If you spend a minute operating the device, you have an asset on weather prediction tasks extending into the next day.
+Minor Effect Suggestion: You restore 2 points to your Might Pool.
+Major Effect Suggestion: Your next action is eased by two steps.
 Tier 1: Surviving the Wasteland
 Tier 1: Tolerance
 Tier 2: Devoted Defender
@@ -1249,3 +1290,4 @@ Tier 4: Improved Recovery
 Tier 4: Push on Through
 Tier 5: Ignore the Pain 
 Tier 6: Using What’s Available or Wasteland Camouflage
+

@@ -3,8 +3,7 @@ use regex::Regex;
 use serde::{Serialize, Deserialize};
 use unidecode::unidecode;
 use std::{fs, collections::BTreeSet};
-
-use crate::common_types::*;
+use crate::tables::*;
 
 #[derive(Builder, Serialize, Deserialize, Debug)]
 pub struct Artifact {
@@ -22,7 +21,7 @@ pub struct Artifact {
 pub fn load_artifacts() -> Vec<Artifact> {
     let artifacts = unidecode(&fs::read_to_string("Artifacts.md").unwrap());
     let settings_regex = Regex::new(r"(?m)(?P<name>.*)\s*ARTIFACTS\s*(?P<text>[\s\w\W]*?)\s*---").unwrap();
-    let artifact_regex = Regex::new(r"(?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Form:\s*(?P<form>.*)\s*Effect:\s*(?P<effect>[\s\w\W]*?)(OPTION TABLE[^\S\r\n]*(?P<optname>.*)?(?P<options>[[\s\w\W]]*?))?Depletion:\s*(?P<depletion>.*)").unwrap();
+    let artifact_regex = Regex::new(&format!(r"(?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Form:\s*(?P<form>.*)\s*Effect:\s*(?P<effect>[\s\w\W]*?){OPTION_TABLE_PATTERN}?Depletion:\s*(?P<depletion>.*)")).unwrap();
     let mut out = vec![];
     for setting in settings_regex.captures_iter(&artifacts) {
         let tags : BTreeSet<String> = setting.name("name").map(|s| s.as_str().trim().to_string()).into_iter().collect();
@@ -35,7 +34,7 @@ pub fn load_artifacts() -> Vec<Artifact> {
                 .level_mod(artifact.name("mod").and_then(|s| s.as_str().parse().ok()).unwrap_or(0))
                 .form(artifact.name("form").map(|s| s.as_str().trim().into()).unwrap())
                 .effect(artifact.name("effect").map(|s| s.as_str().trim().replace("\r", "").replace("\n", "").into()).unwrap())
-                .options(artifact.name("options").map(|s| s.as_str()).map(load_option_table).map(|t| RollTableBuilder::default().table(t).name(artifact.name("optname").map(|s| s.as_str().trim().into())).build().unwrap()).into_iter().collect())
+                .options(artifact.name("option_table").map(|_| vec![load_roll_table(&artifact)]).unwrap_or_default())
                 .depletion(artifact.name("depletion").map(|s| s.as_str().trim().into()).unwrap())
                 .build().unwrap();
 

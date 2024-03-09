@@ -14,24 +14,27 @@ CSRD.json is not stable, meaning the structure may change as new content is adde
 
 The CSRD JSON Contains Types, Flavors, Descriptions, Foci, Abilities, Cyphers, Cypher Tables, Artifacts, Creatures, and NPCs.
 
-```
+```rust
 struct CSRD_DB {
-    types: Vec<Type>,
-    flavors: Vec<Flavor>,
-    descriptors: Vec<Descriptor>,
-    foci: Vec<Focus>,
-    abilities: Vec<Ability>,
-    cyphers: Vec<Cypher>,
-    cypher_tables: Vec<RollTable>,
-    artifacts: Vec<Artifact>,
-    creatures: Vec<Creature>,
-    equipment: Vec<Equipment>
+    version: Date                       // The date the json was generated
+    types: Vec<Type>,                   // A list of types
+    flavors: Vec<Flavor>,               // A list of flavors
+    descriptors: Vec<Descriptor>,       // A list of descriptors
+    foci: Vec<Focus>,                   // A list of foci
+    abilities: Vec<Ability>,            // A list of abilities
+    cyphers: Vec<Cypher>,               // A list of cyphers
+    cypher_tables: Vec<RollTable>,      // A list of roll tables for cyphers
+    intrusion_tables: Vec<RollTable>,   // A list of intrusion tables
+    other_tables: Vec<RollTable>,       // A list of misc tables
+    artifacts: Vec<Artifact>,           // A list of artifacts
+    creatures: Vec<Creature>,           // A list of creatures and npcs
+    equipment: Vec<Equipment>           // A list of equipment
 }
 ```
 
 Abilities represent special abilities found in Types, Flavors, and Foci.
 
-```
+```rust
 struct Ability {
     name: String,                       // The name of the ability
     cost: Option<usize>,                // The minimum point cost, if any
@@ -45,9 +48,19 @@ struct Ability {
 }
 ```
 
-AbilityRefs are used by Types, Flavors, and Foci to reference an ability
+AbilityRefs are used by Types, Flavors, and Foci to reference an ability. The actual
+definition of each ability is stored in the abilities section with an AbilityRef
+stored in Types, Flavors and foci to reference them. The preselected flag is used
+to signal if the ability is granted inherently, or if it's an option. 
 
-```
+Locations where preselected would be set to false are:
+    - Types: Most abilities granted by types are a choice up to each player
+    - Flavors: All abilities granted by flavors are optional
+    - Foci:
+      - Tier 3 and Tier 6 grant players the option of 2 or more abilities
+      - Type Swap Options are available in some Foci. If a Tier 1 foci ability is set to false, it's a Type Swap Option.
+
+```rust
 struct AbilityRef {
     name: String,       // The name of the ability
     tier: usize,        // What tier the ability is unlocked
@@ -59,7 +72,7 @@ BasicAbilities are abilities granted by Types and Descriptors, but are not found
 in the Abilities section. Things like Starting Equipment and descriptor skills.
 This struct also get's used generically whenever a name-description pair is needed.
 
-```
+```rust
 struct BasicAbility {
     name: String,
     description: String,
@@ -68,7 +81,7 @@ struct BasicAbility {
 
 Type is the same as a Cypher System Type
 
-```
+```rust
 struct Type {
     name: String,                               // The name of the Type
     intrusions: Vec<BasicAbility>,              // Intrusion suggestions
@@ -82,14 +95,14 @@ struct Type {
 
 Amount is used to signal how many abilities each type gains at each tier. For example
 The Warrior get's 4 abilities at tier 1 and 2 abilities at tier 2.
-```
+```rust
 struct Amount {
     tier: usize,
     special_abilities: usize,
 }
 ```
 Flavor is the same as a Cypher System Flavor
-```
+```rust
 struct Flavor {
     name: String,                   // The name of the Flavor
     description: String,            // The description provided for the flavor
@@ -97,7 +110,7 @@ struct Flavor {
 }
 ```
 Descriptor is the same as a Cypher System Descriptor
-```
+```rust
 struct Descriptor {
     name: String,                       // The name of the Descriptor
     description: String,                // The provided description
@@ -107,7 +120,19 @@ struct Descriptor {
 ```
 
 Focus is the same as a Cypher System Focus
-```
+```rust
+pub struct Focus {
+    pub name: String,                           // The name of the focus
+    pub description: String,                    // The provided description
+    pub note: Option<String>,                   // Notes found in the margins
+    pub connections: Vec<String>,               // Focus Connections if present
+    pub abilities: Vec<AbilityRef>,             // Abilities at each tier
+    pub intrusions: Option<String>,             // GM Intrusion suggestion
+    pub additional_equipment: Option<String>,   // Additional Equipment
+    pub minor_effect: Option<String>,           // Minor Effect Suggestion
+    pub major_effect: Option<String>            // Major Effect Suggestion
+}
+```rust
 struct Focus {
     name: String,               // The name of the focus
     description: String,        // The provided description
@@ -117,7 +142,7 @@ struct Focus {
 ```
 
 Cypher is a usable Cypher in the Cypher System. Note that everything was pulled from the CSRD and so kinds may be absent or different than in the core rulebook.
-```
+```rust
 struct Cypher {
     name: String,               // The name of the cypher
     form: Option<String>,       // The form of the cypher, if applicable
@@ -130,15 +155,16 @@ struct Cypher {
 ```
 
 RollTable used for random tables
-```
+```rust
 struct RollTable {
     name: Option<String>,       // The name of the current roll table if applicable
+    description: Option<String>,// A potential description describing the roll table
     table: Vec<RollEntry>       // Each roll entry in the table.
 }
 ```
 
 RollEntry used for random tables
-```
+```rust
 struct RollEntry {
     start: usize,       // starting range inclusive
     end: usize,         // ending range inclusive
@@ -147,7 +173,7 @@ struct RollEntry {
 ```
 
 Artifacts represent Artifacts found in the CSRD.
-```
+```rust
 struct Artifact {
     name: String,               // Name of the Artifact
     level_dice: Option<String>, // Dice used to determine level
@@ -160,7 +186,7 @@ struct Artifact {
 ```
 
 Creatures represent the various creatures and npc's found in the CSRD
-```
+```rust
 struct Creature {
     name: String,                   // The name of the creature
     kind: String,                   // Creature, NPC, or Super villain
@@ -182,7 +208,7 @@ struct Creature {
 ```
 
 Equipment represents the different types of gear found in the CSRD
-```
+```rust
 struct Equipment {
     name: String,                   // The name of the equipment
     variants: Vec<EquipmentVariant>,// The different variants mentioned in csrd
@@ -190,7 +216,7 @@ struct Equipment {
 ```
 
 Since different equipment gets mentioned in different settings and may include differences in function. Each setting is listed as a Variant of the particular type of equipment.
-```
+```rust
 struct EquipmentVariant {
     description: String,    // The description, potentially unique to the setting
     notes: BTreeSet<String>,// Notes found in tables, such as "Medium Weapon" or "Short range"

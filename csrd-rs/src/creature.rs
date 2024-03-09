@@ -5,7 +5,7 @@ use regex::Regex;
 use serde::{Serialize, Deserialize};
 use unidecode::unidecode;
 
-use crate::common_types::*;
+use crate::tables::*;
 
 #[derive(Builder, Serialize, Deserialize)]
 pub struct Creature {
@@ -32,7 +32,7 @@ pub struct Creature {
 pub fn load_creatures(file: &str, kind: &str) -> Vec<Creature> {
     let creatures = unidecode(&fs::read_to_string(file).unwrap()).replace("\r", "");
     let mut out = vec![];
-    let creature_regex = Regex::new(r"(?m)(?P<name>[-(),\w\s]*)\s(?P<level>\d*)\s\(\d*\)\s*(?P<description>[\w\W]*?)Motive: (?P<motive>.*)\s*(Environment: (?P<environment>.*)\s*)?Health: (?P<health>\d*)\s*Damage Inflicted: (?P<damage>.*)(\s*Armor: (?P<armor>\d+))?\s*Movement: (?P<movement>.*)\s*(Modifications: (?P<modification>.*)\s*)?(Combat: (?P<combat>[\w\W]*?)(OPTION TABLE[^\S\r\n]*(?P<optname>.*)?(?P<options>[[\s\w\W]]*?))?Interaction: (?P<interaction>.*)\s*)?(Use: (?P<use>.*)\s*)?(Loot: (?P<loot>.*)\s*)?(GM\s(\(group\)\s)?[iI]ntrusions?:\s(?P<intrusion>.*))?").unwrap();
+    let creature_regex = Regex::new(&format!(r"(?m)(?P<name>[-(),\w\s]*)\s(?P<level>\d*)\s\(\d*\)\s*(?P<description>[\w\W]*?)Motive: (?P<motive>.*)\s*(Environment: (?P<environment>.*)\s*)?Health: (?P<health>\d*)\s*Damage Inflicted: (?P<damage>.*)(\s*Armor: (?P<armor>\d+))?\s*Movement: (?P<movement>.*)\s*(Modifications: (?P<modification>.*)\s*)?(Combat: (?P<combat>[\w\W]*?){OPTION_TABLE_PATTERN}?Interaction: (?P<interaction>.*)\s*)?(Use: (?P<use>.*)\s*)?(Loot: (?P<loot>.*)\s*)?(GM\s(\(group\)\s)?[iI]ntrusions?:\s(?P<intrusion>.*))?")).unwrap();
     assert!(creature_regex.is_match(&creatures));
     for capture in creature_regex.captures_iter(&creatures) {
         let creature = Creature {
@@ -48,7 +48,7 @@ pub fn load_creatures(file: &str, kind: &str) -> Vec<Creature> {
             movement: capture.name("movement").map(|s| s.as_str().trim().to_string()).filter(|s| !s.is_empty()),
             modifications: capture.name("modification").into_iter().flat_map(|s| s.as_str().split(";")).map(|s| s.trim().to_string()).collect(),
             combat: capture.name("combat").map(|s| s.as_str().trim().into()),
-            options: capture.name("options").map(|s| s.as_str()).map(load_option_table).map(|t| RollTableBuilder::default().table(t).name(capture.name("optname").map(|s| s.as_str().trim().into())).build().unwrap()).into_iter().collect(),
+            options: capture.name("option_table").map(|_| vec![load_roll_table(&capture)]).unwrap_or_default(),
             interactions: capture.name("interaction").map(|s| s.as_str().trim().to_string()).filter(|s| !s.is_empty()),
             uses: capture.name("use").map(|s| s.as_str().trim().to_string()).filter(|s| !s.is_empty()),
             loot: capture.name("loot").map(|s| s.as_str().trim().to_string()).filter(|s| !s.is_empty()),

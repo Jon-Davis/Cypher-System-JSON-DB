@@ -4,7 +4,7 @@ use derive_builder::Builder;
 use regex::Regex;
 use serde::{Serialize, Deserialize};
 use unidecode::unidecode;
-use crate::{ability::{BasicAbility, AbilityRef, Ability}, common_types::*};
+use crate::{ability::{BasicAbility, AbilityRef, Ability}, tables::*};
 
 #[derive(Builder, Serialize, Deserialize)]
 pub struct Type {
@@ -58,7 +58,7 @@ pub fn load_types(abilities: &mut HashMap<String, Ability>) -> Vec<Type> {
 
         // add background
         let entries = load_option_table(capture.name("background").unwrap().as_str());
-        new.background(RollTable { name: Some("BACKGROUND".into()), table: entries });
+        new.background(RollTable { name: Some("BACKGROUND".into()), description: None, table: entries });
 
         // add basic abilities
         for ability in capture.name("abilities").into_iter().flat_map(|i| basic_regex.captures_iter(i.as_str())) {

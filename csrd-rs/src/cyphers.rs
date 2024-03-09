@@ -4,7 +4,7 @@ use derive_builder::Builder;
 use regex::Regex;
 use serde::{Serialize, Deserialize};
 use unidecode::unidecode;
-use crate::common_types::*;
+use crate::tables::*;
 
 #[derive(Builder, Serialize, Deserialize, Debug)]
 pub struct Cypher {
@@ -43,7 +43,7 @@ pub fn load_cypher_tables(db_cyphers: &mut Vec<Cypher>) -> Vec<RollTable> {
             db_cyphers.iter_mut().filter(|c| c.name == effect.to_ascii_uppercase()).next().expect(&effect).tags.push(current_kind.clone());
             current.add_options(RollEntry { start, end, entry: effect });
         } else if line.is_empty() {
-            out.push(current.build().unwrap());
+            out.push(current.description(None).build().unwrap());
             current = RollTableBuilder::default();
             phase = CypherTableSM::Name;
         }
@@ -54,7 +54,7 @@ pub fn load_cypher_tables(db_cyphers: &mut Vec<Cypher>) -> Vec<RollTable> {
 // Named regex: (?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Effect:\s*(?P<effect>.*)\s*(?P<options>OPTION TABLE\s*(?:(?:\d*)-?(?:\d*)?\s(?:.*)\s*)+)?
 pub fn load_cyphers() -> Vec<Cypher> {
     let cyphers = unidecode(&fs::read_to_string("cyphers.md").unwrap());
-    let cypher_regex = Regex::new(r"(?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*(Form:\s*(?P<form>.*)\s*)?Effect:\s*(?P<effect>[\s\w\W]*?)(OPTION TABLE[^\S\r\n]*(?P<optname>.*)?(?P<options>[[\s\w\W]]*?))?(^\s*$)").unwrap();
+    let cypher_regex = Regex::new(&format!(r"(?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*(Form:\s*(?P<form>.*)\s*)?Effect:\s*(?P<effect>[\s\w\W]*?){OPTION_TABLE_PATTERN}?(^\s*$)")).unwrap();
     let mut out = vec![];
     for capture in cypher_regex.captures_iter(&cyphers) {
         let cypher = CypherBuilder::default()
@@ -63,7 +63,7 @@ pub fn load_cyphers() -> Vec<Cypher> {
             .level_mod(capture.name("mod").and_then(|s| s.as_str().parse().ok()).unwrap_or(0))
             .form(capture.name("form").map(|s| s.as_str().to_ascii_uppercase().trim().into()))
             .effect(capture.name("effect").map(|s| s.as_str().trim().replace("\r", "").replace("\n", "").into()).unwrap())
-            .options(capture.name("options").map(|s| s.as_str()).map(load_option_table).map(|t| RollTableBuilder::default().table(t).name(capture.name("optname").map(|s| s.as_str().trim().into())).build().unwrap()).into_iter().collect())
+            .options(capture.name("option_table").map(|_| vec![load_roll_table(&capture)]).unwrap_or_default())
             .tags(vec![])
             .build()
             .unwrap();
