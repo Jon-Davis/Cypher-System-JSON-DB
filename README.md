@@ -12,7 +12,8 @@ CSRD.json is currently based on the Cypher System Reference Document 2024-02-29
 
 CSRD.json is not stable, meaning the structure may change as new content is added.
 
-The CSRD JSON Contains Types, Flavors, Descriptions, Foci, Abilities, Cyphers, Cypher Tables, Artifacts, Creatures, and NPCs.
+The CSRD JSON Contains Types, Flavors, Descriptions, Foci, Abilities, Cyphers, Random Tables, Artifacts,
+Creatures, and NPCs found in the Cypher System Reference Document.
 
 ```rust
 struct CSRD_DB {
@@ -32,7 +33,7 @@ struct CSRD_DB {
 }
 ```
 
-Abilities represent special abilities found in Types, Flavors, and Foci.
+Abilities stores the definition of special abilities found in Types, Flavors, and Foci.
 
 ```rust
 struct Ability {
@@ -54,11 +55,11 @@ stored in Types, Flavors and foci to reference them. The preselected flag is use
 to signal if the ability is granted inherently, or if it's an option. 
 
 Locations where preselected would be set to false are:
-    - Types: Most abilities granted by types are a choice up to each player
-    - Flavors: All abilities granted by flavors are optional
-    - Foci:
-      - Tier 3 and Tier 6 grant players the option of 2 or more abilities
-      - Type Swap Options are available in some Foci. If a Tier 1 foci ability is set to false, it's a Type Swap Option.
+- Types: Most abilities granted by types are a choice up to each player
+- Flavors: All abilities granted by flavors are optional
+- Foci:
+    - Tier 3 and Tier 6 grant players the option of 2 or more abilities
+    - Type Swap Options are available in some Foci. If a Tier 1 foci ability is set to false, it's a Type Swap Option.
 
 ```rust
 struct AbilityRef {
@@ -79,7 +80,9 @@ struct BasicAbility {
 }
 ```
 
-Type is the same as a Cypher System Type
+Type stores the definition of a cypher type. This includes player intrusions, the starting
+stat pool (not including the 6 additional points), the included background table, as well
+as the abilities granted at each tier.
 
 ```rust
 struct Type {
@@ -101,7 +104,8 @@ struct Amount {
     special_abilities: usize,
 }
 ```
-Flavor is the same as a Cypher System Flavor
+
+Flavor stores the definition of a cypher flavor.
 ```rust
 struct Flavor {
     name: String,                   // The name of the Flavor
@@ -109,7 +113,11 @@ struct Flavor {
     abilities: Vec<AbilityRef>,     // Abilities found at each tier
 }
 ```
-Descriptor is the same as a Cypher System Descriptor
+
+Descriptor describes a Cypher System descriptor. Many basic abilities may have duplicated
+names, for example there may be multiple abilities called "Skill" each with a unique description
+of what skills the descriptor provides training in. The links are stored in a list in the order
+presented in the reference document.
 ```rust
 struct Descriptor {
     name: String,                       // The name of the Descriptor
@@ -119,7 +127,20 @@ struct Descriptor {
 }
 ```
 
-Focus is the same as a Cypher System Focus
+Focus describes a Cypher System focus. 
+
+Some foci include a list of 4 connections that can be chosen
+from, however most are empty, use the "FOCUS CONNECTIONS" table found in the other_tables list at 
+the top level of the json object for the included list of foci connections. 
+
+Most of the time Tier 1, 2, 4, and 5 abilities referenced in the abilities sections will have a preselected value 
+set to `true`. Indicating that these abilities are granted on tier up. While Tier 3 and 6 abilities referenced 
+in the abilities sections will have a preselected value of `false`. Indicating that the player must choose
+one of the abilities in the list. Occasionally a tier will contain abilities with both `true` and `false` values
+of preselected. When this occurs at tier 1, that indicates that the ability with a preselected value of `false`
+is a "Type Swap Option" where a player may pick the abilitiy in lieu of a type ability. When this happens at
+tiers 3 and 6, this indicates that the player gets the ability with a preselected value of `true` AND their choice
+of one of the abilities with a preselected value of `false`;
 ```rust
 pub struct Focus {
     name: String,                           // The name of the focus
