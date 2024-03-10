@@ -1,4 +1,4 @@
-use std::{fs};
+use std::fs;
 
 use derive_builder::Builder;
 use regex::Regex;

@@ -1,10 +1,10 @@
-use std::{fs, collections::HashMap};
+use std::fs;
 
+use crossbeam::channel::Sender;
 use regex::Regex;
 use serde::{Deserialize, Serialize};
 use unidecode::unidecode;
-use crate::ability::{Ability, AbilityRef};
-use itertools::Itertools;
+use crate::ability::AbilityRef;
 
 #[derive(Debug, Serialize, Deserialize, Default)]
 pub struct Focus {
@@ -19,19 +19,21 @@ pub struct Focus {
     pub major_effect: Option<String>
 }
 
-pub fn load_foci(abilities_entry: &HashMap<String, Ability>) -> Vec<Focus> {
+pub fn load_foci(or_abilities : Vec<String>, abilities: Sender<(String, String)>) -> Vec<Focus> {
     let foci = unidecode(&fs::read_to_string("Foci.md").unwrap()).replace("\r", "");
     // The "main" regex that separates each focus and breaks it up by section
     let regex = Regex::new(r"(?m)(?P<name>[^\n]*?)\n(?P<description>[^\n]*?)\n(?:\s*\((?P<note>[^\n]*)\)\n)?(?P<connection>Connection:.*\s*(?:\s*\d.\s*([^\n]*))*\n)?(?P<basic_abilities>(^[^(Tier)][^\n]*\s*)*?)?(?:Type Swap Option: (?P<swap>[^\n]*)\n)?(?P<abilities>(?:^Tier \d:\s*[^\n]*\s*)+)(?:[^\n]*?GM Intrusions:(?P<intrusions>[^\n]*))?(?:\n{2,})").unwrap();
     let connections_regex = Regex::new(r"(?m)\s*\d\.\s*(?P<connection>[^\n]*)\s*").unwrap();
     let effects_regex = Regex::new(r"(?mi)\s*(?P<name>[^\n]*?): (?P<effect>[^\n]*)\s*").unwrap();
-    // sets the maximum number of abilities that can fit on a single line and 'or'ed together
-    const MAX_ABILITIES_PER_LINE : usize = 3; 
-    // Compile all abilities into a haystack because abilities like "Captivate or Inspire"
-    // might conflict with patterns such as "Tier 3: Golem Stomp or Weaponization"
-    let mut abilities = abilities_entry.keys().filter(|s| s.contains(" OR "));
-    // duplicates the haystack for each potential ability on the line
-    let or_abilities = abilities.join("|");
+    // We need all the abilities with " or " in the name so that way we can disambiguate the
+    // difference between "Tier 4: Captivate or Inspire" and "Tier 3: Incredible Health or Skill With Attacks"
+    // if we naively split on the " or " then we will parse the ability as "Captivate" or "Inspire"
+    // rather than "Captivate or Inspire". 
+    let or_abilities = or_abilities.join("|");
+    // We generate a regex depending on how many " or " abilities we anticapate seeing. Currently
+    // the most optional abilities found on a given line are 3, so we need to recurse 3 times
+    // in order to capture all possible abilities
+    const MAX_ABILITIES_PER_LINE : usize = 3;
     let mut ars = format!(r"(?mi)Tier\s*(?P<tier>\d+)\s*:\s*(?P<a1>(?:{or_abilities})|[^\n]*?)#end");
     for num in 2..=MAX_ABILITIES_PER_LINE {
         ars = ars.replace(r"#end", &format!(r"(?: or (?P<a{num}>(?:{or_abilities})|[^\n]*?)#end|$)"));
@@ -69,8 +71,7 @@ pub fn load_foci(abilities_entry: &HashMap<String, Ability>) -> Vec<Focus> {
         }
         // helper fn, add ability to abilities array and a ref to the abilities_entires
         let mut add_ability = |ability : &str, tier : &str, selected| {
-            let mut map = abilities_entry.get(&ability.to_ascii_uppercase()).expect(&format!("{ability}")).references.lock().unwrap();
-            map.insert(focus.name.clone());
+            abilities.send((ability.to_uppercase(), focus.name.clone())).unwrap();
             focus.abilities.push(AbilityRef {
                 name: ability.trim().into(),
                 tier: tier.parse().unwrap(),

@@ -23,7 +23,7 @@ use types::{Type, load_types};
 use tables::*;
 use creature::{Creature, load_creatures};
 use time::{Date, Instant, OffsetDateTime};
-use crossbeam::channel::bounded;
+use crossbeam::channel::{bounded, unbounded};
 use unidecode::unidecode;
 use crate::equipment::load_equipment;
 
@@ -46,23 +46,31 @@ struct CsrdDb {
 
 fn main() {
     let start = Instant::now();
+    // Initialize the db to a default empty state
     let mut db = CsrdDb {
         version: Some(OffsetDateTime::now_utc().date()),
         ..Default::default()
     };
 
+    // I just wanted to play with scoped threads and channels
     let (creatures_tx, creatures_rx) = bounded(3);
+    let (or_tx, or_rx) = bounded(1);
+    let (atx, ability_rx) = unbounded();
+    let (foci_tx, type_tx, flavor_tx) = (atx.clone(), atx.clone(), atx);
     thread::scope(|s| {
         s.spawn(|| {
-            let abilities_map = load_abilities();
-            thread::scope(|s| {
-                s.spawn(|| db.foci = load_foci(&abilities_map));
-                s.spawn(|| db.types = load_types(&abilities_map));
-                s.spawn(|| db.flavors = load_flavors(&abilities_map));
-            });
+            let mut abilities_map = load_abilities();
+            let or_abilities : Vec<_> = abilities_map.keys().filter(|s| s.contains(" OR ")).cloned().collect();
+            or_tx.send(or_abilities).unwrap();
+            for (key, value) in ability_rx.iter() {
+                abilities_map.get_mut(&key).unwrap().references.insert(value);
+            }
             db.abilities = abilities_map.into_values().into_iter().collect();
             db.abilities.sort_by(|a, b| a.name.partial_cmp(&b.name).unwrap());
         });
+        s.spawn(|| db.foci = load_foci(or_rx.recv().unwrap(), foci_tx));
+        s.spawn(|| db.types = load_types(type_tx));
+        s.spawn(|| db.flavors = load_flavors(flavor_tx));
         s.spawn(|| db.descriptors = load_descriptors());
         s.spawn(|| {
             db.cyphers = load_cyphers();
@@ -83,9 +91,14 @@ fn main() {
             db.creatures.sort_by(|a, b| a.name.partial_cmp(&b.name).unwrap());
         });
     });
+
+    // serialize the completed db into a ascii json file
     let json = unidecode(&serde_json::to_string(&db).unwrap().replace("\\r", "").replace("\r", ""));
+    // export the file, write by running `cargo run > csrd.json`
     println!("{json}");
+    // print how long the program ran for
     let end = Instant::now();
-    eprintln!("Finished in (roughly) {:?}", end - start);
+    eprintln!("Finished in (roughly) {}", end - start);
+    // double check that the file can be deserialized
     let _new : CsrdDb = serde_json::from_str(&json).unwrap();
 }

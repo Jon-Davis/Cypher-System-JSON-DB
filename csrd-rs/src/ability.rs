@@ -1,4 +1,4 @@
-use std::{collections::{BTreeSet, HashMap}, fs, sync::Mutex};
+use std::{collections::{BTreeSet, HashMap}, fs};
 
 use regex::Regex;
 use serde::{Serialize, Deserialize};
@@ -27,7 +27,7 @@ pub struct Ability {
     pub tier: Option<String>,
     pub category: Vec<String>,
     pub description: String,
-    pub references: Mutex<BTreeSet<String>>,
+    pub references: BTreeSet<String>,
 }
 
 pub fn load_abilities() -> HashMap<String, Ability> {
@@ -60,7 +60,7 @@ pub fn load_abilities() -> HashMap<String, Ability> {
             description: captures.name("description").unwrap().as_str().trim().into(),
             tier: None,
             category: vec![],
-            references: Mutex::new(BTreeSet::new()),
+            references: BTreeSet::new(),
         })).collect();
     
     let tiers = fs::read_to_string("AbilityTiers.md").unwrap();

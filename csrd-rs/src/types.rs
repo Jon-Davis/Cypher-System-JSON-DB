@@ -1,10 +1,11 @@
-use std::{fs, collections::HashMap};
+use std::fs;
 
+use crossbeam::channel::Sender;
 use derive_builder::Builder;
 use regex::Regex;
 use serde::{Serialize, Deserialize};
 use unidecode::unidecode;
-use crate::{ability::{BasicAbility, AbilityRef, Ability}, tables::*};
+use crate::{ability::{BasicAbility, AbilityRef}, tables::*};
 
 #[derive(Builder, Serialize, Deserialize)]
 pub struct Type {
@@ -31,7 +32,7 @@ pub struct StatPool {
     pub intellect: usize,
 }
 
-pub fn load_types(abilities: &HashMap<String, Ability>) -> Vec<Type> {
+pub fn load_types(abilities: Sender<(String, String)>) -> Vec<Type> {
     let types = unidecode(&fs::read_to_string("Types.md").unwrap());
     let mut out = vec![];
     let type_regex = Regex::new(r"(?m)(---)?\s*(?P<type>.*)\s*PLAYER INTRUSIONS(?P<intrusions>[\s\w\W]*?)STAT POOLS\s*((?i)might\s*(?P<might>\d+))\s*((?i)speed\s*(?P<speed>\d+))\s*((?i)intellect\s*(?P<intellect>\d+))\s*BACKGROUND(?P<background>[\s\w\W]*?)\s*ABILITIES(?P<abilities>[\w\s\S]*?)(?P<tiers>1-TIER[\s\w\W]*?)---").unwrap();
@@ -74,8 +75,7 @@ pub fn load_types(abilities: &HashMap<String, Ability>) -> Vec<Type> {
             new.add_amount(Amount { tier, special_abilities: ability.name("amount").unwrap().as_str().parse().unwrap()});
 
             for ability in ability.name("abilities").unwrap().as_str().trim().split("\n") {
-                let mut map = abilities.get(&ability.trim().to_ascii_uppercase()).unwrap().references.lock().unwrap();
-                map.insert(name.clone());
+                abilities.send((ability.trim().to_uppercase(), name.clone())).unwrap();
                 new.add_special(AbilityRef { name: ability.trim().into(), tier, preselected: false });
             }
         }

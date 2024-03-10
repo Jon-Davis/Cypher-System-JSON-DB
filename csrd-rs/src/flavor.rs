@@ -1,10 +1,11 @@
-use std::{fs, collections::HashMap};
+use std::fs;
 
+use crossbeam::channel::Sender;
 use derive_builder::Builder;
 use regex::Regex;
 use serde::{Serialize, Deserialize};
 use unidecode::unidecode;
-use crate::ability::{AbilityRef, Ability};
+use crate::ability::AbilityRef;
 
 #[derive(PartialEq)]
 enum FlavorSM {
@@ -20,7 +21,7 @@ pub struct Flavor {
     pub abilities: Vec<AbilityRef>,
 }
 
-pub fn load_flavors(abilities: &HashMap<String, Ability>) -> Vec<Flavor> {
+pub fn load_flavors(abilities: Sender<(String, String)>) -> Vec<Flavor> {
     let types = unidecode(&fs::read_to_string("Flavors.md").unwrap());
     let mut out = vec![];
     let name_regex = Regex::new(r"^(STEALTH FLAVOR|TECHNOLOGY FLAVOR|MAGIC FLAVOR|COMBAT FLAVOR|SKILLS AND KNOWLEDGE FLAVOR)\s*([^\n]*?)$").unwrap();
@@ -43,8 +44,7 @@ pub fn load_flavors(abilities: &HashMap<String, Ability>) -> Vec<Flavor> {
             phase = FlavorSM::Tier(cap.get(1).unwrap().as_str().parse().unwrap())
         } else if let FlavorSM::Tier(tier) = phase {
             if line.len() > 0 {
-                let mut map = abilities.get(&line.to_ascii_uppercase()).unwrap().references.lock().unwrap();
-                map.insert(current.name.clone().unwrap());
+                abilities.send((line.to_ascii_uppercase().clone(), current.name.clone().unwrap())).unwrap();
                 current.add_ability(AbilityRef {
                     name: line.into(),
                     preselected: false,
