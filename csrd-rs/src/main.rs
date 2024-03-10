@@ -22,7 +22,7 @@ use serde::{Serialize, Deserialize};
 use types::{Type, load_types};
 use tables::*;
 use creature::{Creature, load_creatures};
-use time::{Date, OffsetDateTime};
+use time::{Date, Instant, OffsetDateTime};
 use crossbeam::channel::bounded;
 use unidecode::unidecode;
 use crate::equipment::load_equipment;
@@ -45,6 +45,7 @@ struct CsrdDb {
 }
 
 fn main() {
+    let start = Instant::now();
     let mut db = CsrdDb {
         version: Some(OffsetDateTime::now_utc().date()),
         ..Default::default()
@@ -53,10 +54,12 @@ fn main() {
     let (creatures_tx, creatures_rx) = bounded(3);
     thread::scope(|s| {
         s.spawn(|| {
-            let mut abilities_map = load_abilities();
-            db.foci = load_foci(&mut abilities_map);
-            db.types = load_types(&mut abilities_map);
-            db.flavors = load_flavors(&mut abilities_map);
+            let abilities_map = load_abilities();
+            thread::scope(|s| {
+                s.spawn(|| db.foci = load_foci(&abilities_map));
+                s.spawn(|| db.types = load_types(&abilities_map));
+                s.spawn(|| db.flavors = load_flavors(&abilities_map));
+            });
             db.abilities = abilities_map.into_values().into_iter().collect();
             db.abilities.sort_by(|a, b| a.name.partial_cmp(&b.name).unwrap());
         });
@@ -76,13 +79,13 @@ fn main() {
         s.spawn(|| creatures_tx.send(load_creatures("SuperVillains.md", "Super Villain")).unwrap());
         s.spawn(|| creatures_tx.send(load_creatures("Npc.md", "NPC")).unwrap());
         s.spawn(|| {
-            db.creatures.append(&mut creatures_rx.recv().unwrap());
-            db.creatures.append(&mut creatures_rx.recv().unwrap());
-            db.creatures.append(&mut creatures_rx.recv().unwrap());
+            db.creatures = creatures_rx.iter().take(3).flatten().collect();
             db.creatures.sort_by(|a, b| a.name.partial_cmp(&b.name).unwrap());
         });
     });
     let json = unidecode(&serde_json::to_string(&db).unwrap().replace("\\r", "").replace("\r", ""));
     println!("{json}");
+    let end = Instant::now();
+    eprintln!("Finished in (roughly) {:?}", end - start);
     let _new : CsrdDb = serde_json::from_str(&json).unwrap();
 }

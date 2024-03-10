@@ -1,4 +1,4 @@
-use std::{fs, collections::{BTreeSet, HashMap}};
+use std::{collections::{BTreeSet, HashMap}, fs, sync::Mutex};
 
 use regex::Regex;
 use serde::{Serialize, Deserialize};
@@ -27,12 +27,12 @@ pub struct Ability {
     pub tier: Option<String>,
     pub category: Vec<String>,
     pub description: String,
-    pub references: BTreeSet<String>,
+    pub references: Mutex<BTreeSet<String>>,
 }
 
 pub fn load_abilities() -> HashMap<String, Ability> {
     let abilities = unidecode(&fs::read_to_string("Abilities.md").unwrap());
-    let abilities_regex = Regex::new(r"(?P<name>^\w[\w\s\d/\-'\?,]*)(?P<rendered>\((?P<cost>\d*)(?P<plus>\+)? (?P<pool>[\w\s]*) points?( \+ (?P<additional>.*))?\))?:(?P<description>.*)").unwrap();
+    let abilities_regex = Regex::new(r"(?P<name>^\w[^\n]*?)(?P<rendered>\((?P<cost>\d*)(?P<plus>\+)? (?P<pool>[\w\s]*) points?(?: \+ (?P<additional>[^\n]*))?\))?:(?P<description>[^\n]*)").unwrap();
     let mut map : HashMap<String, Ability> = abilities.split('\n')
         .filter(|line| line.trim().len() != 0)
         .filter_map(|line| abilities_regex.captures(line.trim()))
@@ -60,7 +60,7 @@ pub fn load_abilities() -> HashMap<String, Ability> {
             description: captures.name("description").unwrap().as_str().trim().into(),
             tier: None,
             category: vec![],
-            references: BTreeSet::new(),
+            references: Mutex::new(BTreeSet::new()),
         })).collect();
     
     let tiers = fs::read_to_string("AbilityTiers.md").unwrap();

@@ -20,8 +20,8 @@ pub struct Artifact {
 // Named Regex: (?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Form:\s*(?P<form>.*)\s*Effect:\s*(?P<effect>[\s\w\W]*?)Depletion:\s*(?P<depletion>.*)\s*
 pub fn load_artifacts() -> Vec<Artifact> {
     let artifacts = unidecode(&fs::read_to_string("Artifacts.md").unwrap());
-    let settings_regex = Regex::new(r"(?m)(?P<name>.*)\s*ARTIFACTS\s*(?P<text>[\s\w\W]*?)\s*---").unwrap();
-    let artifact_regex = Regex::new(&format!(r"(?m)(?P<name>.*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Form:\s*(?P<form>.*)\s*Effect:\s*(?P<effect>[\s\w\W]*?){OPTION_TABLE_PATTERN}?Depletion:\s*(?P<depletion>.*)")).unwrap();
+    let settings_regex = Regex::new(r"(?m)(?P<name>[^\n]*)\s*ARTIFACTS\s*(?P<text>[[:ascii:]]*?)\s*---").unwrap();
+    let artifact_regex = Regex::new(&format!(r"(?m)(?P<name>[^\n]*)\s*Level:\s*(?P<dice>\d*d\d*)?[\s\+]*(?P<mod>\d*)\s*Form:\s*(?P<form>[^\n]*)\s*Effect:\s*(?P<effect>[[:ascii:]]*?){OPTION_TABLE_PATTERN}?Depletion:\s*(?P<depletion>[^\n]*)")).unwrap();
     let mut out = vec![];
     for setting in settings_regex.captures_iter(&artifacts) {
         let tags : BTreeSet<String> = setting.name("name").map(|s| s.as_str().trim().to_string()).into_iter().collect();

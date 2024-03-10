@@ -28,8 +28,8 @@ pub struct RollEntry {
 
 // other patterns can throw this where appropriate to capture a table and then 
 // just pass the whole capture to the load_roll_table function
-pub const OPTION_TABLE_PATTERN: &'static str = r"(?P<option_table>((?P<named>NAMED\s*)?OPTION TABLE[^\S\r\n]*(?P<option_name>.*)?(\n\s*(?P<option_description>[^\d].*)\s*\n)?(?P<options>[\W\w]*?)))";
-const OPTION_ROLL_PATTERN: &'static str = r"(\d+)(-(\d+))? (.*)";
+pub const OPTION_TABLE_PATTERN: &'static str = r"(?P<option_table>(?:(?P<named>NAMED\s*)?OPTION TABLE[^\S\r\n]*(?P<option_name>[^\n]*)?(\n\s*(?P<option_description>[^\d][^\n]*)\s*\n)?(?P<options>[[:ascii:]]*?)))";
+const OPTION_ROLL_PATTERN: &'static str = r"(\d+)(?:-(\d+))? ([^\n]*)";
 
 fn get_option_roll_regex() -> &'static Regex {
     static OPTION_ROLL_REGEX: OnceLock<Regex> = OnceLock::new();
@@ -76,11 +76,11 @@ pub fn load_option_table(input: &str) -> Vec<RollEntry> {
                 "00" => 100,
                 s => s.parse().unwrap(),
             }).unwrap();
-            let end = captures.get(3).map(|s| match s.as_str().trim() {
+            let end = captures.get(2).map(|s| match s.as_str().trim() {
                 "00" => 100,
                 s => s.parse().unwrap(),
             }).unwrap_or(start);
-            let effect = captures.get(4).unwrap().as_str().trim().into();
+            let effect = captures.get(3).unwrap().as_str().trim().into();
             out.push(RollEntry { start, end, entry: effect });
         }
     }

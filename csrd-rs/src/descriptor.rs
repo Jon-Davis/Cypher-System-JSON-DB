@@ -18,9 +18,9 @@ pub struct Descriptor {
 
 pub fn load_descriptors() -> Vec<Descriptor> {
     let decriptors = unidecode(&fs::read_to_string("Descriptors.md").unwrap());
-    let descriptor_regex = Regex::new(r"(?m)\s*(?P<name>.*)(?P<description>[\s\w\W]*?)You gain the following characteristics:\s*(?P<abilities>[\s\w\W]*?)(Initial Link to the Starting Adventure:.*\s*(?P<links>[\s\w\W]*?))?(^\s*$)").unwrap();
-    let basic_regex = Regex::new(r"(?m)^(?P<name>.*?):\s*(?P<description>.*)$").unwrap();
-    let link_regex = Regex::new(r"(?m)^\s*\d+\.\s*(?P<link>.*)").unwrap();
+    let descriptor_regex = Regex::new(r"(?m)\s*(?P<name>[^\n]*)(?P<description>[[:ascii:]]*?)You gain the following characteristics:\s*(?P<abilities>[[:ascii:]]*?)(?:Initial Link to the Starting Adventure:[^\n]*\s*(?P<links>[[:ascii:]]*?))?(?:^\s*$)").unwrap();
+    let basic_regex = Regex::new(r"(?m)^(?P<name>[^\n]*?):\s*(?P<description>[^\n]*)$").unwrap();
+    let link_regex = Regex::new(r"(?m)^\s*\d+\.\s*(?P<link>[^\n]*)").unwrap();
     let mut out = vec!();
     for capture in descriptor_regex.captures_iter(&decriptors) {
         let mut new = DescriptorBuilder::default();

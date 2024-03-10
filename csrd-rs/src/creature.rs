@@ -32,7 +32,7 @@ pub struct Creature {
 pub fn load_creatures(file: &str, kind: &str) -> Vec<Creature> {
     let creatures = unidecode(&fs::read_to_string(file).unwrap()).replace("\r", "");
     let mut out = vec![];
-    let creature_regex = Regex::new(&format!(r"(?m)(?P<name>[-(),\w\s]*)\s(?P<level>\d*)\s\(\d*\)\s*(?P<description>[\w\W]*?)Motive: (?P<motive>.*)\s*(Environment: (?P<environment>.*)\s*)?Health: (?P<health>\d*)\s*Damage Inflicted: (?P<damage>.*)(\s*Armor: (?P<armor>\d+))?\s*Movement: (?P<movement>.*)\s*(Modifications: (?P<modification>.*)\s*)?(Combat: (?P<combat>[\w\W]*?){OPTION_TABLE_PATTERN}?Interaction: (?P<interaction>.*)\s*)?(Use: (?P<use>.*)\s*)?(Loot: (?P<loot>.*)\s*)?(GM\s(\(group\)\s)?[iI]ntrusions?:\s(?P<intrusion>.*))?")).unwrap();
+    let creature_regex = Regex::new(&format!(r"(?m)(?P<name>[-(),\w\s]*)\s(?P<level>\d*)\s\(\d*\)\s*(?P<description>[[:ascii:]]*?)Motive: (?P<motive>[^\n]*)\s*(?:Environment: (?P<environment>[^\n]*)\s*)?Health: (?P<health>\d*)\s*Damage Inflicted: (?P<damage>[^\n]*)(\s*Armor: (?P<armor>\d+))?\s*Movement: (?P<movement>[^\n]*)\s*(?:Modifications: (?P<modification>[^\n]*)\s*)?(?:Combat: (?P<combat>[[:ascii:]]*?){OPTION_TABLE_PATTERN}?Interaction: (?P<interaction>[^\n]*)\s*)?(?:Use: (?P<use>[^\n]*)\s*)?(?:Loot: (?P<loot>[^\n]*)\s*)?(?:GM\s(\(group\)\s)?[iI]ntrusions?:\s(?P<intrusion>[^\n]*))?")).unwrap();
     assert!(creature_regex.is_match(&creatures));
     for capture in creature_regex.captures_iter(&creatures) {
         let creature = Creature {

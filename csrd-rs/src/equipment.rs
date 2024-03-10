@@ -25,10 +25,10 @@ pub struct Equipment {
 // $1; Level 0; $2; \n
 pub fn load_equipment(file: &str, equipment_codex: &mut BTreeMap<String, Equipment>) {
     let equipment = unidecode(&fs::read_to_string(file).unwrap()).replace("\r", "");
-    let equipment_regex = Regex::new(r"(?m)(\s*)(?P<tags>(.+))(?P<text>[\w\W\s]*?)---\s*").unwrap();
-    let variant_regex = Regex::new(r"(?m)(?P<name>.*?);\s*((?i)level\s(?P<level>\d*)).*?;(?P<value>.*?);(?P<description>.*?)(?P<notes>(<<.*>>)|$)").unwrap();
-    let value_seperator = Regex::new(r"(\/)|( to )").unwrap();
-    let note_regex = Regex::new(r"(?m)\s*<<(?P<note>.*?)>>\s*").unwrap();
+    let equipment_regex = Regex::new(r"(?m)(?:\s*)(?P<tags>(?:[^\n]+))(?P<text>[[:ascii:]]*?)---\s*").unwrap();
+    let variant_regex = Regex::new(r"(?m)(?P<name>.*?);\s*((?i)level\s(?P<level>\d*))[^\n]*?;(?P<value>.*?);(?P<description>[^\n]*?)(?P<notes>(?:<<[^\n]*>>)|$)").unwrap();
+    let value_seperator = Regex::new(r"(?:\/)|(?: to )").unwrap();
+    let note_regex = Regex::new(r"(?m)\s*<<(?P<note>[^\n]*?)>>\s*").unwrap();
     assert!(equipment_regex.is_match(&equipment));
     for capture in equipment_regex.captures_iter(&equipment) {
         let tags : BTreeSet<String> = capture.name("tags").unwrap().as_str().split(";").map(|s| s.trim().into()).collect();
